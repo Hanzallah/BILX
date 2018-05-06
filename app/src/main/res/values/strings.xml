@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name" translatable="false">BILX</string>
+    <string name="logo" translatable="false"> Logo </string>
+    <string name="login" translatable="false">Login</string>
+    <string name="email" translatable="false">E-mail/Username</string>
+    <string name="signup_email" translatable="false">E-mail</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="forgotpw" translatable="false">Forgot Password?</string>
+    <string name="sign_up" translatable="false">Need an account? Sign Up</string>
+    <string name="signupText" translatable="false">Sign Up</string>
+    <string name="retype_pw" translatable="false">Re-Type Password</string>
+    <string name="username" translatable="false">Username/Club Name</string>
+    <string name="adminName" translatable="false"> Bilkent Administration</string>
+
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="filter_time" translatable="false">Time</string>
+    <string name="filter_location" translatable="false">Location</string>
+    <string name="filter_gepoints" translatable="false">GE Points</string>
+    <string name="filter_lang" translatable="false">Language</string>
+    <string name="filter_date" translatable="false">Date</string>
+
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_club__account" translatable="false">Activities</string>
+    <string name="title_activity_admin__account" translatable="false"></string>
+
+
+    <string name="ApproveActivities" translatable="false">Approve Activities</string>
+    <string name="CreatePasscodes" translatable="false">Create Passcodes</string>
+    <string name="Notifications" translatable="false">Notifications</string>
+    <string name="Settings" translatable="false">Settings</string>
+    <string name="Information" translatable="false">Information</string>
+
+    <string name="mode" translatable="false">Dark Mode</string>
+    <string name="language" translatable="false">Switch Language</string>
+    <string name="changepw" translatable="false">Reset Password</string>
+    <string name="report_bugs" translatable="false">Report Bugs</string>
+    <string name="changeprofilepic" translatable="false">Change Profile Picture</string>
+    <string name="title_activity_settings" translatable="false">Settings</string>
+
+    <string name="clubActivities" translatable="false">My Activities</string>
+    <string name="clubNotifications" translatable="false">My Notifications</string>
+    <string name="clubProfile" translatable="false">My Profile</string>
+
+    <string name="admin_info" translatable="false">Administrator</string>
+    <string name="club_info" translatable="false">Club</string>
+    <string name="user_info" translatable="false">User</string>
+
+    <string name="title_activity_user__account" translatable="false">Smart Scheduler</string>
+    <string name="allActivities_user" translatable="false">Activities</string>
+    <string name="myActivities_user" translatable="false">Saved Activities</string>
+    <string name="clubs_user" translatable="false">Clubs</string>
+    <string name="notifications_user" translatable="false">Notifications</string>
+
+    <string name="notifications_sendTo" translatable="false">Send To</string>
+    <string name="adminNotificationsPageMessage" translatable="false">Create and send push notifications to Users,\nClubs  or both</string>
+
+
+    <string name="passcode_message" translatable="false">Create Passcodes to authenticate clubs \n and send them to club emails</string>
+
+    <string name="about_clubs"> The Clubs feature allows the users to go through a list of clubs in the university.\n \n  \n
+        Clicking on the club will allow users to view their description.\n \n \n \n \n \n \n</string>
+
+    <string name="user_activities_about"> The Activities feature allows the users to go through a list of club activities: .\n \n  \n
+        The Activities can be filtered to the users preferred filter.\n \n \n The Activities can be selected and have an alarm set for them.\n \n \n\n</string>
+
+    <string name="club_activities_about">The Activities feature for the clubs allows the clubs to create new Activities.\n \n  \n
+        Creating a new Activity will cause a notification to be sent to the University Admin.\n \n \n The Admin will decide if the Activity is to be Approved.\n \n \n
+        Filling in all the fields will allow the Admin to make a decision easily.\n</string>
+
+    <string name="club_profile_about">   The Profile feature for the clubs allows the clubs to Upload their club picture which will be displayed to the Admin and the Users.\n \n  \n
+        Clubs can add their name which will be seen by Users and the Admin.\n \n \n
+        Clubs can add their description which will be seen by Users and Admin.\n \n \n\n</string>
+    <string name="notifications_about">  The Notification feature allows the admin to send notifications to the users and the clubs.\n \n  \n
+        Notifications will be personalized by the admin.\n \n \n Notifications will be in the form of pop up messages in the notification pane.\n \n \n\n</string>
+
+    <string name="settings_about"> The Settings 3 features: .\n \n  \n The Dark Mode allows for a better user experience at night.\n \n \n
+        Changing of languages between English and Turkish.\n \n \n Requesting a change of password.\n</string>
+
+    <string name="approve_activities_about"> Approve activities is a feature solely for the admin.\n \n  \n
+        It allows the admin to view activities and choose to reject or approve activities.\n \n \n
+        The admin can also choose to hold the approval request.\n \n \n \n </string>
+
+    <string name="scheduler_about">   Smart Scheduler is a feature solely for the users.\n \n  \n It displays a calender.\n \n \n
+        Upon tapping a time slot the scheduler will show available activities. \n \n \n \n</string>
+    <string name="create_passcodes_faq">   Approve Clubs is a feature solely for the admin.\n \n  \n
+        It allows the admin to generate passcodes and send them to clubs to authenticate their sign-up.\n \n \n \n </string>
+
+</resources>

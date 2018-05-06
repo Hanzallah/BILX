@@ -1,0 +1,4 @@
+#Sun May 06 16:21:03 EET 2018
+base.0=C\:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+path.0=classes.dex
+renamed.0=classes.dex

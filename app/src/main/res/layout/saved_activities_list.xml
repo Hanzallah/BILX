@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/card_tracks"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/cardViewColor"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/saved_activities_list"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/row_padding_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/row_padding_vertical">
+
+        <TextView
+            android:id="@+id/saved_activity_name_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/saved_club_name_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/saved_activity_name_user" />
+
+        <TextView
+            android:id="@+id/saved_ge_point_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/saved_club_name_user" />
+
+        <TextView
+            android:id="@+id/saved_time_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/saved_ge_point_user"
+            />
+
+        <TextView
+            android:id="@+id/saved_date_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/saved_time_user"
+            />
+
+        <TextView
+            android:id="@+id/saved_location_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/saved_date_user"/>
+
+        <TextView
+            android:id="@+id/saved_language_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/saved_location_user" />
+
+        <TextView
+            android:id="@+id/saved_description_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/saved_language_user"
+            />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
