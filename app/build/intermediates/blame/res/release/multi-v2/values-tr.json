@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-15.0.1.aar\\a1f8410a1b305a071c53b9e7801d174c\\res\\values-tr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "190",
+                        "endColumns": "98",
+                        "endOffsets": "288"
+                    },
+                    "to": {
+                        "startLines": "64",
+                        "startColumns": "4",
+                        "startOffsets": "6155",
+                        "endColumns": "102",
+                        "endOffsets": "6253"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\src\\main\\res\\values-tr\\strings.xml",
                     "from": {
                         "startLines": "33,34,37,35,36,28,13,49,54,2,42,41,45,46,47,50,56,5,23,22,21,20,19,8,40,4,3,39,55,27,26,25,17,16,57,7,11,9,10,6,30,29,43,53,51,12",
@@ -86,23 +103,6 @@
                         "startOffsets": "4137",
                         "endColumns": "205",
                         "endOffsets": "4338"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-15.0.0.aar\\964127a9fa42ec6e439c211845fd35ea\\res\\values-tr\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "190",
-                        "endColumns": "98",
-                        "endOffsets": "288"
-                    },
-                    "to": {
-                        "startLines": "64",
-                        "startColumns": "4",
-                        "startOffsets": "6155",
-                        "endColumns": "102",
-                        "endOffsets": "6253"
                     }
                 }
             ]

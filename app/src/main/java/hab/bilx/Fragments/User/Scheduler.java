@@ -13,7 +13,14 @@ import com.alamkanak.myweekview.MonthLoader;
 import com.alamkanak.myweekview.WeekView;
 import com.alamkanak.myweekview.WeekViewEvent;
 import com.alamkanak.myweekview.WeekViewLoader;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
+import hab.bilx.Accounts.User_Account;
 import hab.bilx.R;
 
 import java.util.ArrayList;
@@ -92,6 +99,73 @@ public class Scheduler extends android.support.v4.app.Fragment {
             mWeekView.isReleased = false;
         }
 
+
+        if (User_Account.loginTime == 0){
+            DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Saved Activities")
+                    .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
+            databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    for (final DataSnapshot ds: dataSnapshot.getChildren()){
+                        String val = ds.toString();
+                        final String actName = val.substring(val.indexOf('=')+1, val.indexOf(','));
+                        String clubName, time, date;
+                        clubName = "";
+                        time = "";
+                        date = "";
+                        for (DataSnapshot ds2 : ds.getChildren()){
+                            String str1 = ds2.toString();
+                            String name = str1.substring(str1.lastIndexOf('{')+1,str1.lastIndexOf('='));
+                            String val3 = str1.substring(str1.lastIndexOf('=')+1,str1.indexOf('}'));
+
+                            if (name.equals("Time")){
+                                time = val3;
+                            }
+                            else if (name.equals("Club Name")){
+                                clubName = val3;
+                            }
+                            else if (name.equals("Date")) {
+                                date = val3;
+                            }
+
+                        }
+                        String hour = time.substring(0,time.indexOf(':'));
+                        String min =  time.substring(time.indexOf(':'), time.length());
+
+                        String year = date.substring(date.lastIndexOf("-")+1, date.length()).trim();
+                        String day = date.substring(0,date.indexOf('-')).trim();
+                        String month = date.substring(date.indexOf('-')+1,date.lastIndexOf('-')).trim();
+                        if (day.length()==1){
+                            day = "0"+day;
+                        }
+
+                        if (month.length()==1){
+                            month = "0"+month;
+                        }
+
+
+                        if (min.length()==1){
+                            min = "0"+min;
+                        }
+
+                        if (hour.length()==1){
+                            hour = "0"+hour;
+                        }
+
+                        UserActivitiesObject test = new UserActivitiesObject(actName, clubName, "", hour+":"+min, day+"/"+month+"/"+year
+                                ,"" , "","");
+                        Scheduler.events.add( test.getWve());
+                        }
+                    }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            });
+        }
+
+        User_Account.loginTime = 1;
         return view;
     }
 }

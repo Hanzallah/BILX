@@ -91,6 +91,7 @@ public class User_Account extends AppCompatActivity
     public static int count;
     private ImageButton imageButton;
     Timer timer = new Timer();
+    public static int loginTime = 0;
 
 
     @Override

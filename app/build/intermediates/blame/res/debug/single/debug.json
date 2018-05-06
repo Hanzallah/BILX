@@ -240,6 +240,10 @@
         "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\d29291f12ee0df642b29e7740172036e\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
+        "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_preference_dropdown_material.xml.flat",
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-26.1.0.aar\\864e89b539be13f0784752685df18d7c\\res\\layout-v21\\preference_dropdown_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\2508b67fb0d1b7cdba5d3540f837aeb2\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -310,6 +314,10 @@
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
         "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\d29291f12ee0df642b29e7740172036e\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_preference_list_divider_material.xml.flat",
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-26.1.0.aar\\864e89b539be13f0784752685df18d7c\\res\\drawable-v21\\preference_list_divider_material.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
@@ -665,7 +673,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_widget_switch.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-23.4.0.aar\\810c305b44b16ae238a12dcfb2ed70fe\\res\\layout\\preference_widget_switch.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-26.1.0.aar\\864e89b539be13f0784752685df18d7c\\res\\layout\\preference_widget_switch.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_approve_activities_faq.xml.flat",
@@ -720,6 +728,10 @@
         "source": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\src\\main\\res\\drawable-hdpi\\ic_action_info.png"
     },
     {
+        "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_widget_seekbar.xml.flat",
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\41517dc3a0e489caa2bbf757c83821a2\\res\\layout\\preference_widget_seekbar.xml"
+    },
+    {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\8c34e82a55785fedbc0ac3d0c444ca9d\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
     },
@@ -769,7 +781,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_widget_checkbox.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-23.4.0.aar\\0f03e5b206ebcc32966ed0cef2ac2f3c\\res\\layout\\preference_widget_checkbox.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\41517dc3a0e489caa2bbf757c83821a2\\res\\layout\\preference_widget_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
@@ -833,7 +845,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_preference_information_material.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-23.4.0.aar\\810c305b44b16ae238a12dcfb2ed70fe\\res\\layout-v21\\preference_information_material.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-26.1.0.aar\\864e89b539be13f0784752685df18d7c\\res\\layout-v21\\preference_information_material.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -989,7 +1001,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_preference_material.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-23.4.0.aar\\810c305b44b16ae238a12dcfb2ed70fe\\res\\layout-v21\\preference_material.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-26.1.0.aar\\864e89b539be13f0784752685df18d7c\\res\\layout-v21\\preference_material.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
@@ -1017,7 +1029,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_widget_switch_compat.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-23.4.0.aar\\0f03e5b206ebcc32966ed0cef2ac2f3c\\res\\layout\\preference_widget_switch_compat.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\41517dc3a0e489caa2bbf757c83821a2\\res\\layout\\preference_widget_switch_compat.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -1084,6 +1096,10 @@
         "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\2508b67fb0d1b7cdba5d3540f837aeb2\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11_preference_dropdown.xml.flat",
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\41517dc3a0e489caa2bbf757c83821a2\\res\\layout-v11\\preference_dropdown.xml"
+    },
+    {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\2508b67fb0d1b7cdba5d3540f837aeb2\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1113,7 +1129,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_recyclerview.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-23.4.0.aar\\0f03e5b206ebcc32966ed0cef2ac2f3c\\res\\layout\\preference_recyclerview.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\41517dc3a0e489caa2bbf757c83821a2\\res\\layout\\preference_recyclerview.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -1157,7 +1173,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_list_fragment.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-23.4.0.aar\\0f03e5b206ebcc32966ed0cef2ac2f3c\\res\\layout\\preference_list_fragment.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\41517dc3a0e489caa2bbf757c83821a2\\res\\layout\\preference_list_fragment.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_savedactivities.png.flat",
@@ -1205,7 +1221,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_dialog_edittext.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-23.4.0.aar\\0f03e5b206ebcc32966ed0cef2ac2f3c\\res\\layout\\preference_dialog_edittext.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\41517dc3a0e489caa2bbf757c83821a2\\res\\layout\\preference_dialog_edittext.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1893,7 +1909,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_preference_category_material.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-23.4.0.aar\\810c305b44b16ae238a12dcfb2ed70fe\\res\\layout-v21\\preference_category_material.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-26.1.0.aar\\864e89b539be13f0784752685df18d7c\\res\\layout-v21\\preference_category_material.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -2201,7 +2217,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_information.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-23.4.0.aar\\0f03e5b206ebcc32966ed0cef2ac2f3c\\res\\layout\\preference_information.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\41517dc3a0e489caa2bbf757c83821a2\\res\\layout\\preference_information.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -2233,7 +2249,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_category.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-23.4.0.aar\\0f03e5b206ebcc32966ed0cef2ac2f3c\\res\\layout\\preference_category.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\41517dc3a0e489caa2bbf757c83821a2\\res\\layout\\preference_category.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -2290,10 +2306,6 @@
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\2508b67fb0d1b7cdba5d3540f837aeb2\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable_preference_list_divider_material.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-23.4.0.aar\\810c305b44b16ae238a12dcfb2ed70fe\\res\\drawable\\preference_list_divider_material.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_user__account.xml.flat",
@@ -2362,6 +2374,10 @@
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\2508b67fb0d1b7cdba5d3540f837aeb2\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout_preference_widget_seekbar_material.xml.flat",
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v14-26.1.0.aar\\864e89b539be13f0784752685df18d7c\\res\\layout\\preference_widget_seekbar_material.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
@@ -2597,7 +2613,7 @@
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11_preference.xml.flat",
-        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-23.4.0.aar\\0f03e5b206ebcc32966ed0cef2ac2f3c\\res\\layout-v11\\preference.xml"
+        "source": "C:\\Users\\Hanzallah Burney\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\41517dc3a0e489caa2bbf757c83821a2\\res\\layout-v11\\preference.xml"
     },
     {
         "merged": "C:\\Users\\Hanzallah Burney\\Desktop\\Projects\\Android\\BILX\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
