@@ -10,13 +10,6 @@
             android:summary="Switch dark mode on or off"
             android:defaultValue="false" />
 
-        <ListPreference
-            android:defaultValue="en"
-            android:entries="@array/languages_offered"
-            android:entryValues="@array/languages_value"
-            android:summary="%s"
-            android:title="@string/language"
-            android:key="club_languages" />
 
         <Preference
             android:key="password_reset"

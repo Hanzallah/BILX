@@ -24,7 +24,7 @@ import java.util.Random;
 
 
 /**
- *  The settings fragment for the admin class.
+ *  The create passcodes fragment for the admin class.
  *  @author Hanzallah Burney
  */
 
@@ -38,13 +38,23 @@ public class CreatePasscodes extends android.support.v4.app.Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
         View view = inflater.inflate(R.layout.create_passcodes, container, false);
-
+        Random rand = new Random();
+        /*
+         *  @author Hanzallah Burney
+         */
+        club_email = (EditText) view.findViewById(R.id.club_email_enter);
         generate_code = (Button) view.findViewById(R.id.generate_passcode);
         show_passcode = (TextView) view.findViewById(R.id.show_passcode);
-        Random rand = new Random();
         final String s = rand.nextInt(1000)+"";
         fab = (FloatingActionButton) view.findViewById(R.id.passcode_fab);
+
+        // set fab to false until a passcode is generated
         fab.setEnabled(false);
+
+        /*
+         *  @author Hanzallah Burney
+         */
+        // generate passcode and store in database
         generate_code.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,21 +65,16 @@ public class CreatePasscodes extends android.support.v4.app.Fragment {
             }
         });
 
-
-
-         club_email = (EditText) view.findViewById(R.id.club_email_enter);
-
-
-
+        // Send email to club informing them of their passcode
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String email = club_email.getText().toString().trim();
 
-                Intent intent = new Intent(Intent.ACTION_SENDTO); // it's not ACTION_SEND
+                Intent intent = new Intent(Intent.ACTION_SENDTO);
                 intent.setType("message/rfc822");
-                intent.putExtra(Intent.EXTRA_SUBJECT, "BILX Passcode");
-                intent.putExtra(Intent.EXTRA_TEXT, "Your Passcode is: " + s);
+                intent.putExtra(Intent.EXTRA_SUBJECT, "BILX Passcode"); // email subject
+                intent.putExtra(Intent.EXTRA_TEXT, "Your Passcode is: " + s); // email body
                 intent.setData(Uri.fromParts("mailto",
                         email+"", null)); // or just "mailto:" for blank
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); // this will make such that when user returns to your app, your app is displayed, instead of the email app.
@@ -80,3 +85,6 @@ public class CreatePasscodes extends android.support.v4.app.Fragment {
         return view;
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

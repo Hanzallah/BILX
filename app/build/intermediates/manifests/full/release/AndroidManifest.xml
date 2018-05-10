@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.www.bilx"
+    package="hab.bilx"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -22,10 +22,10 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <permission
-        android:name="com.example.www.bilx.permission.C2D_MESSAGE"
+        android:name="hab.bilx.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.www.bilx.permission.C2D_MESSAGE" />
+    <uses-permission android:name="hab.bilx.permission.C2D_MESSAGE" />
 
     <application
         android:name="android.support.multidex.MultiDexApplication"
@@ -160,7 +160,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.example.www.bilx" />
+                <category android:name="hab.bilx" />
             </intent-filter>
         </receiver>
         <!--
@@ -182,7 +182,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.www.bilx.firebaseinitprovider"
+            android:authorities="hab.bilx.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -192,7 +192,7 @@
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.example.www.bilx.com.squareup.picasso"
+            android:authorities="hab.bilx.com.squareup.picasso"
             android:exported="false" />
 
         <meta-data

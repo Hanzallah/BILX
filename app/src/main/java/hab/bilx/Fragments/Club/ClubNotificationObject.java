@@ -1,5 +1,10 @@
 package hab.bilx.Fragments.Club;
 
+/**
+ * The club notification object for recycler view
+ * @author Hanzallah Burney
+ */
+
 public class ClubNotificationObject {
     private String sentBy, subject, content;
 
@@ -8,6 +13,9 @@ public class ClubNotificationObject {
         this.subject = subject;
         this.content = content;
     }
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public String getSentBy() {
         return sentBy;
@@ -33,3 +41,6 @@ public class ClubNotificationObject {
         this.content = content;
     }
 }
+/*
+ **  @author Hanzallah Burney
+ */

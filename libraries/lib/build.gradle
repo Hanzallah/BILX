@@ -9,8 +9,9 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 22
         targetSdkVersion 26
+        multiDexEnabled true
     }
 }
 
@@ -19,7 +20,6 @@ configurations {
 }
 dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    javadocDeps 'com.android.support:appcompat-v7:26.1.0'
 }
 
 //apply from: 'gradle-mvn-push.gradle'

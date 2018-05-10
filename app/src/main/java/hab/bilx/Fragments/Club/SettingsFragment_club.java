@@ -4,13 +4,13 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.Snackbar;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.preference.SwitchPreferenceCompat;
 import android.widget.Toast;
 
-import hab.bilx.Accounts.Admin_Account;
 import hab.bilx.Accounts.Club_Account;
 import hab.bilx.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -34,7 +34,6 @@ public class SettingsFragment_club extends PreferenceFragmentCompat  {
     private SwitchPreferenceCompat darkMode;
     private Preference resetPassword;
     private Preference reportBugs;
-    private ListPreference language;
 
     @Override
     public void onCreatePreferences(Bundle bundle, String s) {
@@ -42,9 +41,10 @@ public class SettingsFragment_club extends PreferenceFragmentCompat  {
         addPreferencesFromResource(R.xml.club_preferences);
         resetPassword = (Preference) findPreference("password_reset");
         reportBugs = (Preference) findPreference("club_report_bug");
-        language = (ListPreference) findPreference("club_languages");
 
-
+        /*
+         *  @author Hanzallah Burney
+         */
         // Reset Password
         resetPassword.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             public boolean onPreferenceClick(Preference preference) {
@@ -55,17 +55,19 @@ public class SettingsFragment_club extends PreferenceFragmentCompat  {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
-                                    Toast.makeText( getActivity(), "Email sent!", Toast.LENGTH_SHORT).show();
+                                    Snackbar.make(getView(), "Email sent", Snackbar.LENGTH_LONG).show();
                                 }
                                 else{
-                                    Toast.makeText( getActivity(), "Enter valid Email!", Toast.LENGTH_SHORT).show();
+                                    Snackbar.make(getView(), "Email valid email", Snackbar.LENGTH_LONG).show();
                                 }
                             }
                         });
                 return true;
             }
         });
-
+        /*
+         *  @author Hanzallah Burney
+         */
         // Report Bugs
         reportBugs.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             public boolean onPreferenceClick(Preference preference) {
@@ -80,23 +82,9 @@ public class SettingsFragment_club extends PreferenceFragmentCompat  {
                 return true;
             }
         });
-
-
-        // Implementation of change language
-        language.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            // TODO CHANGE LANGUAGE IMPLEMENTATION
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                if (language.getSummary().equals("English")){
-                    Toast.makeText(getActivity(), "English", Toast.LENGTH_SHORT).show();
-                }
-                else{
-                    Toast.makeText(getActivity(), "Turkish", Toast.LENGTH_SHORT).show();
-                }
-                return true;
-            }
-        });
-
+        /*
+         *  @author Hanzallah Burney
+         */
         // Implementation of dark mode
         darkMode = (SwitchPreferenceCompat) findPreference("club_theme_mode");
 
@@ -120,7 +108,10 @@ public class SettingsFragment_club extends PreferenceFragmentCompat  {
                 }
             });
 
-
+            /*
+             *  @author Hanzallah Burney
+             */
+            // Action for when dark mode is clicked by updating database and recreating activity in the new mode
             darkMode.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
                 @Override
                 public boolean onPreferenceChange(Preference pref, Object object) {
@@ -145,7 +136,8 @@ public class SettingsFragment_club extends PreferenceFragmentCompat  {
                 }
             });
         }
-
-
     }
 }
+/*
+ **  @author Hanzallah Burney
+ */

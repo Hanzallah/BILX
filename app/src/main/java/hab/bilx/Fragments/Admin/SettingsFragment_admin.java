@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
@@ -36,7 +37,6 @@ import java.util.Map;
 public class SettingsFragment_admin extends PreferenceFragmentCompat {
     private SwitchPreferenceCompat darkMode;
     private Preference resetPassword;
-    private ListPreference language;
     private Preference reportBugs;
 
 
@@ -46,10 +46,11 @@ public class SettingsFragment_admin extends PreferenceFragmentCompat {
         addPreferencesFromResource(R.xml.app_preferences);
         darkMode = (SwitchPreferenceCompat) findPreference("theme_mode");
         resetPassword = (Preference) findPreference("password_reset");
-        language = (ListPreference) findPreference("admin_languages");
         reportBugs = (Preference) findPreference("admin_report_bug");
 
-
+        /*
+         *  @author Hanzallah Burney
+         */
         // Implementation of dark mode
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Dark Mode")
                 .child("admin");
@@ -70,7 +71,10 @@ public class SettingsFragment_admin extends PreferenceFragmentCompat {
             }
         });
 
-
+        /*
+         *  @author Hanzallah Burney
+         */
+        // Action for when dark mode is clicked by updating database and recreating activity in the new mode
         darkMode.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override
             public boolean onPreferenceChange(Preference pref, Object object) {
@@ -95,6 +99,9 @@ public class SettingsFragment_admin extends PreferenceFragmentCompat {
             }
         });
 
+        /*
+         *  @author Hanzallah Burney
+         */
         // Report Bugs
         reportBugs.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             public boolean onPreferenceClick(Preference preference) {
@@ -110,23 +117,10 @@ public class SettingsFragment_admin extends PreferenceFragmentCompat {
             }
         });
 
-        // Implementation of change language
-        language.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            // TODO CHANGE LANGUAGE IMPLEMENTATION
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                if (language.getSummary().equals("English")){
-                    Toast.makeText(getActivity(), "English", Toast.LENGTH_SHORT).show();
-                }
-                else{
-                    Toast.makeText(getActivity(), "Turkish", Toast.LENGTH_SHORT).show();
-                }
-                return true;
-            }
-        });
 
-
-
+        /*
+         *  @author Hanzallah Burney
+         */
         // Reset Password
         resetPassword.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             public boolean onPreferenceClick(Preference preference) {
@@ -137,9 +131,9 @@ public class SettingsFragment_admin extends PreferenceFragmentCompat {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
-                                    Toast.makeText(getActivity(), "Email sent!", Toast.LENGTH_SHORT).show();
-                                } else {
-                                    Toast.makeText(getActivity(), "Enter valid Email!", Toast.LENGTH_SHORT).show();
+                                    Snackbar.make(getView(), "Email sent", Snackbar.LENGTH_LONG).show();
+                                    } else {
+                                    Snackbar.make(getView(), "Enter valid email", Snackbar.LENGTH_LONG).show();
                                 }
                             }
                         });
@@ -148,3 +142,6 @@ public class SettingsFragment_admin extends PreferenceFragmentCompat {
         });
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

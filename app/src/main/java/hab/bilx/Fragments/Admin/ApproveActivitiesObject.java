@@ -1,7 +1,15 @@
 package hab.bilx.Fragments.Admin;
 
+/**
+ * The approve activities object for recycler view
+ * @author Hanzallah Burney
+ */
+
 public class ApproveActivitiesObject {
     private String activityName,clubName, ge, time, date, location, language, description;
+    /*
+     *  @author Hanzallah Burney
+     */
 
     public ApproveActivitiesObject(String activityName, String clubName, String ge, String time, String date, String location, String language, String description) {
         this.activityName = activityName;
@@ -13,6 +21,10 @@ public class ApproveActivitiesObject {
         this.language = language;
         this.description = description;
     }
+
+    /*
+     *  @author Hanzallah Burney
+     */
 
     public String getActivityName() {
         return activityName;
@@ -78,3 +90,6 @@ public class ApproveActivitiesObject {
         this.description = description;
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

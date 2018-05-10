@@ -17,11 +17,14 @@ import hab.bilx.R;
 
 
 /**
- *  The settings fragment for the admin class.
+ *  Simple information fragment.
  *  @author Hanzallah Burney
  */
 
 public class User_Information extends android.support.v4.app.Fragment {
+    /*
+     *  @author Hanzallah Burney
+     */
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
@@ -30,10 +33,14 @@ public class User_Information extends android.support.v4.app.Fragment {
         ListView listView = (ListView) view.findViewById(R.id.user_list_info);
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.Information);
 
-
+        /*
+         *  @author Hanzallah Burney
+         */
         ArrayAdapter<String> listViewAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1,infoItems);
         listView.setAdapter(listViewAdapter);
-
+        /*
+         *  @author Hanzallah Burney
+         */
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int index, long id) {
@@ -68,3 +75,6 @@ public class User_Information extends android.support.v4.app.Fragment {
         return view;
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

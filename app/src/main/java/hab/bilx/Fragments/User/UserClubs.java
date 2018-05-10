@@ -11,11 +11,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import hab.bilx.Accounts.User_Account;
 import hab.bilx.R;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -24,7 +22,6 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
-import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,6 +36,9 @@ public class UserClubs extends android.support.v4.app.Fragment {
     private RecyclerView recyclerView;
     private ClubListAdapter mAdapter;
 
+    /*
+     **  @author Hanzallah Burney
+     */
 
     @Nullable
     @Override
@@ -46,23 +46,25 @@ public class UserClubs extends android.support.v4.app.Fragment {
         View view = inflater.inflate(R.layout.user_clubs, container, false);
         recyclerView = (RecyclerView) view.findViewById(R.id.club_list_recycler_view);
 
+        // mechanism to set data into the recycler view
         mAdapter = new ClubListAdapter(clubList);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(mAdapter);
 
+        // Pull list of clubs and their profiles from the database
         DatabaseReference userReference = FirebaseDatabase.getInstance().getReference().child("Users");
-
         userReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot dataSnapshot1 : dataSnapshot.getChildren()){
                     if ( dataSnapshot1.getValue().toString().contains("club")){
+                        // get club name
                        String s = dataSnapshot1.toString();
                        final String val = s.substring(s.indexOf('=')+1,s.indexOf(',')).trim();
 
-                       //=====================================================================
+                       // get club profile and picture
                         DatabaseReference profileRef = FirebaseDatabase.getInstance().getReference()
                                 .child("Club profiles").child(val);
                         Query query = profileRef.orderByPriority();
@@ -77,13 +79,13 @@ public class UserClubs extends android.support.v4.app.Fragment {
                                     storageRef.child(val + ".jpg").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                         @Override
                                         public void onSuccess(Uri uri) {
-                                            addItem(new ClubListObject(val,
-                                                    profile, uri.toString()));
+                                            // set data
+                                            addItem(new ClubListObject(val,profile, uri.toString()));
                                         }
                                     }).addOnFailureListener(new OnFailureListener() {
                                         @Override
                                         public void onFailure(@NonNull Exception exception) {
-                                            // Handle any errors
+                                            System.out.println("Exception generated");
                                         }
                                     });
                                 } catch (Exception e){
@@ -107,11 +109,11 @@ public class UserClubs extends android.support.v4.app.Fragment {
             }
         });
 
-
-
-
         return view;
     }
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public void addItem(final ClubListObject newItem) {
         clubList.add(0,newItem);
@@ -120,4 +122,8 @@ public class UserClubs extends android.support.v4.app.Fragment {
     }
 
 }
+/*
+ **  @author Hanzallah Burney
+ */
+
 

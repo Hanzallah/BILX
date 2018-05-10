@@ -659,33 +659,26 @@ public final class R {
         public static final int activity_chooser_view_content = 0x7f0a0022;
         public static final int add = 0x7f0a0025;
         public static final int alertTitle = 0x7f0a002d;
-        public static final int always = 0x7f0a002f;
         public static final int async = 0x7f0a003b;
-        public static final int beginning = 0x7f0a003e;
         public static final int blocking = 0x7f0a003f;
         public static final int buttonPanel = 0x7f0a0041;
         public static final int cancel_action = 0x7f0a0042;
         public static final int checkbox = 0x7f0a0049;
         public static final int chronometer = 0x7f0a004a;
-        public static final int collapseActionView = 0x7f0a0063;
         public static final int contentPanel = 0x7f0a0066;
         public static final int custom = 0x7f0a006c;
         public static final int customPanel = 0x7f0a006d;
         public static final int decor_content_parent = 0x7f0a0073;
         public static final int default_activity_button = 0x7f0a0074;
-        public static final int disableHome = 0x7f0a007e;
         public static final int edit_query = 0x7f0a0080;
-        public static final int end = 0x7f0a0083;
         public static final int end_padder = 0x7f0a0084;
         public static final int expand_activities_button = 0x7f0a0088;
         public static final int expanded_menu = 0x7f0a0089;
         public static final int forever = 0x7f0a0091;
         public static final int friday = 0x7f0a0093;
         public static final int home = 0x7f0a009c;
-        public static final int homeAsUp = 0x7f0a009d;
         public static final int icon = 0x7f0a009e;
         public static final int icon_group = 0x7f0a00a0;
-        public static final int ifRoom = 0x7f0a00a2;
         public static final int image = 0x7f0a00a3;
         public static final int info = 0x7f0a00a4;
         public static final int italic = 0x7f0a00a6;
@@ -697,10 +690,8 @@ public final class R {
         public static final int list_item = 0x7f0a00b5;
         public static final int media_actions = 0x7f0a00be;
         public static final int message = 0x7f0a00bf;
-        public static final int middle = 0x7f0a00c0;
         public static final int monday = 0x7f0a00c2;
         public static final int multiply = 0x7f0a00c3;
-        public static final int never = 0x7f0a00d7;
         public static final int none = 0x7f0a00d8;
         public static final int normal = 0x7f0a00d9;
         public static final int notification_background = 0x7f0a00db;
@@ -729,9 +720,6 @@ public final class R {
         public static final int search_voice_btn = 0x7f0a0110;
         public static final int select_dialog_listview = 0x7f0a0113;
         public static final int shortcut = 0x7f0a0117;
-        public static final int showCustom = 0x7f0a0118;
-        public static final int showHome = 0x7f0a0119;
-        public static final int showTitle = 0x7f0a011a;
         public static final int spacer = 0x7f0a0123;
         public static final int split_action_bar = 0x7f0a0126;
         public static final int src_atop = 0x7f0a0129;
@@ -755,9 +743,7 @@ public final class R {
         public static final int tuesday = 0x7f0a0156;
         public static final int uniform = 0x7f0a0157;
         public static final int up = 0x7f0a0158;
-        public static final int useLogo = 0x7f0a0159;
         public static final int wednesday = 0x7f0a0164;
-        public static final int withText = 0x7f0a0167;
         public static final int wrap_content = 0x7f0a0169;
     }
     public static final class integer {
@@ -1252,7 +1238,6 @@ public final class R {
         public static final int ActionBarLayout_android_layout_gravity = 0;
         public static final int[] ActionMenuItemView = { 0x0101013f };
         public static final int ActionMenuItemView_android_minWidth = 0;
-        public static final int[] ActionMenuView = { };
         public static final int[] ActionMode = { 0x7f040037, 0x7f040038, 0x7f040063, 0x7f0400da, 0x7f0401ba, 0x7f0401f9 };
         public static final int ActionMode_background = 0;
         public static final int ActionMode_backgroundSplit = 1;

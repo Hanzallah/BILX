@@ -6,9 +6,18 @@ import com.alamkanak.myweekview.WeekViewEvent;
 
 import java.util.Calendar;
 
+/**
+ * The user activities object
+ * @author Hanzallah Burney
+ */
+
+
 public class UserActivitiesObject {
     private String activityName,clubName, ge, time, date, location, language, description;
     private WeekViewEvent wve;
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public UserActivitiesObject(String activityName,String clubName, String ge, String time, String date, String location, String language, String description) {
         this.activityName = activityName;
@@ -19,6 +28,9 @@ public class UserActivitiesObject {
         this.location = location;
         this.language = language;
         this.description = description;
+        /*
+         **  @author Hanzallah Burney
+         */
 
         try {
             String year = date.substring(date.lastIndexOf("/") + 1, date.length()).trim();
@@ -44,6 +56,10 @@ public class UserActivitiesObject {
         }
 
     }
+
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public WeekViewEvent getWve(){
         return this.wve;

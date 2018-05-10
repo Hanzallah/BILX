@@ -28,6 +28,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * The create new activities fragment for club class
+ * @author Hanzallah Burney
+ */
+
 public class CreateNewActivity extends Fragment {
     private EditText actName, ge, loc,actDesc, setDate, setTime;
     private Button time, date;
@@ -37,8 +42,14 @@ public class CreateNewActivity extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        // set view and title
         View view = inflater.inflate(R.layout.create_club_activities, container, false);
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Create New Activity");
+
+        /*
+         **  @author Hanzallah Burney
+         */
+
 
         actName = (EditText) view.findViewById(R.id.actName);
         actDesc = (EditText) view.findViewById(R.id.actDescription);
@@ -59,26 +70,30 @@ public class CreateNewActivity extends Fragment {
             }
         });
         //===========================================================================
-    // ===================== Date PICKER ========================================
+        // ===================== Date PICKER ========================================
         date.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 showDatePicker();
             }
         });
-
         //===========================================================================
 
+        /*
+         **  @author Hanzallah Burney
+         */
 
-
+        // Action to perform when create activity button is pressed
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // If any field is empty inform the user
                 if (actName.getText().toString().equals("")||actDesc.getText().toString().equals("")||ge.getText().toString().equals("")
                         ||time.getText().toString().equals("")||date.getText().toString().equals("")||loc.getText().toString().equals("")){
                     Toast.makeText(getActivity(),"One of the fields is empty", Toast.LENGTH_LONG).show();
                 }
                 else{
+                    // Get field data and store in firebase
                     String activityName = actName.getText().toString().trim();
                     Map activityValues = new HashMap();
                     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Club Activities").child(FirebaseAuth.getInstance()
@@ -86,23 +101,17 @@ public class CreateNewActivity extends Fragment {
                     activityValues.put("GE",ge.getText().toString().trim());
                     databaseReference.setValue(activityValues);
 
-
-
                     activityValues = new HashMap();
                     databaseReference = FirebaseDatabase.getInstance().getReference().child("Club Activities").child(FirebaseAuth.getInstance()
                             .getCurrentUser().getDisplayName()).child(activityName).child("Time");
                     activityValues.put("Time",setTime.getText().toString().trim());
                     databaseReference.setValue(activityValues);
 
-
-
-
                     activityValues = new HashMap();
                     databaseReference = FirebaseDatabase.getInstance().getReference().child("Club Activities").child(FirebaseAuth.getInstance()
                             .getCurrentUser().getDisplayName()).child(activityName).child("Date");
                     activityValues.put("Date",setDate.getText().toString().trim());
                     databaseReference.setValue(activityValues);
-
 
                     activityValues = new HashMap();
                     databaseReference = FirebaseDatabase.getInstance().getReference().child("Club Activities").child(FirebaseAuth.getInstance()
@@ -145,7 +154,7 @@ public class CreateNewActivity extends Fragment {
                             .getCurrentUser().getDisplayName()).child(activityName);
                     databaseReference.setPriority((new Date()).getTime());
 
-                    /////////// FOR ADMIN
+                    /////////// FOR ADMIN DATABASE
 
                     activityValues = new HashMap();
                     DatabaseReference databaseReference1 = FirebaseDatabase.getInstance().getReference().child("Approve Activities").child(FirebaseAuth.getInstance()
@@ -214,6 +223,11 @@ public class CreateNewActivity extends Fragment {
         return view;
     }
 
+    /*
+     **  @author Hanzallah Burney
+     */
+
+    // Date Picker
     private void showDatePicker() {
         DatePickerFragment date = new DatePickerFragment();
         /**
@@ -242,6 +256,10 @@ public class CreateNewActivity extends Fragment {
         }
     };
 
+    /*
+     **  @author Hanzallah Burney
+     */
+
     // TIME PICKER
     private void showTimePicker()
     {
@@ -267,5 +285,7 @@ public class CreateNewActivity extends Fragment {
             setTime.setText(String.valueOf(hourOfDay) + ":" + String.valueOf(minute));
         }
     };
-
 }
+/*
+ **  @author Hanzallah Burney
+ */

@@ -1,5 +1,10 @@
 package hab.bilx.Fragments.Club;
 
+/**
+ * The club activities object for recycler view
+ * @author Hanzallah Burney
+ */
+
 public class ClubActivitiesObject {
     private String activityName, ge, time, date, location, language, description,status;
 
@@ -13,6 +18,9 @@ public class ClubActivitiesObject {
         this.description = description;
         this.status = status;
     }
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public String getActivityName() {
         return activityName;
@@ -78,3 +86,6 @@ public class ClubActivitiesObject {
         this.status = status;
     }
 }
+/*
+ **  @author Hanzallah Burney
+ */

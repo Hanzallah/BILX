@@ -6,7 +6,6 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -63,23 +62,11 @@ public class Admin_Account extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.admin__account);
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        /**
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-         **/
-
+        // Set the navigation drawer layout
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -92,13 +79,22 @@ public class Admin_Account extends AppCompatActivity
         // Change theme to dark
         settingsFragmentAdmin = new SettingsFragment_admin();
 
+        /*
+         *  @author Hanzallah Burney
+         */
+
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Dark Mode")
                 .child("admin");
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if (dataSnapshot.getValue().toString().contains("true")){
+                    // Change card views to dark theme
+                    View view =  getLayoutInflater().inflate(R.layout.approve_activities_list, null);
+                    CardView cardView = view.findViewById(R.id.card_tracks);
+                    cardView.setCardBackgroundColor(Color.DKGRAY);
                     getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+
                     int[][] states = new int[][] {
                             new int[] { android.R.attr.state_enabled}, // enabled
                             new int[] {-android.R.attr.state_enabled}, // disabled
@@ -129,6 +125,7 @@ public class Admin_Account extends AppCompatActivity
             }
         });
 
+        // If user logs in for first time then take him to home page else if he switched modes then recreate activities and take him to settings page
         if (count == 0){
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new ApproveActivities()).commit();
             this.getSupportActionBar().setTitle(R.string.ApproveActivities);
@@ -142,7 +139,9 @@ public class Admin_Account extends AppCompatActivity
 
 
     }
-
+    /*
+     *  @author Hanzallah Burney
+     */
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -152,7 +151,9 @@ public class Admin_Account extends AppCompatActivity
             super.onBackPressed();
         }
     }
-
+    /*
+     *  @author Hanzallah Burney
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -168,8 +169,10 @@ public class Admin_Account extends AppCompatActivity
         navUsername = (TextView) findViewById(R.id.navBar_username);
         navUsername.setText(R.string.adminName);
 
+        // Image button in navigation drawer
         imageButton = (ImageButton) findViewById(R.id.admin_imageButton);
 
+        // Get the profile image of user and set it if it exists
         FirebaseStorage firebaseStorage = FirebaseStorage.getInstance();
         StorageReference storageRef = firebaseStorage.getReference();
         storageRef.child(firebaseAuth.getCurrentUser().getDisplayName() + ".jpg").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -184,24 +187,28 @@ public class Admin_Account extends AppCompatActivity
             }
         });
 
+        // If image button clicked then take user to gallery and allow them to set a profile picture
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                intent.putExtra("outputX", 400);
-                intent.putExtra("outputY", 400);
-                intent.putExtra("noFaceDetection", false);
-                intent.putExtra("aspectX", 1);
-                intent.putExtra("aspectY", 1);
-                intent.putExtra("crop", true);
-                intent.putExtra("return-data", true);
+                intent.putExtra("outputX", 400); // output size horizontal
+                intent.putExtra("outputY", 400); // output size vertical
+                intent.putExtra("aspectX", 1); // horizontal aspect ration set to 1
+                intent.putExtra("aspectY", 1); // vertical aspect ratio set to 1
+                intent.putExtra("noFaceDetection", false); // apply facial recognition
+                intent.putExtra("crop", true); // allow the user to crop the image
+                intent.putExtra("return-data", true); //  return the image data
 
+                // start the change profile picture intent
                 startActivityForResult(intent, RESULT_LOAD_IMAGE);
             }
         });
         return true;
     }
-
+    /*
+     *  @author Hanzallah Burney
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -216,13 +223,16 @@ public class Admin_Account extends AppCompatActivity
 
         return super.onOptionsItemSelected(item);
     }
-
+    /*
+     *  @author Hanzallah Burney
+     */
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        // Take user to respective activities from navigation drawer
         if (id == R.id.nav_approveActivities) {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new ApproveActivities()).commit();
             this.getSupportActionBar().setTitle(R.string.ApproveActivities);
@@ -248,11 +258,19 @@ public class Admin_Account extends AppCompatActivity
             finish();
         }
 
-        DrawerLayout drawer = /*(DrawerLayout)*/ findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
+    /*
+     *  @author Hanzallah Burney
+     */
+    /**
+     * Uplaods profile picture to firebase storage
+     * @param requestCode - the code to request change picture intent
+     * @param resultCode - the return code
+     * @param data - the image data
+     */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -292,3 +310,6 @@ public class Admin_Account extends AppCompatActivity
         }
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

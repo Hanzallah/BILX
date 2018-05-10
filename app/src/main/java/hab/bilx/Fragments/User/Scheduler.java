@@ -28,8 +28,9 @@ import java.util.Calendar;
 import java.util.List;
 
 /**
- *  The settings fragment for the admin class.
+ *  The scheduler for the admin class.
  *  @author Hanzallah Burney
+ *  contributors: Khasmamad, Abdul Hamid
  */
 
 public class Scheduler extends android.support.v4.app.Fragment {
@@ -39,10 +40,10 @@ public class Scheduler extends android.support.v4.app.Fragment {
     WeekView mWeekView;
     View view;
 
-
-
-
-
+    /*
+     **  @author Hanzallah Burney
+     * contributors: Khasmamad, Abdul Hamid
+     */
 
     @Nullable
     @Override
@@ -92,7 +93,10 @@ public class Scheduler extends android.support.v4.app.Fragment {
             }
         });
 
-
+        /*
+         **  @author Hanzallah Burney
+         * contributors: Khasmamad, Abdul Hamid
+         */
         if (mWeekView.isReleased){
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new UserActivities()).commit();
             Log.i("tag", "isreleased");
@@ -100,6 +104,7 @@ public class Scheduler extends android.support.v4.app.Fragment {
         }
 
 
+        // Set scheduler activities if use logs in after a while
         if (User_Account.loginTime == 0){
             DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Saved Activities")
                     .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
@@ -165,7 +170,13 @@ public class Scheduler extends android.support.v4.app.Fragment {
             });
         }
 
+        // Update login time to disallow duplicates of activity in calendar
         User_Account.loginTime = 1;
+
         return view;
     }
 }
+/*
+ **  @author Hanzallah Burney
+ * contributors: Khasmamad, Abdul Hamid
+ */

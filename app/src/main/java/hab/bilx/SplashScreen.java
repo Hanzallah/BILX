@@ -54,3 +54,6 @@ public class SplashScreen extends AppCompatActivity{
         },SPLASH_TIME_OUT);
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

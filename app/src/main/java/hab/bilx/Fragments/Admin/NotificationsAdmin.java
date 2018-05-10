@@ -32,7 +32,7 @@ import java.util.Random;
 
 
 /**
- *  The settings fragment for the admin class.
+ *  The notifications fragment for the admin class.
  *  @author Hanzallah Burney
  */
 
@@ -45,13 +45,18 @@ public class NotificationsAdmin extends android.support.v4.app.Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
+        // set view
         View view = inflater.inflate(R.layout.notifcations_admin, container, false);
 
+        // initialize variables
         admin_spinner = (Spinner) view.findViewById(R.id.sendTo_spinner);
         notify_text = (EditText) view.findViewById(R.id.Notification_text);
         fab = (FloatingActionButton) view.findViewById(R.id.floatingActionButton);
 
-
+        /*
+         *  @author Hanzallah Burney
+         */
+        // Get the selected item for the list = users, clubs, both to whom notifications are to be sent
         admin_spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
                 Object item = parent.getItemAtPosition(pos);
@@ -60,13 +65,17 @@ public class NotificationsAdmin extends android.support.v4.app.Fragment {
             }
         });
 
-
-
-
+        /*
+         *  @author Hanzallah Burney
+         */
+        // Actions when send button is clicked
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Get the notification text
                 String str = notify_text.getText().toString();
+
+                // Create notification for admin itself for preview purposes
                 final String s = str.replace(".","_");
                 NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(getActivity())
                         .setSmallIcon(R.mipmap.ic_launcher)
@@ -79,8 +88,13 @@ public class NotificationsAdmin extends android.support.v4.app.Fragment {
                 //-------------------- Username database --------------------------------
                 // Structure of database
                 // Create hashmap and put user email as child node of username
-
+                // sets check notify for respective audiences to ture to ensure they receive notification and adds the notification to their list
+                // All in firebase database
+                /*
+                 *  @author Hanzallah Burney
+                 */
                 notify = new HashMap();
+                // Send notification to user
                 if (admin_spinner.getSelectedItem().toString().equals("Users")){
 
                     DatabaseReference current_user = FirebaseDatabase.getInstance().getReference()
@@ -110,7 +124,7 @@ public class NotificationsAdmin extends android.support.v4.app.Fragment {
                                             DatabaseReference ref2 = FirebaseDatabase.getInstance().getReference().child("Notification List")
                                                     .child(name.trim()).child(s).child("Date");
 
-                                            ref2.setValue((new Date()).getTime());
+                                            ref2.setValue((new Date()).getTime()); // to order notifications for user by time
 
                                             DatabaseReference dat = FirebaseDatabase.getInstance().getReference()
                                                     .child("Check Notify").child(name).child("Users");
@@ -137,6 +151,7 @@ public class NotificationsAdmin extends android.support.v4.app.Fragment {
                     });
                     Snackbar.make(getActivity().findViewById(R.id.admin_notifications), "Notification Sent to Users", Snackbar.LENGTH_LONG).show();
                 }
+                // Send notification to clubs
                 else if (admin_spinner.getSelectedItem().toString().equals("Clubs")){
                     DatabaseReference current_user = FirebaseDatabase.getInstance().getReference()
                             .child("Notifications").child("Clubs").child("Message");
@@ -186,9 +201,6 @@ public class NotificationsAdmin extends android.support.v4.app.Fragment {
 
                                     }
                                 });
-
-
-
                             }
                         }
 
@@ -201,6 +213,7 @@ public class NotificationsAdmin extends android.support.v4.app.Fragment {
                     Snackbar.make(getActivity().findViewById(R.id.admin_notifications), "Notification Sent to Clubs", Snackbar.LENGTH_LONG).show();
 
                 }
+                // Send notification to all
                 else{
                     DatabaseReference current_user = FirebaseDatabase.getInstance().getReference()
                             .child("Notifications").child("Both").child("Message");
@@ -248,3 +261,6 @@ public class NotificationsAdmin extends android.support.v4.app.Fragment {
         return view;
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

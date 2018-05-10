@@ -10,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import hab.bilx.Fragments.Information.Admin_Info_FAQs.ApproveActivties_FAQ;
+import hab.bilx.Fragments.Information.Admin_Info_FAQs.ApproveActivities_FAQ;
 import hab.bilx.Fragments.Information.Admin_Info_FAQs.CreatePasscodes_FAQ;
 import hab.bilx.R;
 
@@ -19,6 +19,9 @@ import hab.bilx.R;
  *  @author Hanzallah Burney
  */
 public class Admin_Information extends android.support.v4.app.Fragment {
+    /*
+     *  @author Hanzallah Burney
+     */
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
@@ -30,13 +33,15 @@ public class Admin_Information extends android.support.v4.app.Fragment {
 
         ArrayAdapter<String> listViewAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1,infoItems);
         listView.setAdapter(listViewAdapter);
-
+        /*
+         *  @author Hanzallah Burney
+         */
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int index, long id) {
                 if (index == 0){
                     getActivity().getSupportFragmentManager().beginTransaction()
-                            .replace(R.id.content_frame, new ApproveActivties_FAQ())
+                            .replace(R.id.content_frame, new ApproveActivities_FAQ())
                             .addToBackStack(getClass().getName()).commit();
                 }
                 else if (index == 1){
@@ -60,3 +65,6 @@ public class Admin_Information extends android.support.v4.app.Fragment {
         return view;
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

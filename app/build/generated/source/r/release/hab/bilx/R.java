@@ -40,9 +40,8 @@ public final class R {
     public static final int com_google_android_gms_fonts_certs_dev=0x7f030001;
     public static final int com_google_android_gms_fonts_certs_prod=0x7f030002;
     public static final int languages_offered=0x7f030003;
-    public static final int languages_value=0x7f030004;
-    public static final int preloaded_fonts=0x7f030005;
-    public static final int spinnerItems=0x7f030006;
+    public static final int preloaded_fonts=0x7f030004;
+    public static final int spinnerItems=0x7f030005;
   }
   public static final class attr {
     /**
@@ -292,31 +291,36 @@ public final class R {
      */
     public static final int activityChooserViewStyle=0x7f040021;
     /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int adjustable=0x7f040022;
+    /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int alertDialogButtonGroupStyle=0x7f040022;
+    public static final int alertDialogButtonGroupStyle=0x7f040023;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int alertDialogCenterButtons=0x7f040023;
+    public static final int alertDialogCenterButtons=0x7f040024;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int alertDialogStyle=0x7f040024;
+    public static final int alertDialogStyle=0x7f040025;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int alertDialogTheme=0x7f040025;
+    public static final int alertDialogTheme=0x7f040026;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -324,16 +328,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int allDayEventHeight=0x7f040026;
+    public static final int allDayEventHeight=0x7f040027;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int allowStacking=0x7f040027;
+    public static final int allowDividerAbove=0x7f040028;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int allowDividerAfterLastItem=0x7f040029;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int allowDividerBelow=0x7f04002a;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int allowStacking=0x7f04002b;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int alpha=0x7f040028;
+    public static final int alpha=0x7f04002c;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -349,7 +368,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int alphabeticModifiers=0x7f040029;
+    public static final int alphabeticModifiers=0x7f04002d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -357,7 +376,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int arrowHeadLength=0x7f04002a;
+    public static final int arrowHeadLength=0x7f04002e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -365,19 +384,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int arrowShaftLength=0x7f04002b;
+    public static final int arrowShaftLength=0x7f04002f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int autoCompleteTextViewStyle=0x7f04002c;
+    public static final int autoCompleteTextViewStyle=0x7f040030;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int autoLimitTime=0x7f04002d;
+    public static final int autoLimitTime=0x7f040031;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -385,7 +404,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int autoSizeMaxTextSize=0x7f04002e;
+    public static final int autoSizeMaxTextSize=0x7f040032;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -393,14 +412,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int autoSizeMinTextSize=0x7f04002f;
+    public static final int autoSizeMinTextSize=0x7f040033;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int autoSizePresetSizes=0x7f040030;
+    public static final int autoSizePresetSizes=0x7f040034;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -408,7 +427,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int autoSizeStepGranularity=0x7f040031;
+    public static final int autoSizeStepGranularity=0x7f040035;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -420,24 +439,14 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int autoSizeTextType=0x7f040032;
+    public static final int autoSizeTextType=0x7f040036;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int background=0x7f040033;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int backgroundSplit=0x7f040034;
+    public static final int background=0x7f040037;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -447,13 +456,23 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int backgroundStacked=0x7f040035;
+    public static final int backgroundSplit=0x7f040038;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int backgroundStacked=0x7f040039;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int backgroundTint=0x7f040036;
+    public static final int backgroundTint=0x7f04003a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -468,7 +487,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int backgroundTintMode=0x7f040037;
+    public static final int backgroundTintMode=0x7f04003b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -476,12 +495,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int barLength=0x7f040038;
+    public static final int barLength=0x7f04003c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int barrierAllowsGoneWidgets=0x7f040039;
+    public static final int barrierAllowsGoneWidgets=0x7f04003d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -497,17 +516,17 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int barrierDirection=0x7f04003a;
+    public static final int barrierDirection=0x7f04003e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int behavior_autoHide=0x7f04003b;
+    public static final int behavior_autoHide=0x7f04003f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int behavior_hideable=0x7f04003c;
+    public static final int behavior_hideable=0x7f040040;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -515,7 +534,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int behavior_overlapTop=0x7f04003d;
+    public static final int behavior_overlapTop=0x7f040041;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -531,12 +550,12 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int behavior_peekHeight=0x7f04003e;
+    public static final int behavior_peekHeight=0x7f040042;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int behavior_skipCollapsed=0x7f04003f;
+    public static final int behavior_skipCollapsed=0x7f040043;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -544,18 +563,18 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int borderWidth=0x7f040040;
+    public static final int borderWidth=0x7f040044;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int border_color=0x7f040041;
+    public static final int border_color=0x7f040045;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int border_overlay=0x7f040042;
+    public static final int border_overlay=0x7f040046;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -563,63 +582,63 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int border_width=0x7f040043;
+    public static final int border_width=0x7f040047;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int borderlessButtonStyle=0x7f040044;
+    public static final int borderlessButtonStyle=0x7f040048;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int bottomSheetDialogTheme=0x7f040045;
+    public static final int bottomSheetDialogTheme=0x7f040049;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int bottomSheetStyle=0x7f040046;
+    public static final int bottomSheetStyle=0x7f04004a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarButtonStyle=0x7f040047;
+    public static final int buttonBarButtonStyle=0x7f04004b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarNegativeButtonStyle=0x7f040048;
+    public static final int buttonBarNegativeButtonStyle=0x7f04004c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarNeutralButtonStyle=0x7f040049;
+    public static final int buttonBarNeutralButtonStyle=0x7f04004d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarPositiveButtonStyle=0x7f04004a;
+    public static final int buttonBarPositiveButtonStyle=0x7f04004e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarStyle=0x7f04004b;
+    public static final int buttonBarStyle=0x7f04004f;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -631,14 +650,14 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int buttonGravity=0x7f04004c;
+    public static final int buttonGravity=0x7f040050;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonPanelSideLayout=0x7f04004d;
+    public static final int buttonPanelSideLayout=0x7f040051;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -655,27 +674,27 @@ public final class R {
      * <tr><td>wide</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int buttonSize=0x7f04004e;
+    public static final int buttonSize=0x7f040052;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonStyle=0x7f04004f;
+    public static final int buttonStyle=0x7f040053;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonStyleSmall=0x7f040050;
+    public static final int buttonStyleSmall=0x7f040054;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int buttonTint=0x7f040051;
+    public static final int buttonTint=0x7f040055;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -690,13 +709,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int buttonTintMode=0x7f040052;
+    public static final int buttonTintMode=0x7f040056;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int cardBackgroundColor=0x7f040053;
+    public static final int cardBackgroundColor=0x7f040057;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -704,7 +723,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardCornerRadius=0x7f040054;
+    public static final int cardCornerRadius=0x7f040058;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -712,7 +731,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardElevation=0x7f040055;
+    public static final int cardElevation=0x7f040059;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -720,81 +739,74 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int cardMaxElevation=0x7f040056;
+    public static final int cardMaxElevation=0x7f04005a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int cardPreventCornerOverlap=0x7f040057;
+    public static final int cardPreventCornerOverlap=0x7f04005b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int cardUseCompatPadding=0x7f040058;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int cardViewStyle=0x7f040059;
+    public static final int cardUseCompatPadding=0x7f04005c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int chainUseRtl=0x7f04005a;
+    public static final int chainUseRtl=0x7f04005d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkBoxPreferenceStyle=0x7f04005b;
+    public static final int checkBoxPreferenceStyle=0x7f04005e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkboxStyle=0x7f04005c;
+    public static final int checkboxStyle=0x7f04005f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkedTextViewStyle=0x7f04005d;
+    public static final int checkedTextViewStyle=0x7f040060;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int circleCrop=0x7f04005e;
+    public static final int circleCrop=0x7f040061;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeIcon=0x7f04005f;
+    public static final int closeIcon=0x7f040062;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeItemLayout=0x7f040060;
+    public static final int closeItemLayout=0x7f040063;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int collapseContentDescription=0x7f040061;
+    public static final int collapseContentDescription=0x7f040064;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapseIcon=0x7f040062;
+    public static final int collapseIcon=0x7f040065;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -814,56 +826,56 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int collapsedTitleGravity=0x7f040063;
+    public static final int collapsedTitleGravity=0x7f040066;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapsedTitleTextAppearance=0x7f040064;
+    public static final int collapsedTitleTextAppearance=0x7f040067;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int color=0x7f040065;
+    public static final int color=0x7f040068;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorAccent=0x7f040066;
+    public static final int colorAccent=0x7f040069;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorBackgroundFloating=0x7f040067;
+    public static final int colorBackgroundFloating=0x7f04006a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorButtonNormal=0x7f040068;
+    public static final int colorButtonNormal=0x7f04006b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlActivated=0x7f040069;
+    public static final int colorControlActivated=0x7f04006c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlHighlight=0x7f04006a;
+    public static final int colorControlHighlight=0x7f04006d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlNormal=0x7f04006b;
+    public static final int colorControlNormal=0x7f04006e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -873,19 +885,19 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorError=0x7f04006c;
+    public static final int colorError=0x7f04006f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimary=0x7f04006d;
+    public static final int colorPrimary=0x7f040070;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimaryDark=0x7f04006e;
+    public static final int colorPrimaryDark=0x7f040071;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -902,13 +914,13 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int colorScheme=0x7f04006f;
+    public static final int colorScheme=0x7f040072;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorSwitchThumbNormal=0x7f040070;
+    public static final int colorSwitchThumbNormal=0x7f040073;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -916,38 +928,38 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int columnGap=0x7f040071;
+    public static final int columnGap=0x7f040074;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int commitIcon=0x7f040072;
+    public static final int commitIcon=0x7f040075;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int constraintSet=0x7f040073;
+    public static final int constraintSet=0x7f040076;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int constraint_referenced_ids=0x7f040074;
+    public static final int constraint_referenced_ids=0x7f040077;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int content=0x7f040075;
+    public static final int content=0x7f040078;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int contentDescription=0x7f040076;
+    public static final int contentDescription=0x7f040079;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -955,7 +967,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEnd=0x7f040077;
+    public static final int contentInsetEnd=0x7f04007a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -963,7 +975,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEndWithActions=0x7f040078;
+    public static final int contentInsetEndWithActions=0x7f04007b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -971,7 +983,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetLeft=0x7f040079;
+    public static final int contentInsetLeft=0x7f04007c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -979,7 +991,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetRight=0x7f04007a;
+    public static final int contentInsetRight=0x7f04007d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -987,7 +999,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStart=0x7f04007b;
+    public static final int contentInsetStart=0x7f04007e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -995,7 +1007,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStartWithNavigation=0x7f04007c;
+    public static final int contentInsetStartWithNavigation=0x7f04007f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1003,7 +1015,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPadding=0x7f04007d;
+    public static final int contentPadding=0x7f040080;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1011,7 +1023,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingBottom=0x7f04007e;
+    public static final int contentPaddingBottom=0x7f040081;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1019,7 +1031,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingLeft=0x7f04007f;
+    public static final int contentPaddingLeft=0x7f040082;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1027,7 +1039,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingRight=0x7f040080;
+    public static final int contentPaddingRight=0x7f040083;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1035,56 +1047,56 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentPaddingTop=0x7f040081;
+    public static final int contentPaddingTop=0x7f040084;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int contentScrim=0x7f040082;
+    public static final int contentScrim=0x7f040085;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int controlBackground=0x7f040083;
+    public static final int controlBackground=0x7f040086;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int counterEnabled=0x7f040084;
+    public static final int counterEnabled=0x7f040087;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int counterMaxLength=0x7f040085;
+    public static final int counterMaxLength=0x7f040088;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterOverflowTextAppearance=0x7f040086;
+    public static final int counterOverflowTextAppearance=0x7f040089;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterTextAppearance=0x7f040087;
+    public static final int counterTextAppearance=0x7f04008a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int customNavigationLayout=0x7f040088;
+    public static final int customNavigationLayout=0x7f04008b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int dayBackgroundColor=0x7f040089;
+    public static final int dayBackgroundColor=0x7f04008c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1096,12 +1108,12 @@ public final class R {
      * <tr><td>length_short</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int dayNameLength=0x7f04008a;
+    public static final int dayNameLength=0x7f04008d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int defaultQueryHint=0x7f04008b;
+    public static final int defaultQueryHint=0x7f04008e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1114,38 +1126,38 @@ public final class R {
      * "<code>false</code>".
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int defaultValue=0x7f04008c;
+    public static final int defaultValue=0x7f04008f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int dependency=0x7f04008d;
+    public static final int dependency=0x7f040090;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogIcon=0x7f04008e;
+    public static final int dialogIcon=0x7f040091;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogLayout=0x7f04008f;
+    public static final int dialogLayout=0x7f040092;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int dialogMessage=0x7f040090;
+    public static final int dialogMessage=0x7f040093;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogPreferenceStyle=0x7f040091;
+    public static final int dialogPreferenceStyle=0x7f040094;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1153,24 +1165,24 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f040092;
+    public static final int dialogPreferredPadding=0x7f040095;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f040093;
+    public static final int dialogTheme=0x7f040096;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int dialogTitle=0x7f040094;
+    public static final int dialogTitle=0x7f040097;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int disableDependentsState=0x7f040095;
+    public static final int disableDependentsState=0x7f040098;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1187,21 +1199,21 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f040096;
+    public static final int displayOptions=0x7f040099;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f040097;
+    public static final int divider=0x7f04009a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f040098;
+    public static final int dividerHorizontal=0x7f04009b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1209,14 +1221,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f040099;
+    public static final int dividerPadding=0x7f04009c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f04009a;
+    public static final int dividerVertical=0x7f04009d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1224,26 +1236,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f04009b;
+    public static final int drawableSize=0x7f04009e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f04009c;
+    public static final int drawerArrowStyle=0x7f04009f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f04009d;
+    public static final int dropDownListViewStyle=0x7f0400a0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int dropListenerEnabled=0x7f04009e;
+    public static final int dropListenerEnabled=0x7f0400a1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1251,14 +1263,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f04009f;
+    public static final int dropdownListPreferredItemHeight=0x7f0400a2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f0400a0;
+    public static final int dropdownPreferenceStyle=0x7f0400a3;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int editTextBackground=0x7f0400a4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1268,21 +1287,21 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f0400a1;
+    public static final int editTextColor=0x7f0400a5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextPreferenceStyle=0x7f0400a2;
+    public static final int editTextPreferenceStyle=0x7f0400a6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f0400a3;
+    public static final int editTextStyle=0x7f0400a7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1290,7 +1309,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f0400a4;
+    public static final int elevation=0x7f0400a8;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1302,38 +1321,38 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int emptyVisibility=0x7f0400a5;
+    public static final int emptyVisibility=0x7f0400a9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int enabled=0x7f0400a6;
+    public static final int enabled=0x7f0400aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int entries=0x7f0400a7;
+    public static final int entries=0x7f0400ab;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int entryValues=0x7f0400a8;
+    public static final int entryValues=0x7f0400ac;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int errorEnabled=0x7f0400a9;
+    public static final int errorEnabled=0x7f0400ad;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int errorTextAppearance=0x7f0400aa;
+    public static final int errorTextAppearance=0x7f0400ae;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1341,7 +1360,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int eventCornerRadius=0x7f0400ab;
+    public static final int eventCornerRadius=0x7f0400af;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1349,7 +1368,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int eventMarginVertical=0x7f0400ac;
+    public static final int eventMarginVertical=0x7f0400b0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1357,13 +1376,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int eventPadding=0x7f0400ad;
+    public static final int eventPadding=0x7f0400b1;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int eventTextColor=0x7f0400ae;
+    public static final int eventTextColor=0x7f0400b2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1371,19 +1390,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int eventTextSize=0x7f0400af;
+    public static final int eventTextSize=0x7f0400b3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f0400b0;
+    public static final int expandActivityOverflowButtonDrawable=0x7f0400b4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int expanded=0x7f0400b1;
+    public static final int expanded=0x7f0400b5;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1403,7 +1422,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int expandedTitleGravity=0x7f0400b2;
+    public static final int expandedTitleGravity=0x7f0400b6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1411,7 +1430,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMargin=0x7f0400b3;
+    public static final int expandedTitleMargin=0x7f0400b7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1419,7 +1438,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginBottom=0x7f0400b4;
+    public static final int expandedTitleMarginBottom=0x7f0400b8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1427,7 +1446,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginEnd=0x7f0400b5;
+    public static final int expandedTitleMarginEnd=0x7f0400b9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1435,7 +1454,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginStart=0x7f0400b6;
+    public static final int expandedTitleMarginStart=0x7f0400ba;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1443,14 +1462,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginTop=0x7f0400b7;
+    public static final int expandedTitleMarginTop=0x7f0400bb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandedTitleTextAppearance=0x7f0400b8;
+    public static final int expandedTitleTextAppearance=0x7f0400bc;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1463,40 +1482,40 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fabSize=0x7f0400b9;
+    public static final int fabSize=0x7f0400bd;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int fastScrollEnabled=0x7f0400ba;
+    public static final int fastScrollEnabled=0x7f0400be;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalThumbDrawable=0x7f0400bb;
+    public static final int fastScrollHorizontalThumbDrawable=0x7f0400bf;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalTrackDrawable=0x7f0400bc;
+    public static final int fastScrollHorizontalTrackDrawable=0x7f0400c0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalThumbDrawable=0x7f0400bd;
+    public static final int fastScrollVerticalThumbDrawable=0x7f0400c1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalTrackDrawable=0x7f0400be;
+    public static final int fastScrollVerticalTrackDrawable=0x7f0400c2;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1513,31 +1532,31 @@ public final class R {
      * <tr><td>wednesday</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int firstDayOfWeek=0x7f0400bf;
+    public static final int firstDayOfWeek=0x7f0400c3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f0400c0;
+    public static final int font=0x7f0400c4;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f0400c1;
+    public static final int fontFamily=0x7f0400c5;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f0400c2;
+    public static final int fontProviderAuthority=0x7f0400c6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f0400c3;
+    public static final int fontProviderCerts=0x7f0400c7;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1549,7 +1568,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f0400c4;
+    public static final int fontProviderFetchStrategy=0x7f0400c8;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -1561,17 +1580,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f0400c5;
+    public static final int fontProviderFetchTimeout=0x7f0400c9;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f0400c6;
+    public static final int fontProviderPackage=0x7f0400ca;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f0400c7;
+    public static final int fontProviderQuery=0x7f0400cb;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1583,33 +1602,33 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f0400c8;
+    public static final int fontStyle=0x7f0400cc;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f0400c9;
+    public static final int fontWeight=0x7f0400cd;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int foregroundInsidePadding=0x7f0400ca;
+    public static final int foregroundInsidePadding=0x7f0400ce;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fragment=0x7f0400cb;
+    public static final int fragment=0x7f0400cf;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int futureBackgroundColor=0x7f0400cc;
+    public static final int futureBackgroundColor=0x7f0400d0;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int futureWeekendBackgroundColor=0x7f0400cd;
+    public static final int futureWeekendBackgroundColor=0x7f0400d1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1617,20 +1636,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f0400ce;
+    public static final int gapBetweenBars=0x7f0400d2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f0400cf;
+    public static final int goIcon=0x7f0400d3;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int headerColumnBackground=0x7f0400d0;
+    public static final int headerColumnBackground=0x7f0400d4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1638,26 +1657,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int headerColumnPadding=0x7f0400d1;
+    public static final int headerColumnPadding=0x7f0400d5;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int headerColumnTextColor=0x7f0400d2;
+    public static final int headerColumnTextColor=0x7f0400d6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int headerLayout=0x7f0400d3;
+    public static final int headerLayout=0x7f0400d7;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int headerRowBackgroundColor=0x7f0400d4;
+    public static final int headerRowBackgroundColor=0x7f0400d8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1665,7 +1684,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int headerRowPadding=0x7f0400d5;
+    public static final int headerRowPadding=0x7f0400d9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1673,48 +1692,48 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f0400d6;
+    public static final int height=0x7f0400da;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f0400d7;
+    public static final int hideOnContentScroll=0x7f0400db;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintAnimationEnabled=0x7f0400d8;
+    public static final int hintAnimationEnabled=0x7f0400dc;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintEnabled=0x7f0400d9;
+    public static final int hintEnabled=0x7f0400dd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int hintTextAppearance=0x7f0400da;
+    public static final int hintTextAppearance=0x7f0400de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f0400db;
+    public static final int homeAsUpIndicator=0x7f0400df;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f0400dc;
+    public static final int homeLayout=0x7f0400e0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int horizontalFlingEnabled=0x7f0400dd;
+    public static final int horizontalFlingEnabled=0x7f0400e1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1722,13 +1741,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int hourHeight=0x7f0400de;
+    public static final int hourHeight=0x7f0400e2;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int hourSeparatorColor=0x7f0400df;
+    public static final int hourSeparatorColor=0x7f0400e3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1736,20 +1755,25 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int hourSeparatorHeight=0x7f0400e0;
+    public static final int hourSeparatorHeight=0x7f0400e4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f0400e1;
+    public static final int icon=0x7f0400e5;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int iconSpaceReserved=0x7f0400e6;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int iconTint=0x7f0400e2;
+    public static final int iconTint=0x7f0400e7;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1765,16 +1789,16 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int iconTintMode=0x7f0400e3;
+    public static final int iconTintMode=0x7f0400e8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f0400e4;
+    public static final int iconifiedByDefault=0x7f0400e9;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int imageAspectRatio=0x7f0400e5;
+    public static final int imageAspectRatio=0x7f0400ea;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1787,26 +1811,26 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int imageAspectRatioAdjust=0x7f0400e6;
+    public static final int imageAspectRatioAdjust=0x7f0400eb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f0400e7;
+    public static final int imageButtonStyle=0x7f0400ec;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f0400e8;
+    public static final int indeterminateProgressStyle=0x7f0400ed;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f0400e9;
+    public static final int initialActivityCount=0x7f0400ee;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1816,25 +1840,25 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int insetForeground=0x7f0400ea;
+    public static final int insetForeground=0x7f0400ef;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f0400eb;
+    public static final int isLightTheme=0x7f0400f0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemBackground=0x7f0400ec;
+    public static final int itemBackground=0x7f0400f1;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemIconTint=0x7f0400ed;
+    public static final int itemIconTint=0x7f0400f2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1842,51 +1866,51 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f0400ee;
+    public static final int itemPadding=0x7f0400f3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearance=0x7f0400ef;
+    public static final int itemTextAppearance=0x7f0400f4;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemTextColor=0x7f0400f0;
+    public static final int itemTextColor=0x7f0400f5;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int key=0x7f0400f1;
+    public static final int key=0x7f0400f6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int keylines=0x7f0400f2;
+    public static final int keylines=0x7f0400f7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f0400f3;
+    public static final int layout=0x7f0400f8;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layoutManager=0x7f0400f4;
+    public static final int layoutManager=0x7f0400f9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_anchor=0x7f0400f5;
+    public static final int layout_anchor=0x7f0400fa;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1910,12 +1934,12 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_anchorGravity=0x7f0400f6;
+    public static final int layout_anchorGravity=0x7f0400fb;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_behavior=0x7f0400f7;
+    public static final int layout_behavior=0x7f0400fc;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1928,25 +1952,25 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_collapseMode=0x7f0400f8;
+    public static final int layout_collapseMode=0x7f0400fd;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_collapseParallaxMultiplier=0x7f0400f9;
+    public static final int layout_collapseParallaxMultiplier=0x7f0400fe;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedHeight=0x7f0400fa;
+    public static final int layout_constrainedHeight=0x7f0400ff;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedWidth=0x7f0400fb;
+    public static final int layout_constrainedWidth=0x7f040100;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBaseline_creator=0x7f0400fc;
+    public static final int layout_constraintBaseline_creator=0x7f040101;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1961,11 +1985,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f0400fd;
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f040102;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBottom_creator=0x7f0400fe;
+    public static final int layout_constraintBottom_creator=0x7f040103;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1980,7 +2004,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toBottomOf=0x7f0400ff;
+    public static final int layout_constraintBottom_toBottomOf=0x7f040104;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1995,18 +2019,18 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toTopOf=0x7f040100;
+    public static final int layout_constraintBottom_toTopOf=0x7f040105;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_constraintCircle=0x7f040101;
+    public static final int layout_constraintCircle=0x7f040106;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintCircleAngle=0x7f040102;
+    public static final int layout_constraintCircleAngle=0x7f040107;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2014,12 +2038,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintCircleRadius=0x7f040103;
+    public static final int layout_constraintCircleRadius=0x7f040108;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintDimensionRatio=0x7f040104;
+    public static final int layout_constraintDimensionRatio=0x7f040109;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2034,7 +2058,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toEndOf=0x7f040105;
+    public static final int layout_constraintEnd_toEndOf=0x7f04010a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2049,7 +2073,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toStartOf=0x7f040106;
+    public static final int layout_constraintEnd_toStartOf=0x7f04010b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2057,7 +2081,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_begin=0x7f040107;
+    public static final int layout_constraintGuide_begin=0x7f04010c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2065,11 +2089,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_end=0x7f040108;
+    public static final int layout_constraintGuide_end=0x7f04010d;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintGuide_percent=0x7f040109;
+    public static final int layout_constraintGuide_percent=0x7f04010e;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2082,7 +2106,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_default=0x7f04010a;
+    public static final int layout_constraintHeight_default=0x7f04010f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2098,7 +2122,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_max=0x7f04010b;
+    public static final int layout_constraintHeight_max=0x7f040110;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2114,15 +2138,15 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_min=0x7f04010c;
+    public static final int layout_constraintHeight_min=0x7f040111;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHeight_percent=0x7f04010d;
+    public static final int layout_constraintHeight_percent=0x7f040112;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_bias=0x7f04010e;
+    public static final int layout_constraintHorizontal_bias=0x7f040113;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2135,15 +2159,15 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f04010f;
+    public static final int layout_constraintHorizontal_chainStyle=0x7f040114;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_weight=0x7f040110;
+    public static final int layout_constraintHorizontal_weight=0x7f040115;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintLeft_creator=0x7f040111;
+    public static final int layout_constraintLeft_creator=0x7f040116;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2158,7 +2182,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toLeftOf=0x7f040112;
+    public static final int layout_constraintLeft_toLeftOf=0x7f040117;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2173,11 +2197,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toRightOf=0x7f040113;
+    public static final int layout_constraintLeft_toRightOf=0x7f040118;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintRight_creator=0x7f040114;
+    public static final int layout_constraintRight_creator=0x7f040119;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2192,7 +2216,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toLeftOf=0x7f040115;
+    public static final int layout_constraintRight_toLeftOf=0x7f04011a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2207,7 +2231,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toRightOf=0x7f040116;
+    public static final int layout_constraintRight_toRightOf=0x7f04011b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2222,7 +2246,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toEndOf=0x7f040117;
+    public static final int layout_constraintStart_toEndOf=0x7f04011c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2237,11 +2261,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toStartOf=0x7f040118;
+    public static final int layout_constraintStart_toStartOf=0x7f04011d;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintTop_creator=0x7f040119;
+    public static final int layout_constraintTop_creator=0x7f04011e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2256,7 +2280,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toBottomOf=0x7f04011a;
+    public static final int layout_constraintTop_toBottomOf=0x7f04011f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2271,11 +2295,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toTopOf=0x7f04011b;
+    public static final int layout_constraintTop_toTopOf=0x7f040120;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_bias=0x7f04011c;
+    public static final int layout_constraintVertical_bias=0x7f040121;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2288,11 +2312,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintVertical_chainStyle=0x7f04011d;
+    public static final int layout_constraintVertical_chainStyle=0x7f040122;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_weight=0x7f04011e;
+    public static final int layout_constraintVertical_weight=0x7f040123;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2305,7 +2329,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_default=0x7f04011f;
+    public static final int layout_constraintWidth_default=0x7f040124;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2321,7 +2345,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_max=0x7f040120;
+    public static final int layout_constraintWidth_max=0x7f040125;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2337,11 +2361,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_min=0x7f040121;
+    public static final int layout_constraintWidth_min=0x7f040126;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintWidth_percent=0x7f040122;
+    public static final int layout_constraintWidth_percent=0x7f040127;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2359,7 +2383,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f040123;
+    public static final int layout_dodgeInsetEdges=0x7f040128;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2367,7 +2391,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteX=0x7f040124;
+    public static final int layout_editor_absoluteX=0x7f040129;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2375,7 +2399,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteY=0x7f040125;
+    public static final int layout_editor_absoluteY=0x7f04012a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2383,7 +2407,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginBottom=0x7f040126;
+    public static final int layout_goneMarginBottom=0x7f04012b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2391,7 +2415,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginEnd=0x7f040127;
+    public static final int layout_goneMarginEnd=0x7f04012c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2399,7 +2423,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginLeft=0x7f040128;
+    public static final int layout_goneMarginLeft=0x7f04012d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2407,7 +2431,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginRight=0x7f040129;
+    public static final int layout_goneMarginRight=0x7f04012e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2415,7 +2439,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginStart=0x7f04012a;
+    public static final int layout_goneMarginStart=0x7f04012f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2423,7 +2447,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginTop=0x7f04012b;
+    public static final int layout_goneMarginTop=0x7f040130;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2440,11 +2464,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f04012c;
+    public static final int layout_insetEdge=0x7f040131;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f04012d;
+    public static final int layout_keyline=0x7f040132;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2455,12 +2479,12 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int layout_optimizationLevel=0x7f04012e;
+    public static final int layout_optimizationLevel=0x7f040133;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2475,56 +2499,56 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      */
-    public static final int layout_scrollFlags=0x7f04012f;
+    public static final int layout_scrollFlags=0x7f040134;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_scrollInterpolator=0x7f040130;
+    public static final int layout_scrollInterpolator=0x7f040135;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f040131;
+    public static final int listChoiceBackgroundIndicator=0x7f040136;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listDividerAlertDialog=0x7f040132;
+    public static final int listDividerAlertDialog=0x7f040137;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listItemLayout=0x7f040133;
+    public static final int listItemLayout=0x7f040138;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listLayout=0x7f040134;
+    public static final int listLayout=0x7f040139;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listMenuViewStyle=0x7f040135;
+    public static final int listMenuViewStyle=0x7f04013a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listPopupWindowStyle=0x7f040136;
+    public static final int listPopupWindowStyle=0x7f04013b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2532,7 +2556,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f040137;
+    public static final int listPreferredItemHeight=0x7f04013c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2540,7 +2564,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f040138;
+    public static final int listPreferredItemHeightLarge=0x7f04013d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2548,7 +2572,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f040139;
+    public static final int listPreferredItemHeightSmall=0x7f04013e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2556,7 +2580,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f04013a;
+    public static final int listPreferredItemPaddingLeft=0x7f04013f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2564,19 +2588,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f04013b;
+    public static final int listPreferredItemPaddingRight=0x7f040140;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f04013c;
+    public static final int logo=0x7f040141;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f04013d;
+    public static final int logoDescription=0x7f040142;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2584,7 +2608,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxActionInlineWidth=0x7f04013e;
+    public static final int maxActionInlineWidth=0x7f040143;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2592,7 +2616,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f04013f;
+    public static final int maxButtonHeight=0x7f040144;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2600,7 +2624,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxHeight=0x7f040140;
+    public static final int maxHeight=0x7f040145;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2608,11 +2632,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxHourHeight=0x7f040141;
+    public static final int maxHourHeight=0x7f040146;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int maxTime=0x7f040142;
+    public static final int maxTime=0x7f040147;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2620,19 +2644,23 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxWidth=0x7f040143;
+    public static final int maxWidth=0x7f040148;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f040144;
+    public static final int measureWithLargestChild=0x7f040149;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int menu=0x7f040145;
+    public static final int menu=0x7f04014a;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int min=0x7f04014b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2640,34 +2668,34 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int minHourHeight=0x7f040146;
+    public static final int minHourHeight=0x7f04014c;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int minOverlappingMinutes=0x7f040147;
+    public static final int minOverlappingMinutes=0x7f04014d;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int minTime=0x7f040148;
+    public static final int minTime=0x7f04014e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f040149;
+    public static final int multiChoiceItemLayout=0x7f04014f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f04014a;
+    public static final int navigationContentDescription=0x7f040150;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f04014b;
+    public static final int navigationIcon=0x7f040151;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2680,49 +2708,49 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f04014c;
+    public static final int navigationMode=0x7f040152;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int negativeButtonText=0x7f04014d;
+    public static final int negativeButtonText=0x7f040153;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int newEventColor=0x7f04014e;
+    public static final int newEventColor=0x7f040154;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int newEventIconResource=0x7f04014f;
+    public static final int newEventIconResource=0x7f040155;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int newEventId=0x7f040150;
+    public static final int newEventId=0x7f040156;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int newEventIdentifier=0x7f040151;
+    public static final int newEventIdentifier=0x7f040157;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int newEventLengthInMinutes=0x7f040152;
+    public static final int newEventLengthInMinutes=0x7f040158;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int newEventTimeResolutionInMinutes=0x7f040153;
+    public static final int newEventTimeResolutionInMinutes=0x7f040159;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int noOfVisibleDays=0x7f040154;
+    public static final int noOfVisibleDays=0x7f04015a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int nowLineColor=0x7f040155;
+    public static final int nowLineColor=0x7f04015b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2730,7 +2758,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int nowLineThickness=0x7f040156;
+    public static final int nowLineThickness=0x7f04015c;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2746,21 +2774,21 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f040157;
+    public static final int numericModifiers=0x7f04015d;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int order=0x7f040158;
+    public static final int order=0x7f04015e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int orderingFromXml=0x7f040159;
+    public static final int orderingFromXml=0x7f04015f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f04015a;
+    public static final int overlapAnchor=0x7f040160;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2768,7 +2796,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int overlappingEventGap=0x7f04015b;
+    public static final int overlappingEventGap=0x7f040161;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2776,7 +2804,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f04015c;
+    public static final int paddingBottomNoButtons=0x7f040162;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2784,7 +2812,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f04015d;
+    public static final int paddingEnd=0x7f040163;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2792,7 +2820,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f04015e;
+    public static final int paddingStart=0x7f040164;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2800,21 +2828,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f04015f;
+    public static final int paddingTopNoTitle=0x7f040165;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f040160;
+    public static final int panelBackground=0x7f040166;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f040161;
+    public static final int panelMenuListTheme=0x7f040167;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2822,30 +2850,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f040162;
+    public static final int panelMenuListWidth=0x7f040168;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int passwordToggleContentDescription=0x7f040163;
+    public static final int passwordToggleContentDescription=0x7f040169;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int passwordToggleDrawable=0x7f040164;
+    public static final int passwordToggleDrawable=0x7f04016a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int passwordToggleEnabled=0x7f040165;
+    public static final int passwordToggleEnabled=0x7f04016b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int passwordToggleTint=0x7f040166;
+    public static final int passwordToggleTint=0x7f04016c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2860,78 +2888,78 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int passwordToggleTintMode=0x7f040167;
+    public static final int passwordToggleTintMode=0x7f04016d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int pastBackgroundColor=0x7f040168;
+    public static final int pastBackgroundColor=0x7f04016e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int pastWeekendBackgroundColor=0x7f040169;
+    public static final int pastWeekendBackgroundColor=0x7f04016f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int persistent=0x7f04016a;
+    public static final int persistent=0x7f040170;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f04016b;
+    public static final int popupMenuStyle=0x7f040171;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f04016c;
+    public static final int popupTheme=0x7f040172;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f04016d;
+    public static final int popupWindowStyle=0x7f040173;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int positiveButtonText=0x7f04016e;
+    public static final int positiveButtonText=0x7f040174;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceActivityStyle=0x7f04016f;
+    public static final int preferenceActivityStyle=0x7f040175;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceCategoryStyle=0x7f040170;
+    public static final int preferenceCategoryStyle=0x7f040176;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceFragmentCompatStyle=0x7f040171;
+    public static final int preferenceFragmentCompatStyle=0x7f040177;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceFragmentListStyle=0x7f040172;
+    public static final int preferenceFragmentListStyle=0x7f040178;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2939,75 +2967,75 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int preferenceFragmentPaddingSide=0x7f040173;
+    public static final int preferenceFragmentPaddingSide=0x7f040179;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceFragmentStyle=0x7f040174;
+    public static final int preferenceFragmentStyle=0x7f04017a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceHeaderPanelStyle=0x7f040175;
+    public static final int preferenceHeaderPanelStyle=0x7f04017b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceInformationStyle=0x7f040176;
+    public static final int preferenceInformationStyle=0x7f04017c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceLayoutChild=0x7f040177;
+    public static final int preferenceLayoutChild=0x7f04017d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceListStyle=0x7f040178;
+    public static final int preferenceListStyle=0x7f04017e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferencePanelStyle=0x7f040179;
+    public static final int preferencePanelStyle=0x7f04017f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceScreenStyle=0x7f04017a;
+    public static final int preferenceScreenStyle=0x7f040180;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceStyle=0x7f04017b;
+    public static final int preferenceStyle=0x7f040181;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int preferenceTheme=0x7f04017c;
+    public static final int preferenceTheme=0x7f040182;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f04017d;
+    public static final int preserveIconSpacing=0x7f040183;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3015,7 +3043,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int pressedTranslationZ=0x7f04017e;
+    public static final int pressedTranslationZ=0x7f040184;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3023,72 +3051,72 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f04017f;
+    public static final int progressBarPadding=0x7f040185;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f040180;
+    public static final int progressBarStyle=0x7f040186;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f040181;
+    public static final int queryBackground=0x7f040187;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f040182;
+    public static final int queryHint=0x7f040188;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f040183;
+    public static final int radioButtonStyle=0x7f040189;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f040184;
+    public static final int ratingBarStyle=0x7f04018a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f040185;
+    public static final int ratingBarStyleIndicator=0x7f04018b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f040186;
+    public static final int ratingBarStyleSmall=0x7f04018c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f040187;
+    public static final int reverseLayout=0x7f04018d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ringtonePreferenceStyle=0x7f040188;
+    public static final int ringtonePreferenceStyle=0x7f04018e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int rippleColor=0x7f040189;
+    public static final int rippleColor=0x7f04018f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3097,11 +3125,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int scopeUris=0x7f04018a;
+    public static final int scopeUris=0x7f040190;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int scrimAnimationDuration=0x7f04018b;
+    public static final int scrimAnimationDuration=0x7f040191;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3109,70 +3137,74 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int scrimVisibleHeightTrigger=0x7f04018c;
+    public static final int scrimVisibleHeightTrigger=0x7f040192;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int scrollDuration=0x7f04018d;
+    public static final int scrollDuration=0x7f040193;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f04018e;
+    public static final int searchHintIcon=0x7f040194;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f04018f;
+    public static final int searchIcon=0x7f040195;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f040190;
+    public static final int searchViewStyle=0x7f040196;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int seekBarIncrement=0x7f040197;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarPreferenceStyle=0x7f040191;
+    public static final int seekBarPreferenceStyle=0x7f040198;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f040192;
+    public static final int seekBarStyle=0x7f040199;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int selectable=0x7f040193;
+    public static final int selectable=0x7f04019a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f040194;
+    public static final int selectableItemBackground=0x7f04019b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f040195;
+    public static final int selectableItemBackgroundBorderless=0x7f04019c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int shouldDisableView=0x7f040196;
+    public static final int shouldDisableView=0x7f04019d;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3187,17 +3219,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f040197;
+    public static final int showAsAction=0x7f04019e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showDistinctPastFutureColor=0x7f040198;
+    public static final int showDistinctPastFutureColor=0x7f04019f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showDistinctWeekendColor=0x7f040199;
+    public static final int showDistinctWeekendColor=0x7f0401a0;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3211,163 +3243,173 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f04019a;
+    public static final int showDividers=0x7f0401a1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showFirstDayOfWeekFirst=0x7f04019b;
+    public static final int showFirstDayOfWeekFirst=0x7f0401a2;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showNowLine=0x7f04019c;
+    public static final int showNowLine=0x7f0401a3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f04019d;
+    public static final int showSeekBarValue=0x7f0401a4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f04019e;
+    public static final int showText=0x7f0401a5;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int showTitle=0x7f0401a6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f04019f;
+    public static final int singleChoiceItemLayout=0x7f0401a7;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int singleLineTitle=0x7f0401a8;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f0401a0;
+    public static final int spanCount=0x7f0401a9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f0401a1;
+    public static final int spinBars=0x7f0401aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f0401a2;
+    public static final int spinnerDropDownItemStyle=0x7f0401ab;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f0401a3;
+    public static final int spinnerStyle=0x7f0401ac;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f0401a4;
+    public static final int splitTrack=0x7f0401ad;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f0401a5;
+    public static final int srcCompat=0x7f0401ae;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f0401a6;
+    public static final int stackFromEnd=0x7f0401af;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f0401a7;
+    public static final int state_above_anchor=0x7f0401b0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsed=0x7f0401a8;
+    public static final int state_collapsed=0x7f0401b1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsible=0x7f0401a9;
+    public static final int state_collapsible=0x7f0401b2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int statusBarBackground=0x7f0401aa;
+    public static final int statusBarBackground=0x7f0401b3;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarScrim=0x7f0401ab;
+    public static final int statusBarScrim=0x7f0401b4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f0401ac;
+    public static final int subMenuArrow=0x7f0401b5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f0401ad;
+    public static final int submitBackground=0x7f0401b6;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f0401ae;
+    public static final int subtitle=0x7f0401b7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f0401af;
+    public static final int subtitleTextAppearance=0x7f0401b8;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f0401b0;
+    public static final int subtitleTextColor=0x7f0401b9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f0401b1;
+    public static final int subtitleTextStyle=0x7f0401ba;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f0401b2;
+    public static final int suggestionRowLayout=0x7f0401bb;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int summary=0x7f0401b3;
+    public static final int summary=0x7f0401bc;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int summaryOff=0x7f0401b4;
+    public static final int summaryOff=0x7f0401bd;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int summaryOn=0x7f0401b5;
+    public static final int summaryOn=0x7f0401be;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3375,7 +3417,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f0401b6;
+    public static final int switchMinWidth=0x7f0401bf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3383,52 +3425,52 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f0401b7;
+    public static final int switchPadding=0x7f0401c0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchPreferenceCompatStyle=0x7f0401b8;
+    public static final int switchPreferenceCompatStyle=0x7f0401c1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchPreferenceStyle=0x7f0401b9;
+    public static final int switchPreferenceStyle=0x7f0401c2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f0401ba;
+    public static final int switchStyle=0x7f0401c3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f0401bb;
+    public static final int switchTextAppearance=0x7f0401c4;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int switchTextOff=0x7f0401bc;
+    public static final int switchTextOff=0x7f0401c5;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int switchTextOn=0x7f0401bd;
+    public static final int switchTextOn=0x7f0401c6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabBackground=0x7f0401be;
+    public static final int tabBackground=0x7f0401c7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3436,7 +3478,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabContentStart=0x7f0401bf;
+    public static final int tabContentStart=0x7f0401c8;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3448,13 +3490,13 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabGravity=0x7f0401c0;
+    public static final int tabGravity=0x7f0401c9;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIndicatorColor=0x7f0401c1;
+    public static final int tabIndicatorColor=0x7f0401ca;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3462,7 +3504,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabIndicatorHeight=0x7f0401c2;
+    public static final int tabIndicatorHeight=0x7f0401cb;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3470,7 +3512,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMaxWidth=0x7f0401c3;
+    public static final int tabMaxWidth=0x7f0401cc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3478,7 +3520,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMinWidth=0x7f0401c4;
+    public static final int tabMinWidth=0x7f0401cd;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3490,7 +3532,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabMode=0x7f0401c5;
+    public static final int tabMode=0x7f0401ce;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3498,7 +3540,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPadding=0x7f0401c6;
+    public static final int tabPadding=0x7f0401cf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3506,7 +3548,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingBottom=0x7f0401c7;
+    public static final int tabPaddingBottom=0x7f0401d0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3514,7 +3556,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingEnd=0x7f0401c8;
+    public static final int tabPaddingEnd=0x7f0401d1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3522,7 +3564,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingStart=0x7f0401c9;
+    public static final int tabPaddingStart=0x7f0401d2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3530,26 +3572,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingTop=0x7f0401ca;
+    public static final int tabPaddingTop=0x7f0401d3;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabSelectedTextColor=0x7f0401cb;
+    public static final int tabSelectedTextColor=0x7f0401d4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabTextAppearance=0x7f0401cc;
+    public static final int tabTextAppearance=0x7f0401d5;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabTextColor=0x7f0401cd;
+    public static final int tabTextColor=0x7f0401d6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3558,73 +3600,63 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f0401ce;
+    public static final int textAllCaps=0x7f0401d7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f0401cf;
+    public static final int textAppearanceLargePopupMenu=0x7f0401d8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f0401d0;
+    public static final int textAppearanceListItem=0x7f0401d9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f0401d1;
+    public static final int textAppearanceListItemSecondary=0x7f0401da;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f0401d2;
+    public static final int textAppearanceListItemSmall=0x7f0401db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f0401d3;
+    public static final int textAppearancePopupMenuHeader=0x7f0401dc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f0401d4;
+    public static final int textAppearanceSearchResultSubtitle=0x7f0401dd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f0401d5;
+    public static final int textAppearanceSearchResultTitle=0x7f0401de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f0401d6;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f0401d7;
+    public static final int textAppearanceSmallPopupMenu=0x7f0401df;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3634,7 +3666,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorError=0x7f0401d8;
+    public static final int textColorAlertDialogListItem=0x7f0401e0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3644,7 +3676,17 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f0401d9;
+    public static final int textColorError=0x7f0401e1;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f0401e2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3652,14 +3694,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int textSize=0x7f0401da;
+    public static final int textSize=0x7f0401e3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f0401db;
+    public static final int theme=0x7f0401e4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3667,7 +3709,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f0401dc;
+    public static final int thickness=0x7f0401e5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3675,13 +3717,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f0401dd;
+    public static final int thumbTextPadding=0x7f0401e6;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f0401de;
+    public static final int thumbTint=0x7f0401e7;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3697,20 +3739,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f0401df;
+    public static final int thumbTintMode=0x7f0401e8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f0401e0;
+    public static final int tickMark=0x7f0401e9;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f0401e1;
+    public static final int tickMarkTint=0x7f0401ea;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3726,17 +3768,17 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f0401e2;
+    public static final int tickMarkTintMode=0x7f0401eb;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int timeColumnResolution=0x7f0401e3;
+    public static final int timeColumnResolution=0x7f0401ec;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f0401e4;
+    public static final int tint=0x7f0401ed;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3751,17 +3793,17 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f0401e5;
+    public static final int tintMode=0x7f0401ee;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f0401e6;
+    public static final int title=0x7f0401ef;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int titleEnabled=0x7f0401e7;
+    public static final int titleEnabled=0x7f0401f0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3769,7 +3811,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f0401e8;
+    public static final int titleMargin=0x7f0401f1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3777,7 +3819,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f0401e9;
+    public static final int titleMarginBottom=0x7f0401f2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3785,7 +3827,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f0401ea;
+    public static final int titleMarginEnd=0x7f0401f3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3793,7 +3835,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f0401eb;
+    public static final int titleMarginStart=0x7f0401f4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3801,7 +3843,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f0401ec;
+    public static final int titleMarginTop=0x7f0401f5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3809,60 +3851,60 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f0401ed;
+    public static final int titleMargins=0x7f0401f6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f0401ee;
+    public static final int titleTextAppearance=0x7f0401f7;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f0401ef;
+    public static final int titleTextColor=0x7f0401f8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f0401f0;
+    public static final int titleTextStyle=0x7f0401f9;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int todayBackgroundColor=0x7f0401f1;
+    public static final int todayBackgroundColor=0x7f0401fa;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int todayHeaderTextColor=0x7f0401f2;
+    public static final int todayHeaderTextColor=0x7f0401fb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarId=0x7f0401f3;
+    public static final int toolbarId=0x7f0401fc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f0401f4;
+    public static final int toolbarNavigationButtonStyle=0x7f0401fd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f0401f5;
+    public static final int toolbarStyle=0x7f0401fe;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3872,32 +3914,32 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f0401f6;
+    public static final int tooltipForegroundColor=0x7f0401ff;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f0401f7;
+    public static final int tooltipFrameBackground=0x7f040200;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f0401f8;
+    public static final int tooltipText=0x7f040201;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f0401f9;
+    public static final int track=0x7f040202;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f0401fa;
+    public static final int trackTint=0x7f040203;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3913,46 +3955,46 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f0401fb;
+    public static final int trackTintMode=0x7f040204;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f0401fc;
+    public static final int useCompatPadding=0x7f040205;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int verticalFlingEnabled=0x7f0401fd;
+    public static final int verticalFlingEnabled=0x7f040206;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f0401fe;
+    public static final int voiceIcon=0x7f040207;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int widgetLayout=0x7f0401ff;
+    public static final int widgetLayout=0x7f040208;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f040200;
+    public static final int windowActionBar=0x7f040209;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f040201;
+    public static final int windowActionBarOverlay=0x7f04020a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f040202;
+    public static final int windowActionModeOverlay=0x7f04020b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3964,7 +4006,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f040203;
+    public static final int windowFixedHeightMajor=0x7f04020c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3976,7 +4018,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f040204;
+    public static final int windowFixedHeightMinor=0x7f04020d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3988,7 +4030,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f040205;
+    public static final int windowFixedWidthMajor=0x7f04020e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4000,7 +4042,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f040206;
+    public static final int windowFixedWidthMinor=0x7f04020f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4012,7 +4054,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f040207;
+    public static final int windowMinWidthMajor=0x7f040210;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4024,35 +4066,35 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f040208;
+    public static final int windowMinWidthMinor=0x7f040211;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f040209;
+    public static final int windowNoTitle=0x7f040212;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int xScrollingSpeed=0x7f04020a;
+    public static final int xScrollingSpeed=0x7f040213;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int yesNoPreferenceStyle=0x7f04020b;
+    public static final int yesNoPreferenceStyle=0x7f040214;
     /**
      * <p>May be a fractional value, which is a floating point number appended with
      * either % or %p, such as "<code>14.5%</code>".
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int zoomFocusPoint=0x7f04020c;
+    public static final int zoomFocusPoint=0x7f040215;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int zoomFocusPointEnabled=0x7f04020d;
+    public static final int zoomFocusPointEnabled=0x7f040216;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f050000;
@@ -4347,15 +4389,19 @@ public final class R {
     public static final int notification_subtext_size=0x7f070098;
     public static final int notification_top_pad=0x7f070099;
     public static final int notification_top_pad_large_text=0x7f07009a;
-    public static final int row_padding_vertical=0x7f07009b;
-    public static final int tooltip_corner_radius=0x7f07009c;
-    public static final int tooltip_horizontal_padding=0x7f07009d;
-    public static final int tooltip_margin=0x7f07009e;
-    public static final int tooltip_precise_anchor_extra_offset=0x7f07009f;
-    public static final int tooltip_precise_anchor_threshold=0x7f0700a0;
-    public static final int tooltip_vertical_padding=0x7f0700a1;
-    public static final int tooltip_y_offset_non_touch=0x7f0700a2;
-    public static final int tooltip_y_offset_touch=0x7f0700a3;
+    public static final int preference_icon_minWidth=0x7f07009b;
+    public static final int preference_seekbar_padding_end=0x7f07009c;
+    public static final int preference_seekbar_padding_start=0x7f07009d;
+    public static final int preference_seekbar_value_width=0x7f07009e;
+    public static final int row_padding_vertical=0x7f07009f;
+    public static final int tooltip_corner_radius=0x7f0700a0;
+    public static final int tooltip_horizontal_padding=0x7f0700a1;
+    public static final int tooltip_margin=0x7f0700a2;
+    public static final int tooltip_precise_anchor_extra_offset=0x7f0700a3;
+    public static final int tooltip_precise_anchor_threshold=0x7f0700a4;
+    public static final int tooltip_vertical_padding=0x7f0700a5;
+    public static final int tooltip_y_offset_non_touch=0x7f0700a6;
+    public static final int tooltip_y_offset_touch=0x7f0700a7;
   }
   public static final class drawable {
     public static final int abc_ab_share_pack_mtrl_alpha=0x7f080007;
@@ -4710,186 +4756,188 @@ public final class R {
     public static final int line3=0x7f0a00b2;
     public static final int list=0x7f0a00b3;
     public static final int listMode=0x7f0a00b4;
-    public static final int list_container=0x7f0a00b5;
-    public static final int list_item=0x7f0a00b6;
-    public static final int loc=0x7f0a00b7;
-    public static final int location_message=0x7f0a00b8;
-    public static final int location_text=0x7f0a00b9;
-    public static final int location_user=0x7f0a00ba;
-    public static final int loginLayout=0x7f0a00bb;
-    public static final int login_button=0x7f0a00bc;
-    public static final int logo=0x7f0a00bd;
-    public static final int masked=0x7f0a00be;
-    public static final int media_actions=0x7f0a00bf;
-    public static final int message=0x7f0a00c0;
-    public static final int middle=0x7f0a00c1;
-    public static final int mini=0x7f0a00c2;
-    public static final int monday=0x7f0a00c3;
-    public static final int multiply=0x7f0a00c4;
-    public static final int navBar_email=0x7f0a00c5;
-    public static final int navBar_username=0x7f0a00c6;
-    public static final int nav_activities=0x7f0a00c7;
-    public static final int nav_adminnotifications=0x7f0a00c8;
-    public static final int nav_approveActivities=0x7f0a00c9;
-    public static final int nav_approveClubs=0x7f0a00ca;
-    public static final int nav_clubactivities=0x7f0a00cb;
-    public static final int nav_clubnotifications=0x7f0a00cc;
-    public static final int nav_clubs=0x7f0a00cd;
-    public static final int nav_info=0x7f0a00ce;
-    public static final int nav_information=0x7f0a00cf;
-    public static final int nav_logout=0x7f0a00d0;
-    public static final int nav_notifications=0x7f0a00d1;
-    public static final int nav_profile=0x7f0a00d2;
-    public static final int nav_savedActivities=0x7f0a00d3;
-    public static final int nav_scheduler=0x7f0a00d4;
-    public static final int nav_settings=0x7f0a00d5;
-    public static final int nav_view=0x7f0a00d6;
-    public static final int navigation_header_container=0x7f0a00d7;
-    public static final int never=0x7f0a00d8;
-    public static final int none=0x7f0a00d9;
-    public static final int normal=0x7f0a00da;
-    public static final int notificationMessageHeadline=0x7f0a00db;
-    public static final int notification_background=0x7f0a00dc;
-    public static final int notification_club_list=0x7f0a00dd;
-    public static final int notification_main_column=0x7f0a00de;
-    public static final int notification_main_column_container=0x7f0a00df;
-    public static final int notification_user_list=0x7f0a00e0;
-    public static final int packed=0x7f0a00e1;
-    public static final int parallax=0x7f0a00e2;
-    public static final int parent=0x7f0a00e3;
-    public static final int parentPanel=0x7f0a00e4;
-    public static final int parent_matrix=0x7f0a00e5;
-    public static final int passcode_fab=0x7f0a00e6;
-    public static final int password=0x7f0a00e7;
-    public static final int password_signup=0x7f0a00e8;
-    public static final int password_signup2=0x7f0a00e9;
-    public static final int percent=0x7f0a00ea;
-    public static final int pin=0x7f0a00eb;
-    public static final int progress_circular=0x7f0a00ec;
-    public static final int progress_horizontal=0x7f0a00ed;
-    public static final int radio=0x7f0a00ee;
-    public static final int recycler_view=0x7f0a00ef;
-    public static final int right=0x7f0a00f0;
-    public static final int right_icon=0x7f0a00f1;
-    public static final int right_side=0x7f0a00f2;
-    public static final int saturday=0x7f0a00f3;
-    public static final int save_image_matrix=0x7f0a00f4;
-    public static final int save_non_transition_alpha=0x7f0a00f5;
-    public static final int save_scale_type=0x7f0a00f6;
-    public static final int saved_activitiesLayout=0x7f0a00f7;
-    public static final int saved_activities_list=0x7f0a00f8;
-    public static final int saved_activities_recycler_view=0x7f0a00f9;
-    public static final int saved_activity_name_user=0x7f0a00fa;
-    public static final int saved_club_name_user=0x7f0a00fb;
-    public static final int saved_date_user=0x7f0a00fc;
-    public static final int saved_description_user=0x7f0a00fd;
-    public static final int saved_ge_point_user=0x7f0a00fe;
-    public static final int saved_language_user=0x7f0a00ff;
-    public static final int saved_location_user=0x7f0a0100;
-    public static final int saved_time_user=0x7f0a0101;
-    public static final int screen=0x7f0a0102;
-    public static final int scroll=0x7f0a0103;
-    public static final int scrollIndicatorDown=0x7f0a0104;
-    public static final int scrollIndicatorUp=0x7f0a0105;
-    public static final int scrollView=0x7f0a0106;
-    public static final int scrollable=0x7f0a0107;
-    public static final int search_badge=0x7f0a0108;
-    public static final int search_bar=0x7f0a0109;
-    public static final int search_button=0x7f0a010a;
-    public static final int search_close_btn=0x7f0a010b;
-    public static final int search_edit_frame=0x7f0a010c;
-    public static final int search_go_btn=0x7f0a010d;
-    public static final int search_mag_icon=0x7f0a010e;
-    public static final int search_plate=0x7f0a010f;
-    public static final int search_src_text=0x7f0a0110;
-    public static final int search_voice_btn=0x7f0a0111;
-    public static final int select_dialog_listview=0x7f0a0112;
-    public static final int sendTo_spinner=0x7f0a0113;
-    public static final int setDate=0x7f0a0114;
-    public static final int setTime=0x7f0a0115;
-    public static final int shortcut=0x7f0a0116;
-    public static final int showCustom=0x7f0a0117;
-    public static final int showHome=0x7f0a0118;
-    public static final int showTitle=0x7f0a0119;
-    public static final int show_passcode=0x7f0a011a;
-    public static final int show_passcode_text=0x7f0a011b;
-    public static final int signup=0x7f0a011c;
-    public static final int signup_button=0x7f0a011d;
-    public static final int smallLabel=0x7f0a011e;
-    public static final int snackbar_action=0x7f0a011f;
-    public static final int snackbar_text=0x7f0a0120;
-    public static final int snap=0x7f0a0121;
-    public static final int spacer=0x7f0a0122;
-    public static final int spinnerText=0x7f0a0123;
-    public static final int split_action_bar=0x7f0a0124;
-    public static final int spread=0x7f0a0125;
-    public static final int spread_inside=0x7f0a0126;
-    public static final int src_atop=0x7f0a0127;
-    public static final int src_in=0x7f0a0128;
-    public static final int src_over=0x7f0a0129;
-    public static final int standard=0x7f0a012a;
-    public static final int start=0x7f0a012b;
-    public static final int status_bar_latest_event_content=0x7f0a012c;
-    public static final int status_text=0x7f0a012d;
-    public static final int submenuarrow=0x7f0a012e;
-    public static final int submit_area=0x7f0a012f;
-    public static final int sunday=0x7f0a0130;
-    public static final int swipe_refresh=0x7f0a0131;
-    public static final int swipe_refreshApprove=0x7f0a0132;
-    public static final int swipe_refreshClubAct=0x7f0a0133;
-    public static final int swipe_refreshUser=0x7f0a0134;
-    public static final int swipe_refreshUserAct=0x7f0a0135;
-    public static final int swipe_refreshUserSavedAct=0x7f0a0136;
-    public static final int switchWidget=0x7f0a0137;
-    public static final int tabMode=0x7f0a0138;
-    public static final int text=0x7f0a0139;
-    public static final int text2=0x7f0a013a;
-    public static final int textSpacerNoButtons=0x7f0a013b;
-    public static final int textSpacerNoTitle=0x7f0a013c;
-    public static final int textView=0x7f0a013d;
-    public static final int textView2=0x7f0a013e;
-    public static final int text_input_password_toggle=0x7f0a013f;
-    public static final int textinput_counter=0x7f0a0140;
-    public static final int textinput_error=0x7f0a0141;
-    public static final int thursday=0x7f0a0142;
-    public static final int time=0x7f0a0143;
-    public static final int time_message=0x7f0a0144;
-    public static final int time_text=0x7f0a0145;
-    public static final int time_user=0x7f0a0146;
-    public static final int title=0x7f0a0147;
-    public static final int title2=0x7f0a0148;
-    public static final int titleDividerNoCustom=0x7f0a0149;
-    public static final int title_template=0x7f0a014a;
-    public static final int toolbar=0x7f0a014b;
-    public static final int top=0x7f0a014c;
-    public static final int topPanel=0x7f0a014d;
-    public static final int touch_outside=0x7f0a014e;
-    public static final int transition_current_scene=0x7f0a014f;
-    public static final int transition_layout_save=0x7f0a0150;
-    public static final int transition_position=0x7f0a0151;
-    public static final int transition_scene_layoutid_cache=0x7f0a0152;
-    public static final int transition_transform=0x7f0a0153;
-    public static final int tuesday=0x7f0a0154;
-    public static final int uniform=0x7f0a0155;
-    public static final int up=0x7f0a0156;
-    public static final int useLogo=0x7f0a0157;
-    public static final int use_activitiesLayout=0x7f0a0158;
-    public static final int userInfo=0x7f0a0159;
-    public static final int user_activities_list=0x7f0a015a;
-    public static final int user_activities_recycler_view=0x7f0a015b;
-    public static final int user_imageButton=0x7f0a015c;
-    public static final int user_list_info=0x7f0a015d;
-    public static final int user_notificationsLayout=0x7f0a015e;
-    public static final int username=0x7f0a015f;
-    public static final int view_offset_helper=0x7f0a0160;
-    public static final int visible=0x7f0a0161;
-    public static final int wednesday=0x7f0a0162;
-    public static final int weekView=0x7f0a0163;
-    public static final int wide=0x7f0a0164;
-    public static final int withText=0x7f0a0165;
-    public static final int wrap=0x7f0a0166;
-    public static final int wrap_content=0x7f0a0167;
-    public static final int year=0x7f0a0168;
+    public static final int list_item=0x7f0a00b5;
+    public static final int loc=0x7f0a00b6;
+    public static final int location_message=0x7f0a00b7;
+    public static final int location_text=0x7f0a00b8;
+    public static final int location_user=0x7f0a00b9;
+    public static final int loginLayout=0x7f0a00ba;
+    public static final int login_button=0x7f0a00bb;
+    public static final int logo=0x7f0a00bc;
+    public static final int masked=0x7f0a00bd;
+    public static final int media_actions=0x7f0a00be;
+    public static final int message=0x7f0a00bf;
+    public static final int middle=0x7f0a00c0;
+    public static final int mini=0x7f0a00c1;
+    public static final int monday=0x7f0a00c2;
+    public static final int multiply=0x7f0a00c3;
+    public static final int navBar_email=0x7f0a00c4;
+    public static final int navBar_username=0x7f0a00c5;
+    public static final int nav_activities=0x7f0a00c6;
+    public static final int nav_adminnotifications=0x7f0a00c7;
+    public static final int nav_approveActivities=0x7f0a00c8;
+    public static final int nav_approveClubs=0x7f0a00c9;
+    public static final int nav_clubactivities=0x7f0a00ca;
+    public static final int nav_clubnotifications=0x7f0a00cb;
+    public static final int nav_clubs=0x7f0a00cc;
+    public static final int nav_info=0x7f0a00cd;
+    public static final int nav_information=0x7f0a00ce;
+    public static final int nav_logout=0x7f0a00cf;
+    public static final int nav_notifications=0x7f0a00d0;
+    public static final int nav_profile=0x7f0a00d1;
+    public static final int nav_savedActivities=0x7f0a00d2;
+    public static final int nav_scheduler=0x7f0a00d3;
+    public static final int nav_settings=0x7f0a00d4;
+    public static final int nav_view=0x7f0a00d5;
+    public static final int navigation_header_container=0x7f0a00d6;
+    public static final int never=0x7f0a00d7;
+    public static final int none=0x7f0a00d8;
+    public static final int normal=0x7f0a00d9;
+    public static final int notificationMessageHeadline=0x7f0a00da;
+    public static final int notification_background=0x7f0a00db;
+    public static final int notification_club_list=0x7f0a00dc;
+    public static final int notification_main_column=0x7f0a00dd;
+    public static final int notification_main_column_container=0x7f0a00de;
+    public static final int notification_user_list=0x7f0a00df;
+    public static final int packed=0x7f0a00e0;
+    public static final int parallax=0x7f0a00e1;
+    public static final int parent=0x7f0a00e2;
+    public static final int parentPanel=0x7f0a00e3;
+    public static final int parent_matrix=0x7f0a00e4;
+    public static final int passcode_fab=0x7f0a00e5;
+    public static final int password=0x7f0a00e6;
+    public static final int password_signup=0x7f0a00e7;
+    public static final int password_signup2=0x7f0a00e8;
+    public static final int percent=0x7f0a00e9;
+    public static final int pin=0x7f0a00ea;
+    public static final int progress_circular=0x7f0a00eb;
+    public static final int progress_horizontal=0x7f0a00ec;
+    public static final int radio=0x7f0a00ed;
+    public static final int recycler_view=0x7f0a00ee;
+    public static final int right=0x7f0a00ef;
+    public static final int right_icon=0x7f0a00f0;
+    public static final int right_side=0x7f0a00f1;
+    public static final int saturday=0x7f0a00f2;
+    public static final int save_image_matrix=0x7f0a00f3;
+    public static final int save_non_transition_alpha=0x7f0a00f4;
+    public static final int save_scale_type=0x7f0a00f5;
+    public static final int saved_activitiesLayout=0x7f0a00f6;
+    public static final int saved_activities_list=0x7f0a00f7;
+    public static final int saved_activities_recycler_view=0x7f0a00f8;
+    public static final int saved_activity_name_user=0x7f0a00f9;
+    public static final int saved_club_name_user=0x7f0a00fa;
+    public static final int saved_date_user=0x7f0a00fb;
+    public static final int saved_description_user=0x7f0a00fc;
+    public static final int saved_ge_point_user=0x7f0a00fd;
+    public static final int saved_language_user=0x7f0a00fe;
+    public static final int saved_location_user=0x7f0a00ff;
+    public static final int saved_time_user=0x7f0a0100;
+    public static final int screen=0x7f0a0101;
+    public static final int scroll=0x7f0a0102;
+    public static final int scrollIndicatorDown=0x7f0a0103;
+    public static final int scrollIndicatorUp=0x7f0a0104;
+    public static final int scrollView=0x7f0a0105;
+    public static final int scrollable=0x7f0a0106;
+    public static final int search_badge=0x7f0a0107;
+    public static final int search_bar=0x7f0a0108;
+    public static final int search_button=0x7f0a0109;
+    public static final int search_close_btn=0x7f0a010a;
+    public static final int search_edit_frame=0x7f0a010b;
+    public static final int search_go_btn=0x7f0a010c;
+    public static final int search_mag_icon=0x7f0a010d;
+    public static final int search_plate=0x7f0a010e;
+    public static final int search_src_text=0x7f0a010f;
+    public static final int search_voice_btn=0x7f0a0110;
+    public static final int seekbar=0x7f0a0111;
+    public static final int seekbar_value=0x7f0a0112;
+    public static final int select_dialog_listview=0x7f0a0113;
+    public static final int sendTo_spinner=0x7f0a0114;
+    public static final int setDate=0x7f0a0115;
+    public static final int setTime=0x7f0a0116;
+    public static final int shortcut=0x7f0a0117;
+    public static final int showCustom=0x7f0a0118;
+    public static final int showHome=0x7f0a0119;
+    public static final int showTitle=0x7f0a011a;
+    public static final int show_passcode=0x7f0a011b;
+    public static final int show_passcode_text=0x7f0a011c;
+    public static final int signup=0x7f0a011d;
+    public static final int signup_button=0x7f0a011e;
+    public static final int smallLabel=0x7f0a011f;
+    public static final int snackbar_action=0x7f0a0120;
+    public static final int snackbar_text=0x7f0a0121;
+    public static final int snap=0x7f0a0122;
+    public static final int spacer=0x7f0a0123;
+    public static final int spinner=0x7f0a0124;
+    public static final int spinnerText=0x7f0a0125;
+    public static final int split_action_bar=0x7f0a0126;
+    public static final int spread=0x7f0a0127;
+    public static final int spread_inside=0x7f0a0128;
+    public static final int src_atop=0x7f0a0129;
+    public static final int src_in=0x7f0a012a;
+    public static final int src_over=0x7f0a012b;
+    public static final int standard=0x7f0a012c;
+    public static final int start=0x7f0a012d;
+    public static final int status_bar_latest_event_content=0x7f0a012e;
+    public static final int status_text=0x7f0a012f;
+    public static final int submenuarrow=0x7f0a0130;
+    public static final int submit_area=0x7f0a0131;
+    public static final int sunday=0x7f0a0132;
+    public static final int swipe_refresh=0x7f0a0133;
+    public static final int swipe_refreshApprove=0x7f0a0134;
+    public static final int swipe_refreshClubAct=0x7f0a0135;
+    public static final int swipe_refreshUser=0x7f0a0136;
+    public static final int swipe_refreshUserAct=0x7f0a0137;
+    public static final int swipe_refreshUserSavedAct=0x7f0a0138;
+    public static final int switchWidget=0x7f0a0139;
+    public static final int tabMode=0x7f0a013a;
+    public static final int text=0x7f0a013b;
+    public static final int text2=0x7f0a013c;
+    public static final int textSpacerNoButtons=0x7f0a013d;
+    public static final int textSpacerNoTitle=0x7f0a013e;
+    public static final int textView=0x7f0a013f;
+    public static final int textView2=0x7f0a0140;
+    public static final int text_input_password_toggle=0x7f0a0141;
+    public static final int textinput_counter=0x7f0a0142;
+    public static final int textinput_error=0x7f0a0143;
+    public static final int thursday=0x7f0a0144;
+    public static final int time=0x7f0a0145;
+    public static final int time_message=0x7f0a0146;
+    public static final int time_text=0x7f0a0147;
+    public static final int time_user=0x7f0a0148;
+    public static final int title=0x7f0a0149;
+    public static final int title2=0x7f0a014a;
+    public static final int titleDividerNoCustom=0x7f0a014b;
+    public static final int title_template=0x7f0a014c;
+    public static final int toolbar=0x7f0a014d;
+    public static final int top=0x7f0a014e;
+    public static final int topPanel=0x7f0a014f;
+    public static final int touch_outside=0x7f0a0150;
+    public static final int transition_current_scene=0x7f0a0151;
+    public static final int transition_layout_save=0x7f0a0152;
+    public static final int transition_position=0x7f0a0153;
+    public static final int transition_scene_layoutid_cache=0x7f0a0154;
+    public static final int transition_transform=0x7f0a0155;
+    public static final int tuesday=0x7f0a0156;
+    public static final int uniform=0x7f0a0157;
+    public static final int up=0x7f0a0158;
+    public static final int useLogo=0x7f0a0159;
+    public static final int use_activitiesLayout=0x7f0a015a;
+    public static final int userInfo=0x7f0a015b;
+    public static final int user_activities_list=0x7f0a015c;
+    public static final int user_activities_recycler_view=0x7f0a015d;
+    public static final int user_imageButton=0x7f0a015e;
+    public static final int user_list_info=0x7f0a015f;
+    public static final int user_notificationsLayout=0x7f0a0160;
+    public static final int username=0x7f0a0161;
+    public static final int view_offset_helper=0x7f0a0162;
+    public static final int visible=0x7f0a0163;
+    public static final int wednesday=0x7f0a0164;
+    public static final int weekView=0x7f0a0165;
+    public static final int wide=0x7f0a0166;
+    public static final int withText=0x7f0a0167;
+    public static final int wrap=0x7f0a0168;
+    public static final int wrap_content=0x7f0a0169;
+    public static final int year=0x7f0a016a;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0b0000;
@@ -4997,33 +5045,37 @@ public final class R {
     public static final int preference_category=0x7f0c0059;
     public static final int preference_category_material=0x7f0c005a;
     public static final int preference_dialog_edittext=0x7f0c005b;
-    public static final int preference_information=0x7f0c005c;
-    public static final int preference_information_material=0x7f0c005d;
-    public static final int preference_list_fragment=0x7f0c005e;
-    public static final int preference_material=0x7f0c005f;
-    public static final int preference_recyclerview=0x7f0c0060;
-    public static final int preference_widget_checkbox=0x7f0c0061;
-    public static final int preference_widget_switch=0x7f0c0062;
-    public static final int preference_widget_switch_compat=0x7f0c0063;
-    public static final int saved_activities=0x7f0c0064;
-    public static final int saved_activities_list=0x7f0c0065;
-    public static final int scheduler_faq=0x7f0c0066;
-    public static final int select_dialog_item_material=0x7f0c0067;
-    public static final int select_dialog_multichoice_material=0x7f0c0068;
-    public static final int select_dialog_singlechoice_material=0x7f0c0069;
-    public static final int settings_user_faq=0x7f0c006a;
-    public static final int signup=0x7f0c006b;
-    public static final int smart_scheduler=0x7f0c006c;
-    public static final int splashscreen=0x7f0c006d;
-    public static final int support_simple_spinner_dropdown_item=0x7f0c006e;
-    public static final int tooltip=0x7f0c006f;
-    public static final int user_activities=0x7f0c0070;
-    public static final int user_activities_faq=0x7f0c0071;
-    public static final int user_activities_list=0x7f0c0072;
-    public static final int user_club_faq=0x7f0c0073;
-    public static final int user_club_list=0x7f0c0074;
-    public static final int user_clubs=0x7f0c0075;
-    public static final int user_information=0x7f0c0076;
+    public static final int preference_dropdown=0x7f0c005c;
+    public static final int preference_dropdown_material=0x7f0c005d;
+    public static final int preference_information=0x7f0c005e;
+    public static final int preference_information_material=0x7f0c005f;
+    public static final int preference_list_fragment=0x7f0c0060;
+    public static final int preference_material=0x7f0c0061;
+    public static final int preference_recyclerview=0x7f0c0062;
+    public static final int preference_widget_checkbox=0x7f0c0063;
+    public static final int preference_widget_seekbar=0x7f0c0064;
+    public static final int preference_widget_seekbar_material=0x7f0c0065;
+    public static final int preference_widget_switch=0x7f0c0066;
+    public static final int preference_widget_switch_compat=0x7f0c0067;
+    public static final int saved_activities=0x7f0c0068;
+    public static final int saved_activities_list=0x7f0c0069;
+    public static final int scheduler_faq=0x7f0c006a;
+    public static final int select_dialog_item_material=0x7f0c006b;
+    public static final int select_dialog_multichoice_material=0x7f0c006c;
+    public static final int select_dialog_singlechoice_material=0x7f0c006d;
+    public static final int settings_user_faq=0x7f0c006e;
+    public static final int signup=0x7f0c006f;
+    public static final int smart_scheduler=0x7f0c0070;
+    public static final int splashscreen=0x7f0c0071;
+    public static final int support_simple_spinner_dropdown_item=0x7f0c0072;
+    public static final int tooltip=0x7f0c0073;
+    public static final int user_activities=0x7f0c0074;
+    public static final int user_activities_faq=0x7f0c0075;
+    public static final int user_activities_list=0x7f0c0076;
+    public static final int user_club_faq=0x7f0c0077;
+    public static final int user_club_list=0x7f0c0078;
+    public static final int user_clubs=0x7f0c0079;
+    public static final int user_information=0x7f0c007a;
   }
   public static final class menu {
     public static final int activity_user__account_drawer=0x7f0d0000;
@@ -5372,238 +5424,242 @@ public final class R {
     public static final int Preference_DialogPreference_EditTextPreference=0x7f1000c4;
     public static final int Preference_DialogPreference_EditTextPreference_Material=0x7f1000c5;
     public static final int Preference_DialogPreference_Material=0x7f1000c6;
-    public static final int Preference_Information=0x7f1000c7;
-    public static final int Preference_Information_Material=0x7f1000c8;
-    public static final int Preference_Material=0x7f1000c9;
-    public static final int Preference_PreferenceScreen=0x7f1000ca;
-    public static final int Preference_PreferenceScreen_Material=0x7f1000cb;
-    public static final int Preference_SwitchPreference=0x7f1000cc;
-    public static final int Preference_SwitchPreference_Material=0x7f1000cd;
-    public static final int Preference_SwitchPreferenceCompat=0x7f1000ce;
-    public static final int Preference_SwitchPreferenceCompat_Material=0x7f1000cf;
-    public static final int PreferenceFragment=0x7f1000d0;
-    public static final int PreferenceFragment_Material=0x7f1000d1;
-    public static final int PreferenceFragmentList=0x7f1000d2;
-    public static final int PreferenceFragmentList_Material=0x7f1000d3;
-    public static final int PreferenceThemeOverlay=0x7f1000d4;
-    public static final int PreferenceThemeOverlay_v14=0x7f1000d5;
-    public static final int PreferenceThemeOverlay_v14_Material=0x7f1000d6;
-    public static final int Preference_TextAppearanceMaterialBody2=0x7f1000d7;
-    public static final int Preference_TextAppearanceMaterialSubhead=0x7f1000d8;
-    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f1000d9;
-    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f1000da;
-    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f1000db;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f1000dc;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f1000dd;
-    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f1000de;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f1000df;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f1000e0;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f1000e1;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f1000e2;
-    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f1000e3;
-    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f1000e4;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f1000e5;
-    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f1000e6;
-    public static final int TextAppearance_AppCompat=0x7f1000e7;
-    public static final int TextAppearance_AppCompat_Body1=0x7f1000e8;
-    public static final int TextAppearance_AppCompat_Body2=0x7f1000e9;
-    public static final int TextAppearance_AppCompat_Button=0x7f1000ea;
-    public static final int TextAppearance_AppCompat_Caption=0x7f1000eb;
-    public static final int TextAppearance_AppCompat_Display1=0x7f1000ec;
-    public static final int TextAppearance_AppCompat_Display2=0x7f1000ed;
-    public static final int TextAppearance_AppCompat_Display3=0x7f1000ee;
-    public static final int TextAppearance_AppCompat_Display4=0x7f1000ef;
-    public static final int TextAppearance_AppCompat_Headline=0x7f1000f0;
-    public static final int TextAppearance_AppCompat_Inverse=0x7f1000f1;
-    public static final int TextAppearance_AppCompat_Large=0x7f1000f2;
-    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f1000f3;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f1000f4;
-    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f1000f5;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f1000f6;
-    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f1000f7;
-    public static final int TextAppearance_AppCompat_Medium=0x7f1000f8;
-    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f1000f9;
-    public static final int TextAppearance_AppCompat_Menu=0x7f1000fa;
-    public static final int TextAppearance_AppCompat_Notification=0x7f1000fb;
-    public static final int TextAppearance_AppCompat_Notification_Info=0x7f1000fc;
-    public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f1000fd;
-    public static final int TextAppearance_AppCompat_Notification_Line2=0x7f1000fe;
-    public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f1000ff;
-    public static final int TextAppearance_AppCompat_Notification_Media=0x7f100100;
-    public static final int TextAppearance_AppCompat_Notification_Time=0x7f100101;
-    public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f100102;
-    public static final int TextAppearance_AppCompat_Notification_Title=0x7f100103;
-    public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f100104;
-    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f100105;
-    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f100106;
-    public static final int TextAppearance_AppCompat_Small=0x7f100107;
-    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f100108;
-    public static final int TextAppearance_AppCompat_Subhead=0x7f100109;
-    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f10010a;
-    public static final int TextAppearance_AppCompat_Title=0x7f10010b;
-    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f10010c;
-    public static final int TextAppearance_AppCompat_Tooltip=0x7f10010d;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f10010e;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f10010f;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f100110;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f100111;
-    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f100112;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f100113;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f100114;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f100115;
-    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f100116;
-    public static final int TextAppearance_AppCompat_Widget_Button=0x7f100117;
-    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f100118;
-    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f100119;
-    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f10011a;
-    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f10011b;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f10011c;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f10011d;
-    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f10011e;
-    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f10011f;
-    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f100120;
-    public static final int TextAppearance_Compat_Notification=0x7f100121;
-    public static final int TextAppearance_Compat_Notification_Info=0x7f100122;
-    public static final int TextAppearance_Compat_Notification_Info_Media=0x7f100123;
-    public static final int TextAppearance_Compat_Notification_Line2=0x7f100124;
-    public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f100125;
-    public static final int TextAppearance_Compat_Notification_Media=0x7f100126;
-    public static final int TextAppearance_Compat_Notification_Time=0x7f100127;
-    public static final int TextAppearance_Compat_Notification_Time_Media=0x7f100128;
-    public static final int TextAppearance_Compat_Notification_Title=0x7f100129;
-    public static final int TextAppearance_Compat_Notification_Title_Media=0x7f10012a;
-    public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f10012b;
-    public static final int TextAppearance_Design_Counter=0x7f10012c;
-    public static final int TextAppearance_Design_Counter_Overflow=0x7f10012d;
-    public static final int TextAppearance_Design_Error=0x7f10012e;
-    public static final int TextAppearance_Design_Hint=0x7f10012f;
-    public static final int TextAppearance_Design_Snackbar_Message=0x7f100130;
-    public static final int TextAppearance_Design_Tab=0x7f100131;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f100132;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f100133;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f100134;
-    public static final int Theme_AppCompat=0x7f100135;
-    public static final int Theme_AppCompat_CompactMenu=0x7f100136;
-    public static final int Theme_AppCompat_DayNight=0x7f100137;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f100138;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f100139;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f10013a;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f10013b;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f10013c;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f10013d;
-    public static final int Theme_AppCompat_Dialog=0x7f10013e;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f10013f;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f100140;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f100141;
-    public static final int Theme_AppCompat_Light=0x7f100142;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f100143;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f100144;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f100145;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f100146;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f100147;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f100148;
-    public static final int Theme_AppCompat_NoActionBar=0x7f100149;
-    public static final int Theme_Design=0x7f10014a;
-    public static final int Theme_Design_BottomSheetDialog=0x7f10014b;
-    public static final int Theme_Design_Light=0x7f10014c;
-    public static final int Theme_Design_Light_BottomSheetDialog=0x7f10014d;
-    public static final int Theme_Design_Light_NoActionBar=0x7f10014e;
-    public static final int Theme_Design_NoActionBar=0x7f10014f;
-    public static final int ThemeOverlay_AppCompat=0x7f100150;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f100151;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f100152;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f100153;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f100154;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f100155;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f100156;
-    public static final int Widget_AppCompat_ActionBar=0x7f100157;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f100158;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f100159;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f10015a;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f10015b;
-    public static final int Widget_AppCompat_ActionButton=0x7f10015c;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f10015d;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f10015e;
-    public static final int Widget_AppCompat_ActionMode=0x7f10015f;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f100160;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f100161;
-    public static final int Widget_AppCompat_Button=0x7f100162;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f100163;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f100164;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f100165;
-    public static final int Widget_AppCompat_Button_Colored=0x7f100166;
-    public static final int Widget_AppCompat_Button_Small=0x7f100167;
-    public static final int Widget_AppCompat_ButtonBar=0x7f100168;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f100169;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f10016a;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f10016b;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f10016c;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f10016d;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f10016e;
-    public static final int Widget_AppCompat_EditText=0x7f10016f;
-    public static final int Widget_AppCompat_ImageButton=0x7f100170;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f100171;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f100172;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f100173;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f100174;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f100175;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f100176;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f100177;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f100178;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f100179;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f10017a;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f10017b;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f10017c;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f10017d;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f10017e;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f10017f;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f100180;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f100181;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f100182;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f100183;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f100184;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f100185;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f100186;
-    public static final int Widget_AppCompat_ListMenuView=0x7f100187;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f100188;
-    public static final int Widget_AppCompat_ListView=0x7f100189;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f10018a;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f10018b;
-    public static final int Widget_AppCompat_PopupMenu=0x7f10018c;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f10018d;
-    public static final int Widget_AppCompat_PopupWindow=0x7f10018e;
-    public static final int Widget_AppCompat_ProgressBar=0x7f10018f;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f100190;
-    public static final int Widget_AppCompat_RatingBar=0x7f100191;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f100192;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f100193;
-    public static final int Widget_AppCompat_SearchView=0x7f100194;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f100195;
-    public static final int Widget_AppCompat_SeekBar=0x7f100196;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f100197;
-    public static final int Widget_AppCompat_Spinner=0x7f100198;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f100199;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f10019a;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f10019b;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f10019c;
-    public static final int Widget_AppCompat_Toolbar=0x7f10019d;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f10019e;
-    public static final int Widget_Compat_NotificationActionContainer=0x7f10019f;
-    public static final int Widget_Compat_NotificationActionText=0x7f1001a0;
-    public static final int Widget_Design_AppBarLayout=0x7f1001a1;
-    public static final int Widget_Design_BottomNavigationView=0x7f1001a2;
-    public static final int Widget_Design_BottomSheet_Modal=0x7f1001a3;
-    public static final int Widget_Design_CollapsingToolbar=0x7f1001a4;
-    public static final int Widget_Design_CoordinatorLayout=0x7f1001a5;
-    public static final int Widget_Design_FloatingActionButton=0x7f1001a6;
-    public static final int Widget_Design_NavigationView=0x7f1001a7;
-    public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f1001a8;
-    public static final int Widget_Design_Snackbar=0x7f1001a9;
-    public static final int Widget_Design_TabLayout=0x7f1001aa;
-    public static final int Widget_Design_TextInputLayout=0x7f1001ab;
-    public static final int bg=0x7f1001ac;
-    public static final int button_style=0x7f1001ad;
-    public static final int loginFields_style=0x7f1001ae;
+    public static final int Preference_DropDown=0x7f1000c7;
+    public static final int Preference_DropDown_Material=0x7f1000c8;
+    public static final int Preference_Information=0x7f1000c9;
+    public static final int Preference_Information_Material=0x7f1000ca;
+    public static final int Preference_Material=0x7f1000cb;
+    public static final int Preference_PreferenceScreen=0x7f1000cc;
+    public static final int Preference_PreferenceScreen_Material=0x7f1000cd;
+    public static final int Preference_SeekBarPreference=0x7f1000ce;
+    public static final int Preference_SeekBarPreference_Material=0x7f1000cf;
+    public static final int Preference_SwitchPreference=0x7f1000d0;
+    public static final int Preference_SwitchPreference_Material=0x7f1000d1;
+    public static final int Preference_SwitchPreferenceCompat=0x7f1000d2;
+    public static final int Preference_SwitchPreferenceCompat_Material=0x7f1000d3;
+    public static final int PreferenceFragment=0x7f1000d4;
+    public static final int PreferenceFragment_Material=0x7f1000d5;
+    public static final int PreferenceFragmentList=0x7f1000d6;
+    public static final int PreferenceFragmentList_Material=0x7f1000d7;
+    public static final int PreferenceThemeOverlay=0x7f1000d8;
+    public static final int PreferenceThemeOverlay_v14=0x7f1000d9;
+    public static final int PreferenceThemeOverlay_v14_Material=0x7f1000da;
+    public static final int Preference_TextAppearanceMaterialBody2=0x7f1000db;
+    public static final int Preference_TextAppearanceMaterialSubhead=0x7f1000dc;
+    public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f1000dd;
+    public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f1000de;
+    public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f1000df;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f1000e0;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f1000e1;
+    public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f1000e2;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f1000e3;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f1000e4;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f1000e5;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f1000e6;
+    public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f1000e7;
+    public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f1000e8;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f1000e9;
+    public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f1000ea;
+    public static final int TextAppearance_AppCompat=0x7f1000eb;
+    public static final int TextAppearance_AppCompat_Body1=0x7f1000ec;
+    public static final int TextAppearance_AppCompat_Body2=0x7f1000ed;
+    public static final int TextAppearance_AppCompat_Button=0x7f1000ee;
+    public static final int TextAppearance_AppCompat_Caption=0x7f1000ef;
+    public static final int TextAppearance_AppCompat_Display1=0x7f1000f0;
+    public static final int TextAppearance_AppCompat_Display2=0x7f1000f1;
+    public static final int TextAppearance_AppCompat_Display3=0x7f1000f2;
+    public static final int TextAppearance_AppCompat_Display4=0x7f1000f3;
+    public static final int TextAppearance_AppCompat_Headline=0x7f1000f4;
+    public static final int TextAppearance_AppCompat_Inverse=0x7f1000f5;
+    public static final int TextAppearance_AppCompat_Large=0x7f1000f6;
+    public static final int TextAppearance_AppCompat_Large_Inverse=0x7f1000f7;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f1000f8;
+    public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f1000f9;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f1000fa;
+    public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f1000fb;
+    public static final int TextAppearance_AppCompat_Medium=0x7f1000fc;
+    public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f1000fd;
+    public static final int TextAppearance_AppCompat_Menu=0x7f1000fe;
+    public static final int TextAppearance_AppCompat_Notification=0x7f1000ff;
+    public static final int TextAppearance_AppCompat_Notification_Info=0x7f100100;
+    public static final int TextAppearance_AppCompat_Notification_Info_Media=0x7f100101;
+    public static final int TextAppearance_AppCompat_Notification_Line2=0x7f100102;
+    public static final int TextAppearance_AppCompat_Notification_Line2_Media=0x7f100103;
+    public static final int TextAppearance_AppCompat_Notification_Media=0x7f100104;
+    public static final int TextAppearance_AppCompat_Notification_Time=0x7f100105;
+    public static final int TextAppearance_AppCompat_Notification_Time_Media=0x7f100106;
+    public static final int TextAppearance_AppCompat_Notification_Title=0x7f100107;
+    public static final int TextAppearance_AppCompat_Notification_Title_Media=0x7f100108;
+    public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f100109;
+    public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f10010a;
+    public static final int TextAppearance_AppCompat_Small=0x7f10010b;
+    public static final int TextAppearance_AppCompat_Small_Inverse=0x7f10010c;
+    public static final int TextAppearance_AppCompat_Subhead=0x7f10010d;
+    public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f10010e;
+    public static final int TextAppearance_AppCompat_Title=0x7f10010f;
+    public static final int TextAppearance_AppCompat_Title_Inverse=0x7f100110;
+    public static final int TextAppearance_AppCompat_Tooltip=0x7f100111;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f100112;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f100113;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f100114;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f100115;
+    public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f100116;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f100117;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f100118;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f100119;
+    public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f10011a;
+    public static final int TextAppearance_AppCompat_Widget_Button=0x7f10011b;
+    public static final int TextAppearance_AppCompat_Widget_Button_Borderless_Colored=0x7f10011c;
+    public static final int TextAppearance_AppCompat_Widget_Button_Colored=0x7f10011d;
+    public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f10011e;
+    public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f10011f;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Header=0x7f100120;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f100121;
+    public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f100122;
+    public static final int TextAppearance_AppCompat_Widget_Switch=0x7f100123;
+    public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f100124;
+    public static final int TextAppearance_Compat_Notification=0x7f100125;
+    public static final int TextAppearance_Compat_Notification_Info=0x7f100126;
+    public static final int TextAppearance_Compat_Notification_Info_Media=0x7f100127;
+    public static final int TextAppearance_Compat_Notification_Line2=0x7f100128;
+    public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f100129;
+    public static final int TextAppearance_Compat_Notification_Media=0x7f10012a;
+    public static final int TextAppearance_Compat_Notification_Time=0x7f10012b;
+    public static final int TextAppearance_Compat_Notification_Time_Media=0x7f10012c;
+    public static final int TextAppearance_Compat_Notification_Title=0x7f10012d;
+    public static final int TextAppearance_Compat_Notification_Title_Media=0x7f10012e;
+    public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f10012f;
+    public static final int TextAppearance_Design_Counter=0x7f100130;
+    public static final int TextAppearance_Design_Counter_Overflow=0x7f100131;
+    public static final int TextAppearance_Design_Error=0x7f100132;
+    public static final int TextAppearance_Design_Hint=0x7f100133;
+    public static final int TextAppearance_Design_Snackbar_Message=0x7f100134;
+    public static final int TextAppearance_Design_Tab=0x7f100135;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f100136;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f100137;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f100138;
+    public static final int Theme_AppCompat=0x7f100139;
+    public static final int Theme_AppCompat_CompactMenu=0x7f10013a;
+    public static final int Theme_AppCompat_DayNight=0x7f10013b;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f10013c;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f10013d;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f10013e;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f10013f;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f100140;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f100141;
+    public static final int Theme_AppCompat_Dialog=0x7f100142;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f100143;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f100144;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f100145;
+    public static final int Theme_AppCompat_Light=0x7f100146;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f100147;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f100148;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f100149;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f10014a;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f10014b;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f10014c;
+    public static final int Theme_AppCompat_NoActionBar=0x7f10014d;
+    public static final int Theme_Design=0x7f10014e;
+    public static final int Theme_Design_BottomSheetDialog=0x7f10014f;
+    public static final int Theme_Design_Light=0x7f100150;
+    public static final int Theme_Design_Light_BottomSheetDialog=0x7f100151;
+    public static final int Theme_Design_Light_NoActionBar=0x7f100152;
+    public static final int Theme_Design_NoActionBar=0x7f100153;
+    public static final int ThemeOverlay_AppCompat=0x7f100154;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f100155;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f100156;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f100157;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f100158;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f100159;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f10015a;
+    public static final int Widget_AppCompat_ActionBar=0x7f10015b;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f10015c;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f10015d;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f10015e;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f10015f;
+    public static final int Widget_AppCompat_ActionButton=0x7f100160;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f100161;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f100162;
+    public static final int Widget_AppCompat_ActionMode=0x7f100163;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f100164;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f100165;
+    public static final int Widget_AppCompat_Button=0x7f100166;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f100167;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f100168;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f100169;
+    public static final int Widget_AppCompat_Button_Colored=0x7f10016a;
+    public static final int Widget_AppCompat_Button_Small=0x7f10016b;
+    public static final int Widget_AppCompat_ButtonBar=0x7f10016c;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f10016d;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f10016e;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f10016f;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f100170;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f100171;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f100172;
+    public static final int Widget_AppCompat_EditText=0x7f100173;
+    public static final int Widget_AppCompat_ImageButton=0x7f100174;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f100175;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f100176;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f100177;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f100178;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f100179;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f10017a;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f10017b;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f10017c;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f10017d;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f10017e;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f10017f;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f100180;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f100181;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f100182;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f100183;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f100184;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f100185;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f100186;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f100187;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f100188;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f100189;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f10018a;
+    public static final int Widget_AppCompat_ListMenuView=0x7f10018b;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f10018c;
+    public static final int Widget_AppCompat_ListView=0x7f10018d;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f10018e;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f10018f;
+    public static final int Widget_AppCompat_PopupMenu=0x7f100190;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f100191;
+    public static final int Widget_AppCompat_PopupWindow=0x7f100192;
+    public static final int Widget_AppCompat_ProgressBar=0x7f100193;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f100194;
+    public static final int Widget_AppCompat_RatingBar=0x7f100195;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f100196;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f100197;
+    public static final int Widget_AppCompat_SearchView=0x7f100198;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f100199;
+    public static final int Widget_AppCompat_SeekBar=0x7f10019a;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f10019b;
+    public static final int Widget_AppCompat_Spinner=0x7f10019c;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f10019d;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f10019e;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f10019f;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f1001a0;
+    public static final int Widget_AppCompat_Toolbar=0x7f1001a1;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f1001a2;
+    public static final int Widget_Compat_NotificationActionContainer=0x7f1001a3;
+    public static final int Widget_Compat_NotificationActionText=0x7f1001a4;
+    public static final int Widget_Design_AppBarLayout=0x7f1001a5;
+    public static final int Widget_Design_BottomNavigationView=0x7f1001a6;
+    public static final int Widget_Design_BottomSheet_Modal=0x7f1001a7;
+    public static final int Widget_Design_CollapsingToolbar=0x7f1001a8;
+    public static final int Widget_Design_CoordinatorLayout=0x7f1001a9;
+    public static final int Widget_Design_FloatingActionButton=0x7f1001aa;
+    public static final int Widget_Design_NavigationView=0x7f1001ab;
+    public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f1001ac;
+    public static final int Widget_Design_Snackbar=0x7f1001ad;
+    public static final int Widget_Design_TabLayout=0x7f1001ae;
+    public static final int Widget_Design_TextInputLayout=0x7f1001af;
+    public static final int bg=0x7f1001b0;
+    public static final int button_style=0x7f1001b1;
+    public static final int loginFields_style=0x7f1001b2;
   }
   public static final class styleable {
     /**
@@ -5613,35 +5669,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.example.www.bilx:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.example.www.bilx:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.example.www.bilx:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.www.bilx:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.example.www.bilx:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.www.bilx:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.example.www.bilx:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.example.www.bilx:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.example.www.bilx:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.www.bilx:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.example.www.bilx:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.example.www.bilx:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.example.www.bilx:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.example.www.bilx:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.www.bilx:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.www.bilx:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.example.www.bilx:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.example.www.bilx:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.www.bilx:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.example.www.bilx:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.example.www.bilx:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.example.www.bilx:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.example.www.bilx:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.example.www.bilx:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.example.www.bilx:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.example.www.bilx:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.www.bilx:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.example.www.bilx:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.example.www.bilx:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background hab.bilx:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit hab.bilx:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked hab.bilx:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd hab.bilx:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions hab.bilx:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft hab.bilx:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight hab.bilx:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart hab.bilx:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation hab.bilx:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout hab.bilx:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions hab.bilx:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider hab.bilx:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation hab.bilx:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height hab.bilx:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll hab.bilx:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator hab.bilx:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout hab.bilx:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon hab.bilx:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle hab.bilx:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding hab.bilx:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo hab.bilx:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode hab.bilx:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme hab.bilx:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding hab.bilx:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle hab.bilx:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle hab.bilx:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle hab.bilx:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title hab.bilx:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle hab.bilx:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -5674,17 +5730,17 @@ public final class R {
      * @see #ActionBar_titleTextStyle
      */
     public static final int[] ActionBar={
-        0x7f040033, 0x7f040034, 0x7f040035, 0x7f040077, 
-        0x7f040078, 0x7f040079, 0x7f04007a, 0x7f04007b, 
-        0x7f04007c, 0x7f040088, 0x7f040096, 0x7f040097, 
-        0x7f0400a4, 0x7f0400d6, 0x7f0400d7, 0x7f0400db, 
-        0x7f0400dc, 0x7f0400e1, 0x7f0400e8, 0x7f0400ee, 
-        0x7f04013c, 0x7f04014c, 0x7f04016c, 0x7f04017f, 
-        0x7f040180, 0x7f0401ae, 0x7f0401b1, 0x7f0401e6, 
-        0x7f0401f0
+        0x7f040037, 0x7f040038, 0x7f040039, 0x7f04007a, 
+        0x7f04007b, 0x7f04007c, 0x7f04007d, 0x7f04007e, 
+        0x7f04007f, 0x7f04008b, 0x7f040099, 0x7f04009a, 
+        0x7f0400a8, 0x7f0400da, 0x7f0400db, 0x7f0400df, 
+        0x7f0400e0, 0x7f0400e5, 0x7f0400ed, 0x7f0400f3, 
+        0x7f040141, 0x7f040152, 0x7f040172, 0x7f040185, 
+        0x7f040186, 0x7f0401b7, 0x7f0401ba, 0x7f0401ef, 
+        0x7f0401f9
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#background}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5692,11 +5748,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:background
+     * @attr name hab.bilx:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5707,11 +5763,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:backgroundSplit
+     * @attr name hab.bilx:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5722,11 +5778,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:backgroundStacked
+     * @attr name hab.bilx:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5735,11 +5791,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetEnd
+     * @attr name hab.bilx:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5748,11 +5804,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetEndWithActions
+     * @attr name hab.bilx:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5761,11 +5817,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetLeft
+     * @attr name hab.bilx:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5774,11 +5830,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetRight
+     * @attr name hab.bilx:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5787,11 +5843,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetStart
+     * @attr name hab.bilx:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5800,11 +5856,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetStartWithNavigation
+     * @attr name hab.bilx:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5812,11 +5868,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:customNavigationLayout
+     * @attr name hab.bilx:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -5834,11 +5890,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:displayOptions
+     * @attr name hab.bilx:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#divider}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5846,11 +5902,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:divider
+     * @attr name hab.bilx:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5859,11 +5915,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:elevation
+     * @attr name hab.bilx:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#height}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5872,21 +5928,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:height
+     * @attr name hab.bilx:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:hideOnContentScroll
+     * @attr name hab.bilx:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5894,11 +5950,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:homeAsUpIndicator
+     * @attr name hab.bilx:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5906,11 +5962,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:homeLayout
+     * @attr name hab.bilx:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#icon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5918,11 +5974,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:icon
+     * @attr name hab.bilx:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5930,11 +5986,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:indeterminateProgressStyle
+     * @attr name hab.bilx:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5943,11 +5999,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:itemPadding
+     * @attr name hab.bilx:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#logo}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5955,11 +6011,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:logo
+     * @attr name hab.bilx:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5973,11 +6029,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:navigationMode
+     * @attr name hab.bilx:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5985,11 +6041,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:popupTheme
+     * @attr name hab.bilx:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5998,11 +6054,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:progressBarPadding
+     * @attr name hab.bilx:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6010,21 +6066,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:progressBarStyle
+     * @attr name hab.bilx:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:subtitle
+     * @attr name hab.bilx:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6032,21 +6088,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:subtitleTextStyle
+     * @attr name hab.bilx:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#title}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:title
+     * @attr name hab.bilx:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6054,7 +6110,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:titleTextStyle
+     * @attr name hab.bilx:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -6136,12 +6192,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.example.www.bilx:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.example.www.bilx:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.example.www.bilx:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.example.www.bilx:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.www.bilx:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.example.www.bilx:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background hab.bilx:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit hab.bilx:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout hab.bilx:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height hab.bilx:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle hab.bilx:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle hab.bilx:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -6151,11 +6207,11 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-        0x7f040033, 0x7f040034, 0x7f040060, 0x7f0400d6, 
-        0x7f0401b1, 0x7f0401f0
+        0x7f040037, 0x7f040038, 0x7f040063, 0x7f0400da, 
+        0x7f0401ba, 0x7f0401f9
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#background}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6163,11 +6219,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:background
+     * @attr name hab.bilx:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6178,11 +6234,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:backgroundSplit
+     * @attr name hab.bilx:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6190,11 +6246,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:closeItemLayout
+     * @attr name hab.bilx:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#height}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6203,11 +6259,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:height
+     * @attr name hab.bilx:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6215,11 +6271,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:subtitleTextStyle
+     * @attr name hab.bilx:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6227,7 +6283,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:titleTextStyle
+     * @attr name hab.bilx:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -6237,17 +6293,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.www.bilx:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.www.bilx:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable hab.bilx:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount hab.bilx:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-        0x7f0400b0, 0x7f0400e9
+        0x7f0400b4, 0x7f0400ee
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6255,17 +6311,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:expandActivityOverflowButtonDrawable
+     * @attr name hab.bilx:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:initialActivityCount
+     * @attr name hab.bilx:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -6276,12 +6332,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.www.bilx:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.example.www.bilx:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.example.www.bilx:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.www.bilx:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.example.www.bilx:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.www.bilx:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout hab.bilx:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout hab.bilx:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout hab.bilx:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout hab.bilx:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle hab.bilx:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout hab.bilx:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonPanelSideLayout
@@ -6292,8 +6348,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-        0x010100f2, 0x7f04004d, 0x7f040133, 0x7f040134, 
-        0x7f040149, 0x7f04019e, 0x7f04019f
+        0x010100f2, 0x7f040051, 0x7f040138, 0x7f040139, 
+        0x7f04014f, 0x7f0401a6, 0x7f0401a7
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -6308,7 +6364,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6316,11 +6372,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:buttonPanelSideLayout
+     * @attr name hab.bilx:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6328,11 +6384,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:listItemLayout
+     * @attr name hab.bilx:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6340,11 +6396,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:listLayout
+     * @attr name hab.bilx:listLayout
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6352,21 +6408,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:multiChoiceItemLayout
+     * @attr name hab.bilx:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:showTitle
+     * @attr name hab.bilx:showTitle
      */
     public static final int AlertDialog_showTitle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6374,7 +6430,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:singleChoiceItemLayout
+     * @attr name hab.bilx:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=6;
     /**
@@ -6387,8 +6443,8 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.example.www.bilx:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.example.www.bilx:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation hab.bilx:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded hab.bilx:expanded}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -6397,8 +6453,8 @@ public final class R {
      * @see #AppBarLayout_expanded
      */
     public static final int[] AppBarLayout={
-        0x010100d4, 0x0101048f, 0x01010540, 0x7f0400a4, 
-        0x7f0400b1
+        0x010100d4, 0x0101048f, 0x01010540, 0x7f0400a8, 
+        0x7f0400b5
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -6436,7 +6492,7 @@ public final class R {
      */
     public static final int AppBarLayout_android_keyboardNavigationCluster=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#elevation}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6445,17 +6501,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:elevation
+     * @attr name hab.bilx:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:expanded
+     * @attr name hab.bilx:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
@@ -6465,33 +6521,33 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.example.www.bilx:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.example.www.bilx:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed hab.bilx:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible hab.bilx:state_collapsible}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
      */
     public static final int[] AppBarLayoutStates={
-        0x7f0401a8, 0x7f0401a9
+        0x7f0401b1, 0x7f0401b2
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:state_collapsed
+     * @attr name hab.bilx:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:state_collapsible
+     * @attr name hab.bilx:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
@@ -6501,17 +6557,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.example.www.bilx:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.example.www.bilx:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags hab.bilx:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator hab.bilx:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
      */
     public static final int[] AppBarLayout_Layout={
-        0x7f04012f, 0x7f040130
+        0x7f040134, 0x7f040135
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6527,11 +6583,11 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_scrollFlags
+     * @attr name hab.bilx:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6539,7 +6595,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:layout_scrollInterpolator
+     * @attr name hab.bilx:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -6550,9 +6606,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.www.bilx:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.example.www.bilx:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.example.www.bilx:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat hab.bilx:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint hab.bilx:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode hab.bilx:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -6560,7 +6616,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-        0x01010119, 0x7f0401a5, 0x7f0401e4, 0x7f0401e5
+        0x01010119, 0x7f0401ae, 0x7f0401ed, 0x7f0401ee
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -6578,7 +6634,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6586,22 +6642,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:srcCompat
+     * @attr name hab.bilx:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:tint
+     * @attr name hab.bilx:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6617,7 +6673,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:tintMode
+     * @attr name hab.bilx:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -6628,9 +6684,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.example.www.bilx:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.example.www.bilx:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.example.www.bilx:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark hab.bilx:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint hab.bilx:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode hab.bilx:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -6638,7 +6694,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-        0x01010142, 0x7f0401e0, 0x7f0401e1, 0x7f0401e2
+        0x01010142, 0x7f0401e9, 0x7f0401ea, 0x7f0401eb
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -6653,7 +6709,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6661,22 +6717,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:tickMark
+     * @attr name hab.bilx:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:tickMarkTint
+     * @attr name hab.bilx:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6693,7 +6749,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:tickMarkTintMode
+     * @attr name hab.bilx:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -6833,13 +6889,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.example.www.bilx:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.example.www.bilx:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.example.www.bilx:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.example.www.bilx:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.example.www.bilx:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.example.www.bilx:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.www.bilx:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize hab.bilx:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize hab.bilx:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes hab.bilx:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity hab.bilx:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType hab.bilx:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily hab.bilx:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps hab.bilx:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -6851,8 +6907,8 @@ public final class R {
      * @see #AppCompatTextView_textAllCaps
      */
     public static final int[] AppCompatTextView={
-        0x01010034, 0x7f04002e, 0x7f04002f, 0x7f040030, 
-        0x7f040031, 0x7f040032, 0x7f0400c1, 0x7f0401ce
+        0x01010034, 0x7f040032, 0x7f040033, 0x7f040034, 
+        0x7f040035, 0x7f040036, 0x7f0400c5, 0x7f0401d7
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -6867,7 +6923,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6876,11 +6932,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:autoSizeMaxTextSize
+     * @attr name hab.bilx:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6889,11 +6945,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:autoSizeMinTextSize
+     * @attr name hab.bilx:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6901,11 +6957,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:autoSizePresetSizes
+     * @attr name hab.bilx:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6914,11 +6970,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:autoSizeStepGranularity
+     * @attr name hab.bilx:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6931,21 +6987,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:autoSizeTextType
+     * @attr name hab.bilx:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:fontFamily
+     * @attr name hab.bilx:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6955,7 +7011,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:textAllCaps
+     * @attr name hab.bilx:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -6967,123 +7023,123 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.www.bilx:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.www.bilx:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.www.bilx:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.www.bilx:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.www.bilx:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.www.bilx:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.www.bilx:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.www.bilx:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.www.bilx:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.www.bilx:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.www.bilx:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.www.bilx:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.www.bilx:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.www.bilx:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.www.bilx:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.www.bilx:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.www.bilx:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.www.bilx:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.www.bilx:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.www.bilx:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.www.bilx:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.www.bilx:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.www.bilx:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.www.bilx:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.www.bilx:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.www.bilx:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.www.bilx:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.www.bilx:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.www.bilx:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.www.bilx:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.www.bilx:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.www.bilx:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.www.bilx:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.www.bilx:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.www.bilx:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.www.bilx:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.www.bilx:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.www.bilx:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.www.bilx:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.www.bilx:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.www.bilx:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.www.bilx:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.www.bilx:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.www.bilx:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.www.bilx:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.www.bilx:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.www.bilx:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.example.www.bilx:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.www.bilx:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.www.bilx:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.www.bilx:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.www.bilx:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.example.www.bilx:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.www.bilx:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.www.bilx:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.www.bilx:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.www.bilx:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.www.bilx:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.www.bilx:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.www.bilx:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.www.bilx:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.www.bilx:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.www.bilx:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.www.bilx:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.www.bilx:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.www.bilx:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.www.bilx:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.www.bilx:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.www.bilx:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.www.bilx:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.example.www.bilx:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.www.bilx:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.www.bilx:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.www.bilx:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.www.bilx:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.www.bilx:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.www.bilx:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.www.bilx:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.www.bilx:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.www.bilx:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.www.bilx:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.www.bilx:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.www.bilx:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.www.bilx:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.www.bilx:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.www.bilx:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.www.bilx:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.www.bilx:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.www.bilx:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.www.bilx:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.www.bilx:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.www.bilx:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.www.bilx:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.www.bilx:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.www.bilx:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.example.www.bilx:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.www.bilx:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.example.www.bilx:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.www.bilx:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.www.bilx:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.www.bilx:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.www.bilx:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.www.bilx:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.www.bilx:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.www.bilx:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.example.www.bilx:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.example.www.bilx:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.www.bilx:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.www.bilx:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.www.bilx:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.www.bilx:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.www.bilx:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.www.bilx:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.www.bilx:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.www.bilx:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.www.bilx:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.www.bilx:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider hab.bilx:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground hab.bilx:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme hab.bilx:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize hab.bilx:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle hab.bilx:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle hab.bilx:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle hab.bilx:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle hab.bilx:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle hab.bilx:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme hab.bilx:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme hab.bilx:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle hab.bilx:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle hab.bilx:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance hab.bilx:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor hab.bilx:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground hab.bilx:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle hab.bilx:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable hab.bilx:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable hab.bilx:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable hab.bilx:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable hab.bilx:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable hab.bilx:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle hab.bilx:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable hab.bilx:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable hab.bilx:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground hab.bilx:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle hab.bilx:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable hab.bilx:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle hab.bilx:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle hab.bilx:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle hab.bilx:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle hab.bilx:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons hab.bilx:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle hab.bilx:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme hab.bilx:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle hab.bilx:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle hab.bilx:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle hab.bilx:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle hab.bilx:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle hab.bilx:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle hab.bilx:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle hab.bilx:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle hab.bilx:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall hab.bilx:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle hab.bilx:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle hab.bilx:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent hab.bilx:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating hab.bilx:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal hab.bilx:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated hab.bilx:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight hab.bilx:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal hab.bilx:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError hab.bilx:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary hab.bilx:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark hab.bilx:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal hab.bilx:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground hab.bilx:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding hab.bilx:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme hab.bilx:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal hab.bilx:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical hab.bilx:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle hab.bilx:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight hab.bilx:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground hab.bilx:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor hab.bilx:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle hab.bilx:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator hab.bilx:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle hab.bilx:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator hab.bilx:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog hab.bilx:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle hab.bilx:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle hab.bilx:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight hab.bilx:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge hab.bilx:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall hab.bilx:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft hab.bilx:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight hab.bilx:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground hab.bilx:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme hab.bilx:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth hab.bilx:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle hab.bilx:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle hab.bilx:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle hab.bilx:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle hab.bilx:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator hab.bilx:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall hab.bilx:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle hab.bilx:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle hab.bilx:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground hab.bilx:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless hab.bilx:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle hab.bilx:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle hab.bilx:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle hab.bilx:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu hab.bilx:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem hab.bilx:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary hab.bilx:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall hab.bilx:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader hab.bilx:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle hab.bilx:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle hab.bilx:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu hab.bilx:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem hab.bilx:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl hab.bilx:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle hab.bilx:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle hab.bilx:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor hab.bilx:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground hab.bilx:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar hab.bilx:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay hab.bilx:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay hab.bilx:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor hab.bilx:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor hab.bilx:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor hab.bilx:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor hab.bilx:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor hab.bilx:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor hab.bilx:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle hab.bilx:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -7214,28 +7270,28 @@ public final class R {
         0x7f040013, 0x7f040014, 0x7f040015, 0x7f040016, 
         0x7f040017, 0x7f040018, 0x7f040019, 0x7f04001a, 
         0x7f04001b, 0x7f04001c, 0x7f04001d, 0x7f04001e, 
-        0x7f040021, 0x7f040022, 0x7f040023, 0x7f040024, 
-        0x7f040025, 0x7f04002c, 0x7f040044, 0x7f040047, 
-        0x7f040048, 0x7f040049, 0x7f04004a, 0x7f04004b, 
-        0x7f04004f, 0x7f040050, 0x7f04005c, 0x7f04005d, 
-        0x7f040066, 0x7f040067, 0x7f040068, 0x7f040069, 
-        0x7f04006a, 0x7f04006b, 0x7f04006c, 0x7f04006d, 
-        0x7f04006e, 0x7f040070, 0x7f040083, 0x7f040092, 
-        0x7f040093, 0x7f040098, 0x7f04009a, 0x7f04009d, 
-        0x7f04009f, 0x7f0400a0, 0x7f0400a1, 0x7f0400a3, 
-        0x7f0400db, 0x7f0400e7, 0x7f040131, 0x7f040132, 
-        0x7f040135, 0x7f040136, 0x7f040137, 0x7f040138, 
-        0x7f040139, 0x7f04013a, 0x7f04013b, 0x7f040160, 
-        0x7f040161, 0x7f040162, 0x7f04016b, 0x7f04016d, 
-        0x7f040183, 0x7f040184, 0x7f040185, 0x7f040186, 
-        0x7f040190, 0x7f040192, 0x7f040194, 0x7f040195, 
-        0x7f0401a2, 0x7f0401a3, 0x7f0401ba, 0x7f0401cf, 
-        0x7f0401d0, 0x7f0401d1, 0x7f0401d2, 0x7f0401d3, 
-        0x7f0401d4, 0x7f0401d5, 0x7f0401d6, 0x7f0401d7, 
-        0x7f0401d9, 0x7f0401f4, 0x7f0401f5, 0x7f0401f6, 
-        0x7f0401f7, 0x7f040200, 0x7f040201, 0x7f040202, 
-        0x7f040203, 0x7f040204, 0x7f040205, 0x7f040206, 
-        0x7f040207, 0x7f040208, 0x7f040209
+        0x7f040021, 0x7f040023, 0x7f040024, 0x7f040025, 
+        0x7f040026, 0x7f040030, 0x7f040048, 0x7f04004b, 
+        0x7f04004c, 0x7f04004d, 0x7f04004e, 0x7f04004f, 
+        0x7f040053, 0x7f040054, 0x7f04005f, 0x7f040060, 
+        0x7f040069, 0x7f04006a, 0x7f04006b, 0x7f04006c, 
+        0x7f04006d, 0x7f04006e, 0x7f04006f, 0x7f040070, 
+        0x7f040071, 0x7f040073, 0x7f040086, 0x7f040095, 
+        0x7f040096, 0x7f04009b, 0x7f04009d, 0x7f0400a0, 
+        0x7f0400a2, 0x7f0400a4, 0x7f0400a5, 0x7f0400a7, 
+        0x7f0400df, 0x7f0400ec, 0x7f040136, 0x7f040137, 
+        0x7f04013a, 0x7f04013b, 0x7f04013c, 0x7f04013d, 
+        0x7f04013e, 0x7f04013f, 0x7f040140, 0x7f040166, 
+        0x7f040167, 0x7f040168, 0x7f040171, 0x7f040173, 
+        0x7f040189, 0x7f04018a, 0x7f04018b, 0x7f04018c, 
+        0x7f040196, 0x7f040199, 0x7f04019b, 0x7f04019c, 
+        0x7f0401ab, 0x7f0401ac, 0x7f0401c3, 0x7f0401d8, 
+        0x7f0401d9, 0x7f0401da, 0x7f0401db, 0x7f0401dc, 
+        0x7f0401dd, 0x7f0401de, 0x7f0401df, 0x7f0401e0, 
+        0x7f0401e2, 0x7f0401fd, 0x7f0401fe, 0x7f0401ff, 
+        0x7f040200, 0x7f040209, 0x7f04020a, 0x7f04020b, 
+        0x7f04020c, 0x7f04020d, 0x7f04020e, 0x7f04020f, 
+        0x7f040210, 0x7f040211, 0x7f040212
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -7260,7 +7316,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7268,11 +7324,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionBarDivider
+     * @attr name hab.bilx:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7280,11 +7336,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionBarItemBackground
+     * @attr name hab.bilx:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7292,11 +7348,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionBarPopupTheme
+     * @attr name hab.bilx:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7313,11 +7369,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:actionBarSize
+     * @attr name hab.bilx:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7325,11 +7381,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionBarSplitStyle
+     * @attr name hab.bilx:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7337,11 +7393,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionBarStyle
+     * @attr name hab.bilx:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7349,11 +7405,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionBarTabBarStyle
+     * @attr name hab.bilx:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7361,11 +7417,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionBarTabStyle
+     * @attr name hab.bilx:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7373,11 +7429,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionBarTabTextStyle
+     * @attr name hab.bilx:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7385,11 +7441,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionBarTheme
+     * @attr name hab.bilx:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7397,11 +7453,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionBarWidgetTheme
+     * @attr name hab.bilx:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7409,11 +7465,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionButtonStyle
+     * @attr name hab.bilx:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7421,11 +7477,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionDropDownStyle
+     * @attr name hab.bilx:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7433,11 +7489,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionMenuTextAppearance
+     * @attr name hab.bilx:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7448,11 +7504,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:actionMenuTextColor
+     * @attr name hab.bilx:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7460,11 +7516,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeBackground
+     * @attr name hab.bilx:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7472,11 +7528,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeCloseButtonStyle
+     * @attr name hab.bilx:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7484,11 +7540,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeCloseDrawable
+     * @attr name hab.bilx:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7496,11 +7552,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeCopyDrawable
+     * @attr name hab.bilx:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7508,11 +7564,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeCutDrawable
+     * @attr name hab.bilx:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7520,11 +7576,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeFindDrawable
+     * @attr name hab.bilx:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7532,11 +7588,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModePasteDrawable
+     * @attr name hab.bilx:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7544,11 +7600,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModePopupWindowStyle
+     * @attr name hab.bilx:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7556,11 +7612,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeSelectAllDrawable
+     * @attr name hab.bilx:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7568,11 +7624,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeShareDrawable
+     * @attr name hab.bilx:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7580,11 +7636,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeSplitBackground
+     * @attr name hab.bilx:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7592,11 +7648,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeStyle
+     * @attr name hab.bilx:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7604,11 +7660,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionModeWebSearchDrawable
+     * @attr name hab.bilx:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7616,11 +7672,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionOverflowButtonStyle
+     * @attr name hab.bilx:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7628,11 +7684,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionOverflowMenuStyle
+     * @attr name hab.bilx:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7640,11 +7696,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:activityChooserViewStyle
+     * @attr name hab.bilx:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7652,21 +7708,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:alertDialogButtonGroupStyle
+     * @attr name hab.bilx:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:alertDialogCenterButtons
+     * @attr name hab.bilx:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7674,11 +7730,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:alertDialogStyle
+     * @attr name hab.bilx:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7686,11 +7742,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:alertDialogTheme
+     * @attr name hab.bilx:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7698,11 +7754,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:autoCompleteTextViewStyle
+     * @attr name hab.bilx:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7710,11 +7766,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:borderlessButtonStyle
+     * @attr name hab.bilx:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7722,11 +7778,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:buttonBarButtonStyle
+     * @attr name hab.bilx:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7734,11 +7790,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:buttonBarNegativeButtonStyle
+     * @attr name hab.bilx:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7746,11 +7802,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:buttonBarNeutralButtonStyle
+     * @attr name hab.bilx:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7758,11 +7814,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:buttonBarPositiveButtonStyle
+     * @attr name hab.bilx:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7770,11 +7826,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:buttonBarStyle
+     * @attr name hab.bilx:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7782,11 +7838,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:buttonStyle
+     * @attr name hab.bilx:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7794,11 +7850,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:buttonStyleSmall
+     * @attr name hab.bilx:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7806,11 +7862,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:checkboxStyle
+     * @attr name hab.bilx:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7818,77 +7874,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:checkedTextViewStyle
+     * @attr name hab.bilx:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:colorAccent
+     * @attr name hab.bilx:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:colorBackgroundFloating
+     * @attr name hab.bilx:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:colorButtonNormal
+     * @attr name hab.bilx:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:colorControlActivated
+     * @attr name hab.bilx:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:colorControlHighlight
+     * @attr name hab.bilx:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:colorControlNormal
+     * @attr name hab.bilx:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7899,44 +7955,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:colorError
+     * @attr name hab.bilx:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:colorPrimary
+     * @attr name hab.bilx:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:colorPrimaryDark
+     * @attr name hab.bilx:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:colorSwitchThumbNormal
+     * @attr name hab.bilx:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7944,11 +8000,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:controlBackground
+     * @attr name hab.bilx:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7957,11 +8013,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:dialogPreferredPadding
+     * @attr name hab.bilx:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7969,11 +8025,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:dialogTheme
+     * @attr name hab.bilx:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7981,11 +8037,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:dividerHorizontal
+     * @attr name hab.bilx:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7993,11 +8049,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:dividerVertical
+     * @attr name hab.bilx:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8005,11 +8061,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:dropDownListViewStyle
+     * @attr name hab.bilx:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8018,11 +8074,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:dropdownListPreferredItemHeight
+     * @attr name hab.bilx:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8030,11 +8086,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:editTextBackground
+     * @attr name hab.bilx:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8045,11 +8101,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:editTextColor
+     * @attr name hab.bilx:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8057,11 +8113,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:editTextStyle
+     * @attr name hab.bilx:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8069,11 +8125,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:homeAsUpIndicator
+     * @attr name hab.bilx:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8081,11 +8137,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:imageButtonStyle
+     * @attr name hab.bilx:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8093,11 +8149,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:listChoiceBackgroundIndicator
+     * @attr name hab.bilx:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8105,11 +8161,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:listDividerAlertDialog
+     * @attr name hab.bilx:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8117,11 +8173,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:listMenuViewStyle
+     * @attr name hab.bilx:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8129,11 +8185,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:listPopupWindowStyle
+     * @attr name hab.bilx:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8142,11 +8198,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:listPreferredItemHeight
+     * @attr name hab.bilx:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8155,11 +8211,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:listPreferredItemHeightLarge
+     * @attr name hab.bilx:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8168,11 +8224,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:listPreferredItemHeightSmall
+     * @attr name hab.bilx:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8181,11 +8237,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:listPreferredItemPaddingLeft
+     * @attr name hab.bilx:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8194,11 +8250,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:listPreferredItemPaddingRight
+     * @attr name hab.bilx:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8206,11 +8262,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:panelBackground
+     * @attr name hab.bilx:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8218,11 +8274,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:panelMenuListTheme
+     * @attr name hab.bilx:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8231,11 +8287,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:panelMenuListWidth
+     * @attr name hab.bilx:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8243,11 +8299,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:popupMenuStyle
+     * @attr name hab.bilx:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8255,11 +8311,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:popupWindowStyle
+     * @attr name hab.bilx:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8267,11 +8323,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:radioButtonStyle
+     * @attr name hab.bilx:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8279,11 +8335,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:ratingBarStyle
+     * @attr name hab.bilx:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8291,11 +8347,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:ratingBarStyleIndicator
+     * @attr name hab.bilx:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8303,11 +8359,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:ratingBarStyleSmall
+     * @attr name hab.bilx:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8315,11 +8371,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:searchViewStyle
+     * @attr name hab.bilx:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8327,11 +8383,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:seekBarStyle
+     * @attr name hab.bilx:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8339,11 +8395,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:selectableItemBackground
+     * @attr name hab.bilx:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8351,11 +8407,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:selectableItemBackgroundBorderless
+     * @attr name hab.bilx:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8363,11 +8419,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:spinnerDropDownItemStyle
+     * @attr name hab.bilx:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8375,11 +8431,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:spinnerStyle
+     * @attr name hab.bilx:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8387,11 +8443,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:switchStyle
+     * @attr name hab.bilx:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8399,11 +8455,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:textAppearanceLargePopupMenu
+     * @attr name hab.bilx:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8411,11 +8467,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:textAppearanceListItem
+     * @attr name hab.bilx:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8423,11 +8479,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:textAppearanceListItemSecondary
+     * @attr name hab.bilx:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8435,11 +8491,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:textAppearanceListItemSmall
+     * @attr name hab.bilx:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8447,11 +8503,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:textAppearancePopupMenuHeader
+     * @attr name hab.bilx:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8459,11 +8515,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:textAppearanceSearchResultSubtitle
+     * @attr name hab.bilx:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8471,11 +8527,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:textAppearanceSearchResultTitle
+     * @attr name hab.bilx:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8483,11 +8539,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:textAppearanceSmallPopupMenu
+     * @attr name hab.bilx:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8498,11 +8554,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:textColorAlertDialogListItem
+     * @attr name hab.bilx:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8513,11 +8569,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:textColorSearchUrl
+     * @attr name hab.bilx:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8525,11 +8581,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:toolbarNavigationButtonStyle
+     * @attr name hab.bilx:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8537,11 +8593,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:toolbarStyle
+     * @attr name hab.bilx:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8552,11 +8608,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:tooltipForegroundColor
+     * @attr name hab.bilx:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8564,41 +8620,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:tooltipFrameBackground
+     * @attr name hab.bilx:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:windowActionBar
+     * @attr name hab.bilx:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=109;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:windowActionBarOverlay
+     * @attr name hab.bilx:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=110;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:windowActionModeOverlay
+     * @attr name hab.bilx:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8611,11 +8667,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.www.bilx:windowFixedHeightMajor
+     * @attr name hab.bilx:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8628,11 +8684,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.www.bilx:windowFixedHeightMinor
+     * @attr name hab.bilx:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8645,11 +8701,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.www.bilx:windowFixedWidthMajor
+     * @attr name hab.bilx:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8662,11 +8718,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.www.bilx:windowFixedWidthMinor
+     * @attr name hab.bilx:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8679,11 +8735,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.www.bilx:windowMinWidthMajor
+     * @attr name hab.bilx:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8696,19 +8752,59 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.www.bilx:windowMinWidthMinor
+     * @attr name hab.bilx:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:windowNoTitle
+     * @attr name hab.bilx:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=118;
+    /**
+     * Attributes that can be used with a BackgroundStyle.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #BackgroundStyle_android_selectableItemBackground android:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BackgroundStyle_selectableItemBackground hab.bilx:selectableItemBackground}</code></td><td></td></tr>
+     * </table>
+     * @see #BackgroundStyle_android_selectableItemBackground
+     * @see #BackgroundStyle_selectableItemBackground
+     */
+    public static final int[] BackgroundStyle={
+        0x0101030e, 0x7f04019b
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#selectableItemBackground}
+     * attribute's value can be found in the {@link #BackgroundStyle} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:selectableItemBackground
+     */
+    public static final int BackgroundStyle_android_selectableItemBackground=0;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#selectableItemBackground}
+     * attribute's value can be found in the {@link #BackgroundStyle} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name hab.bilx:selectableItemBackground
+     */
+    public static final int BackgroundStyle_selectableItemBackground=1;
     /**
      * Attributes that can be used with a BottomNavigationView.
      * <p>Includes the following attributes:</p>
@@ -8716,11 +8812,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.example.www.bilx:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.example.www.bilx:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.example.www.bilx:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.example.www.bilx:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.example.www.bilx:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation hab.bilx:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground hab.bilx:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint hab.bilx:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor hab.bilx:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu hab.bilx:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -8729,11 +8825,11 @@ public final class R {
      * @see #BottomNavigationView_menu
      */
     public static final int[] BottomNavigationView={
-        0x7f0400a4, 0x7f0400ec, 0x7f0400ed, 0x7f0400f0, 
-        0x7f040145
+        0x7f0400a8, 0x7f0400f1, 0x7f0400f2, 0x7f0400f5, 
+        0x7f04014a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#elevation}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8742,11 +8838,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:elevation
+     * @attr name hab.bilx:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8754,33 +8850,33 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:itemBackground
+     * @attr name hab.bilx:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:itemIconTint
+     * @attr name hab.bilx:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:itemTextColor
+     * @attr name hab.bilx:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#menu}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8788,7 +8884,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:menu
+     * @attr name hab.bilx:menu
      */
     public static final int BottomNavigationView_menu=4;
     /**
@@ -8798,29 +8894,29 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.example.www.bilx:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.example.www.bilx:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.example.www.bilx:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable hab.bilx:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight hab.bilx:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed hab.bilx:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_hideable
      * @see #BottomSheetBehavior_Layout_behavior_peekHeight
      * @see #BottomSheetBehavior_Layout_behavior_skipCollapsed
      */
     public static final int[] BottomSheetBehavior_Layout={
-        0x7f04003c, 0x7f04003e, 0x7f04003f
+        0x7f040040, 0x7f040042, 0x7f040043
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:behavior_hideable
+     * @attr name hab.bilx:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8837,17 +8933,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:behavior_peekHeight
+     * @attr name hab.bilx:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:behavior_skipCollapsed
+     * @attr name hab.bilx:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=2;
     /**
@@ -8857,21 +8953,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.www.bilx:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking hab.bilx:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
     public static final int[] ButtonBarLayout={
-        0x7f040027
+        0x7f04002b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:allowStacking
+     * @attr name hab.bilx:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -8883,17 +8979,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor com.example.www.bilx:cardBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius com.example.www.bilx:cardCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation com.example.www.bilx:cardElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation com.example.www.bilx:cardMaxElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.example.www.bilx:cardPreventCornerOverlap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.example.www.bilx:cardUseCompatPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding com.example.www.bilx:contentPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom com.example.www.bilx:contentPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft com.example.www.bilx:contentPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight com.example.www.bilx:contentPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop com.example.www.bilx:contentPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor hab.bilx:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius hab.bilx:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation hab.bilx:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation hab.bilx:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap hab.bilx:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding hab.bilx:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding hab.bilx:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom hab.bilx:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft hab.bilx:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight hab.bilx:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop hab.bilx:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -8910,10 +9006,10 @@ public final class R {
      * @see #CardView_contentPaddingTop
      */
     public static final int[] CardView={
-        0x0101013f, 0x01010140, 0x7f040053, 0x7f040054, 
-        0x7f040055, 0x7f040056, 0x7f040057, 0x7f040058, 
-        0x7f04007d, 0x7f04007e, 0x7f04007f, 0x7f040080, 
-        0x7f040081
+        0x0101013f, 0x01010140, 0x7f040057, 0x7f040058, 
+        0x7f040059, 0x7f04005a, 0x7f04005b, 0x7f04005c, 
+        0x7f040080, 0x7f040081, 0x7f040082, 0x7f040083, 
+        0x7f040084
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
@@ -8942,18 +9038,18 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#cardBackgroundColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:cardBackgroundColor
+     * @attr name hab.bilx:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#cardCornerRadius}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#cardCornerRadius}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8962,11 +9058,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:cardCornerRadius
+     * @attr name hab.bilx:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#cardElevation}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#cardElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8975,11 +9071,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:cardElevation
+     * @attr name hab.bilx:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#cardMaxElevation}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#cardMaxElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8988,31 +9084,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:cardMaxElevation
+     * @attr name hab.bilx:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#cardPreventCornerOverlap}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#cardPreventCornerOverlap}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:cardPreventCornerOverlap
+     * @attr name hab.bilx:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#cardUseCompatPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#cardUseCompatPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:cardUseCompatPadding
+     * @attr name hab.bilx:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9021,11 +9117,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentPadding
+     * @attr name hab.bilx:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentPaddingBottom}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentPaddingBottom}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9034,11 +9130,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentPaddingBottom
+     * @attr name hab.bilx:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentPaddingLeft}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentPaddingLeft}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9047,11 +9143,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentPaddingLeft
+     * @attr name hab.bilx:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentPaddingRight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentPaddingRight}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9060,11 +9156,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentPaddingRight
+     * @attr name hab.bilx:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentPaddingTop}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentPaddingTop}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9073,7 +9169,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentPaddingTop
+     * @attr name hab.bilx:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -9086,9 +9182,9 @@ public final class R {
      * <tr><td><code>{@link #CheckBoxPreference_android_summaryOn android:summaryOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #CheckBoxPreference_android_summaryOff android:summaryOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #CheckBoxPreference_android_disableDependentsState android:disableDependentsState}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CheckBoxPreference_disableDependentsState com.example.www.bilx:disableDependentsState}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CheckBoxPreference_summaryOff com.example.www.bilx:summaryOff}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CheckBoxPreference_summaryOn com.example.www.bilx:summaryOn}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CheckBoxPreference_disableDependentsState hab.bilx:disableDependentsState}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CheckBoxPreference_summaryOff hab.bilx:summaryOff}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CheckBoxPreference_summaryOn hab.bilx:summaryOn}</code></td><td></td></tr>
      * </table>
      * @see #CheckBoxPreference_android_summaryOn
      * @see #CheckBoxPreference_android_summaryOff
@@ -9098,8 +9194,8 @@ public final class R {
      * @see #CheckBoxPreference_summaryOn
      */
     public static final int[] CheckBoxPreference={
-        0x010101ef, 0x010101f0, 0x010101f1, 0x7f040095, 
-        0x7f0401b4, 0x7f0401b5
+        0x010101ef, 0x010101f0, 0x010101f1, 0x7f040098, 
+        0x7f0401bd, 0x7f0401be
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#summaryOn}
@@ -9132,33 +9228,33 @@ public final class R {
      */
     public static final int CheckBoxPreference_android_disableDependentsState=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#disableDependentsState}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#disableDependentsState}
      * attribute's value can be found in the {@link #CheckBoxPreference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:disableDependentsState
+     * @attr name hab.bilx:disableDependentsState
      */
     public static final int CheckBoxPreference_disableDependentsState=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#summaryOff}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#summaryOff}
      * attribute's value can be found in the {@link #CheckBoxPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:summaryOff
+     * @attr name hab.bilx:summaryOff
      */
     public static final int CheckBoxPreference_summaryOff=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#summaryOn}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#summaryOn}
      * attribute's value can be found in the {@link #CheckBoxPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:summaryOn
+     * @attr name hab.bilx:summaryOn
      */
     public static final int CheckBoxPreference_summaryOn=5;
     /**
@@ -9168,40 +9264,40 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CircleImageView_border_color com.example.www.bilx:border_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleImageView_border_overlay com.example.www.bilx:border_overlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleImageView_border_width com.example.www.bilx:border_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_border_color hab.bilx:border_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_border_overlay hab.bilx:border_overlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_border_width hab.bilx:border_width}</code></td><td></td></tr>
      * </table>
      * @see #CircleImageView_border_color
      * @see #CircleImageView_border_overlay
      * @see #CircleImageView_border_width
      */
     public static final int[] CircleImageView={
-        0x7f040041, 0x7f040042, 0x7f040043
+        0x7f040045, 0x7f040046, 0x7f040047
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#border_color}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#border_color}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:border_color
+     * @attr name hab.bilx:border_color
      */
     public static final int CircleImageView_border_color=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#border_overlay}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#border_overlay}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:border_overlay
+     * @attr name hab.bilx:border_overlay
      */
     public static final int CircleImageView_border_overlay=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#border_width}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#border_width}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9210,7 +9306,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:border_width
+     * @attr name hab.bilx:border_width
      */
     public static final int CircleImageView_border_width=2;
     /**
@@ -9220,22 +9316,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.example.www.bilx:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.example.www.bilx:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.example.www.bilx:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.example.www.bilx:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.example.www.bilx:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.example.www.bilx:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.example.www.bilx:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.example.www.bilx:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.example.www.bilx:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.example.www.bilx:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.example.www.bilx:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.example.www.bilx:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.example.www.bilx:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.example.www.bilx:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.example.www.bilx:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.example.www.bilx:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity hab.bilx:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance hab.bilx:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim hab.bilx:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity hab.bilx:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin hab.bilx:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom hab.bilx:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd hab.bilx:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart hab.bilx:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop hab.bilx:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance hab.bilx:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration hab.bilx:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger hab.bilx:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim hab.bilx:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title hab.bilx:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled hab.bilx:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId hab.bilx:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -9255,13 +9351,13 @@ public final class R {
      * @see #CollapsingToolbarLayout_toolbarId
      */
     public static final int[] CollapsingToolbarLayout={
-        0x7f040063, 0x7f040064, 0x7f040082, 0x7f0400b2, 
-        0x7f0400b3, 0x7f0400b4, 0x7f0400b5, 0x7f0400b6, 
-        0x7f0400b7, 0x7f0400b8, 0x7f04018b, 0x7f04018c, 
-        0x7f0401ab, 0x7f0401e6, 0x7f0401e7, 0x7f0401f3
+        0x7f040066, 0x7f040067, 0x7f040085, 0x7f0400b6, 
+        0x7f0400b7, 0x7f0400b8, 0x7f0400b9, 0x7f0400ba, 
+        0x7f0400bb, 0x7f0400bc, 0x7f040191, 0x7f040192, 
+        0x7f0401b4, 0x7f0401ef, 0x7f0401f0, 0x7f0401fc
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9282,11 +9378,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:collapsedTitleGravity
+     * @attr name hab.bilx:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9294,22 +9390,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:collapsedTitleTextAppearance
+     * @attr name hab.bilx:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:contentScrim
+     * @attr name hab.bilx:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9330,11 +9426,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:expandedTitleGravity
+     * @attr name hab.bilx:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9343,11 +9439,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:expandedTitleMargin
+     * @attr name hab.bilx:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9356,11 +9452,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:expandedTitleMarginBottom
+     * @attr name hab.bilx:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9369,11 +9465,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:expandedTitleMarginEnd
+     * @attr name hab.bilx:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9382,11 +9478,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:expandedTitleMarginStart
+     * @attr name hab.bilx:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9395,11 +9491,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:expandedTitleMarginTop
+     * @attr name hab.bilx:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9407,20 +9503,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:expandedTitleTextAppearance
+     * @attr name hab.bilx:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:scrimAnimationDuration
+     * @attr name hab.bilx:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9429,42 +9525,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:scrimVisibleHeightTrigger
+     * @attr name hab.bilx:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:statusBarScrim
+     * @attr name hab.bilx:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#title}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:title
+     * @attr name hab.bilx:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:titleEnabled
+     * @attr name hab.bilx:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9472,7 +9568,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:toolbarId
+     * @attr name hab.bilx:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -9482,17 +9578,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.example.www.bilx:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.example.www.bilx:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode hab.bilx:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier hab.bilx:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
      */
     public static final int[] CollapsingToolbarLayout_Layout={
-        0x7f0400f8, 0x7f0400f9
+        0x7f0400fd, 0x7f0400fe
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9506,16 +9602,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_collapseMode
+     * @attr name hab.bilx:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_collapseParallaxMultiplier
+     * @attr name hab.bilx:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -9527,14 +9623,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.www.bilx:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha hab.bilx:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
      * @see #ColorStateListItem_alpha
      */
     public static final int[] ColorStateListItem={
-        0x010101a5, 0x0101031f, 0x7f040028
+        0x010101a5, 0x0101031f, 0x7f04002c
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#color}
@@ -9557,12 +9653,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:alpha
+     * @attr name hab.bilx:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -9573,15 +9669,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.example.www.bilx:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.www.bilx:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint hab.bilx:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode hab.bilx:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
      * @see #CompoundButton_buttonTintMode
      */
     public static final int[] CompoundButton={
-        0x01010107, 0x7f040051, 0x7f040052
+        0x01010107, 0x7f040055, 0x7f040056
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -9596,18 +9692,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:buttonTint
+     * @attr name hab.bilx:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9623,7 +9719,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:buttonTintMode
+     * @attr name hab.bilx:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -9638,61 +9734,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.example.www.bilx:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.example.www.bilx:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.example.www.bilx:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.example.www.bilx:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.example.www.bilx:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.example.www.bilx:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.example.www.bilx:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.example.www.bilx:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.example.www.bilx:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.example.www.bilx:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.example.www.bilx:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.example.www.bilx:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.example.www.bilx:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.example.www.bilx:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.example.www.bilx:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.example.www.bilx:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.example.www.bilx:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.example.www.bilx:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.example.www.bilx:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.example.www.bilx:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.example.www.bilx:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.example.www.bilx:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.example.www.bilx:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.example.www.bilx:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.example.www.bilx:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.example.www.bilx:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.example.www.bilx:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.example.www.bilx:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.example.www.bilx:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.example.www.bilx:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.example.www.bilx:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.example.www.bilx:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.example.www.bilx:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.example.www.bilx:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.example.www.bilx:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.example.www.bilx:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.example.www.bilx:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.example.www.bilx:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.example.www.bilx:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.example.www.bilx:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.example.www.bilx:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.example.www.bilx:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.example.www.bilx:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.example.www.bilx:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.example.www.bilx:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.example.www.bilx:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.example.www.bilx:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.example.www.bilx:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.example.www.bilx:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.example.www.bilx:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.example.www.bilx:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.example.www.bilx:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.example.www.bilx:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.example.www.bilx:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.example.www.bilx:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets hab.bilx:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection hab.bilx:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl hab.bilx:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet hab.bilx:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids hab.bilx:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight hab.bilx:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth hab.bilx:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator hab.bilx:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf hab.bilx:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator hab.bilx:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf hab.bilx:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf hab.bilx:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle hab.bilx:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle hab.bilx:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius hab.bilx:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio hab.bilx:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf hab.bilx:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf hab.bilx:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin hab.bilx:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end hab.bilx:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent hab.bilx:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default hab.bilx:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max hab.bilx:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min hab.bilx:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent hab.bilx:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias hab.bilx:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle hab.bilx:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight hab.bilx:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator hab.bilx:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf hab.bilx:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf hab.bilx:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator hab.bilx:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf hab.bilx:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf hab.bilx:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf hab.bilx:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf hab.bilx:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator hab.bilx:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf hab.bilx:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf hab.bilx:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias hab.bilx:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle hab.bilx:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight hab.bilx:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default hab.bilx:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max hab.bilx:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min hab.bilx:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent hab.bilx:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX hab.bilx:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY hab.bilx:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom hab.bilx:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd hab.bilx:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft hab.bilx:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight hab.bilx:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart hab.bilx:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop hab.bilx:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel hab.bilx:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -9757,20 +9853,20 @@ public final class R {
      */
     public static final int[] ConstraintLayout_Layout={
         0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
-        0x01010140, 0x7f040039, 0x7f04003a, 0x7f04005a, 
-        0x7f040073, 0x7f040074, 0x7f0400fa, 0x7f0400fb, 
-        0x7f0400fc, 0x7f0400fd, 0x7f0400fe, 0x7f0400ff, 
-        0x7f040100, 0x7f040101, 0x7f040102, 0x7f040103, 
-        0x7f040104, 0x7f040105, 0x7f040106, 0x7f040107, 
-        0x7f040108, 0x7f040109, 0x7f04010a, 0x7f04010b, 
-        0x7f04010c, 0x7f04010d, 0x7f04010e, 0x7f04010f, 
-        0x7f040110, 0x7f040111, 0x7f040112, 0x7f040113, 
-        0x7f040114, 0x7f040115, 0x7f040116, 0x7f040117, 
-        0x7f040118, 0x7f040119, 0x7f04011a, 0x7f04011b, 
-        0x7f04011c, 0x7f04011d, 0x7f04011e, 0x7f04011f, 
-        0x7f040120, 0x7f040121, 0x7f040122, 0x7f040124, 
-        0x7f040125, 0x7f040126, 0x7f040127, 0x7f040128, 
-        0x7f040129, 0x7f04012a, 0x7f04012b, 0x7f04012e
+        0x01010140, 0x7f04003d, 0x7f04003e, 0x7f04005d, 
+        0x7f040076, 0x7f040077, 0x7f0400ff, 0x7f040100, 
+        0x7f040101, 0x7f040102, 0x7f040103, 0x7f040104, 
+        0x7f040105, 0x7f040106, 0x7f040107, 0x7f040108, 
+        0x7f040109, 0x7f04010a, 0x7f04010b, 0x7f04010c, 
+        0x7f04010d, 0x7f04010e, 0x7f04010f, 0x7f040110, 
+        0x7f040111, 0x7f040112, 0x7f040113, 0x7f040114, 
+        0x7f040115, 0x7f040116, 0x7f040117, 0x7f040118, 
+        0x7f040119, 0x7f04011a, 0x7f04011b, 0x7f04011c, 
+        0x7f04011d, 0x7f04011e, 0x7f04011f, 0x7f040120, 
+        0x7f040121, 0x7f040122, 0x7f040123, 0x7f040124, 
+        0x7f040125, 0x7f040126, 0x7f040127, 0x7f040129, 
+        0x7f04012a, 0x7f04012b, 0x7f04012c, 0x7f04012d, 
+        0x7f04012e, 0x7f04012f, 0x7f040130, 0x7f040133
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -9842,17 +9938,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:barrierAllowsGoneWidgets
+     * @attr name hab.bilx:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9869,21 +9965,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:barrierDirection
+     * @attr name hab.bilx:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:chainUseRtl
+     * @attr name hab.bilx:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9891,50 +9987,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:constraintSet
+     * @attr name hab.bilx:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:constraint_referenced_ids
+     * @attr name hab.bilx:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:layout_constrainedHeight
+     * @attr name hab.bilx:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:layout_constrainedWidth
+     * @attr name hab.bilx:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintBaseline_creator
+     * @attr name hab.bilx:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9950,20 +10046,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintBaseline_toBaselineOf
+     * @attr name hab.bilx:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintBottom_creator
+     * @attr name hab.bilx:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9979,11 +10075,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintBottom_toBottomOf
+     * @attr name hab.bilx:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9999,11 +10095,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintBottom_toTopOf
+     * @attr name hab.bilx:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10011,20 +10107,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintCircle
+     * @attr name hab.bilx:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintCircleAngle
+     * @attr name hab.bilx:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10033,21 +10129,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_constraintCircleRadius
+     * @attr name hab.bilx:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:layout_constraintDimensionRatio
+     * @attr name hab.bilx:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10063,11 +10159,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintEnd_toEndOf
+     * @attr name hab.bilx:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10083,11 +10179,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintEnd_toStartOf
+     * @attr name hab.bilx:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10096,11 +10192,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_constraintGuide_begin
+     * @attr name hab.bilx:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10109,20 +10205,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_constraintGuide_end
+     * @attr name hab.bilx:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintGuide_percent
+     * @attr name hab.bilx:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10136,11 +10232,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintHeight_default
+     * @attr name hab.bilx:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10157,11 +10253,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintHeight_max
+     * @attr name hab.bilx:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10178,29 +10274,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintHeight_min
+     * @attr name hab.bilx:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintHeight_percent
+     * @attr name hab.bilx:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintHorizontal_bias
+     * @attr name hab.bilx:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10214,29 +10310,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintHorizontal_chainStyle
+     * @attr name hab.bilx:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintHorizontal_weight
+     * @attr name hab.bilx:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintLeft_creator
+     * @attr name hab.bilx:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10252,11 +10348,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintLeft_toLeftOf
+     * @attr name hab.bilx:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10272,20 +10368,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintLeft_toRightOf
+     * @attr name hab.bilx:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintRight_creator
+     * @attr name hab.bilx:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10301,11 +10397,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintRight_toLeftOf
+     * @attr name hab.bilx:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10321,11 +10417,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintRight_toRightOf
+     * @attr name hab.bilx:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10341,11 +10437,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintStart_toEndOf
+     * @attr name hab.bilx:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10361,20 +10457,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintStart_toStartOf
+     * @attr name hab.bilx:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintTop_creator
+     * @attr name hab.bilx:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10390,11 +10486,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintTop_toBottomOf
+     * @attr name hab.bilx:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10410,20 +10506,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintTop_toTopOf
+     * @attr name hab.bilx:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintVertical_bias
+     * @attr name hab.bilx:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10437,20 +10533,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintVertical_chainStyle
+     * @attr name hab.bilx:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintVertical_weight
+     * @attr name hab.bilx:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10464,11 +10560,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintWidth_default
+     * @attr name hab.bilx:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10485,11 +10581,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintWidth_max
+     * @attr name hab.bilx:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10506,20 +10602,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintWidth_min
+     * @attr name hab.bilx:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintWidth_percent
+     * @attr name hab.bilx:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10528,11 +10624,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_editor_absoluteX
+     * @attr name hab.bilx:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10541,11 +10637,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_editor_absoluteY
+     * @attr name hab.bilx:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10554,11 +10650,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginBottom
+     * @attr name hab.bilx:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10567,11 +10663,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginEnd
+     * @attr name hab.bilx:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10580,11 +10676,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginLeft
+     * @attr name hab.bilx:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10593,11 +10689,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginRight
+     * @attr name hab.bilx:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10606,11 +10702,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginStart
+     * @attr name hab.bilx:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10619,11 +10715,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginTop
+     * @attr name hab.bilx:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10635,12 +10731,12 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_optimizationLevel
+     * @attr name hab.bilx:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -10650,17 +10746,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.example.www.bilx:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.example.www.bilx:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content hab.bilx:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility hab.bilx:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
      */
     public static final int[] ConstraintLayout_placeholder={
-        0x7f040075, 0x7f0400a5
+        0x7f040078, 0x7f0400a9
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#content}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10668,11 +10764,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:content
+     * @attr name hab.bilx:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10685,7 +10781,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:emptyVisibility
+     * @attr name hab.bilx:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -10718,55 +10814,55 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.example.www.bilx:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.example.www.bilx:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.example.www.bilx:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.example.www.bilx:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.example.www.bilx:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.example.www.bilx:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.example.www.bilx:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.example.www.bilx:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.example.www.bilx:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.example.www.bilx:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.example.www.bilx:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.example.www.bilx:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.example.www.bilx:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.example.www.bilx:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.example.www.bilx:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.example.www.bilx:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.example.www.bilx:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.example.www.bilx:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.example.www.bilx:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.example.www.bilx:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.example.www.bilx:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.example.www.bilx:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.example.www.bilx:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.example.www.bilx:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.example.www.bilx:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.example.www.bilx:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.example.www.bilx:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.example.www.bilx:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.example.www.bilx:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.example.www.bilx:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.example.www.bilx:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.example.www.bilx:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.example.www.bilx:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.example.www.bilx:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.example.www.bilx:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.example.www.bilx:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.example.www.bilx:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.example.www.bilx:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.example.www.bilx:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.example.www.bilx:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.example.www.bilx:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.example.www.bilx:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.example.www.bilx:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.example.www.bilx:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.example.www.bilx:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.example.www.bilx:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.example.www.bilx:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.example.www.bilx:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.example.www.bilx:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight hab.bilx:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth hab.bilx:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator hab.bilx:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf hab.bilx:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator hab.bilx:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf hab.bilx:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf hab.bilx:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle hab.bilx:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle hab.bilx:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius hab.bilx:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio hab.bilx:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf hab.bilx:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf hab.bilx:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin hab.bilx:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end hab.bilx:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent hab.bilx:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default hab.bilx:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max hab.bilx:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min hab.bilx:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent hab.bilx:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias hab.bilx:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle hab.bilx:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight hab.bilx:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator hab.bilx:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf hab.bilx:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf hab.bilx:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator hab.bilx:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf hab.bilx:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf hab.bilx:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf hab.bilx:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf hab.bilx:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator hab.bilx:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf hab.bilx:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf hab.bilx:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias hab.bilx:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle hab.bilx:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight hab.bilx:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default hab.bilx:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max hab.bilx:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min hab.bilx:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent hab.bilx:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX hab.bilx:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY hab.bilx:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom hab.bilx:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd hab.bilx:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft hab.bilx:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight hab.bilx:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart hab.bilx:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop hab.bilx:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -10847,19 +10943,19 @@ public final class R {
         0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 
         0x01010322, 0x01010323, 0x01010324, 0x01010325, 
         0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
-        0x010103b6, 0x010103fa, 0x01010440, 0x7f0400fa, 
-        0x7f0400fb, 0x7f0400fc, 0x7f0400fd, 0x7f0400fe, 
-        0x7f0400ff, 0x7f040100, 0x7f040101, 0x7f040102, 
-        0x7f040103, 0x7f040104, 0x7f040105, 0x7f040106, 
-        0x7f040107, 0x7f040108, 0x7f040109, 0x7f04010a, 
-        0x7f04010b, 0x7f04010c, 0x7f04010d, 0x7f04010e, 
-        0x7f04010f, 0x7f040110, 0x7f040111, 0x7f040112, 
-        0x7f040113, 0x7f040114, 0x7f040115, 0x7f040116, 
-        0x7f040117, 0x7f040118, 0x7f040119, 0x7f04011a, 
-        0x7f04011b, 0x7f04011c, 0x7f04011d, 0x7f04011e, 
-        0x7f04011f, 0x7f040120, 0x7f040121, 0x7f040122, 
+        0x010103b6, 0x010103fa, 0x01010440, 0x7f0400ff, 
+        0x7f040100, 0x7f040101, 0x7f040102, 0x7f040103, 
+        0x7f040104, 0x7f040105, 0x7f040106, 0x7f040107, 
+        0x7f040108, 0x7f040109, 0x7f04010a, 0x7f04010b, 
+        0x7f04010c, 0x7f04010d, 0x7f04010e, 0x7f04010f, 
+        0x7f040110, 0x7f040111, 0x7f040112, 0x7f040113, 
+        0x7f040114, 0x7f040115, 0x7f040116, 0x7f040117, 
+        0x7f040118, 0x7f040119, 0x7f04011a, 0x7f04011b, 
+        0x7f04011c, 0x7f04011d, 0x7f04011e, 0x7f04011f, 
+        0x7f040120, 0x7f040121, 0x7f040122, 0x7f040123, 
         0x7f040124, 0x7f040125, 0x7f040126, 0x7f040127, 
-        0x7f040128, 0x7f040129, 0x7f04012a, 0x7f04012b
+        0x7f040129, 0x7f04012a, 0x7f04012b, 0x7f04012c, 
+        0x7f04012d, 0x7f04012e, 0x7f04012f, 0x7f040130
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -11165,36 +11261,36 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:layout_constrainedHeight
+     * @attr name hab.bilx:layout_constrainedHeight
      */
     public static final int ConstraintSet_layout_constrainedHeight=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:layout_constrainedWidth
+     * @attr name hab.bilx:layout_constrainedWidth
      */
     public static final int ConstraintSet_layout_constrainedWidth=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintBaseline_creator
+     * @attr name hab.bilx:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11210,20 +11306,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintBaseline_toBaselineOf
+     * @attr name hab.bilx:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintBottom_creator
+     * @attr name hab.bilx:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11239,11 +11335,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintBottom_toBottomOf
+     * @attr name hab.bilx:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11259,11 +11355,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintBottom_toTopOf
+     * @attr name hab.bilx:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11271,20 +11367,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintCircle
+     * @attr name hab.bilx:layout_constraintCircle
      */
     public static final int ConstraintSet_layout_constraintCircle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintCircleAngle
+     * @attr name hab.bilx:layout_constraintCircleAngle
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11293,21 +11389,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_constraintCircleRadius
+     * @attr name hab.bilx:layout_constraintCircleRadius
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:layout_constraintDimensionRatio
+     * @attr name hab.bilx:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11323,11 +11419,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintEnd_toEndOf
+     * @attr name hab.bilx:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11343,11 +11439,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintEnd_toStartOf
+     * @attr name hab.bilx:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11356,11 +11452,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_constraintGuide_begin
+     * @attr name hab.bilx:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11369,20 +11465,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_constraintGuide_end
+     * @attr name hab.bilx:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintGuide_percent
+     * @attr name hab.bilx:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11396,11 +11492,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintHeight_default
+     * @attr name hab.bilx:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11417,11 +11513,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintHeight_max
+     * @attr name hab.bilx:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11438,29 +11534,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintHeight_min
+     * @attr name hab.bilx:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintHeight_percent
+     * @attr name hab.bilx:layout_constraintHeight_percent
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintHorizontal_bias
+     * @attr name hab.bilx:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11474,29 +11570,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintHorizontal_chainStyle
+     * @attr name hab.bilx:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintHorizontal_weight
+     * @attr name hab.bilx:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintLeft_creator
+     * @attr name hab.bilx:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11512,11 +11608,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintLeft_toLeftOf
+     * @attr name hab.bilx:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11532,20 +11628,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintLeft_toRightOf
+     * @attr name hab.bilx:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintRight_creator
+     * @attr name hab.bilx:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11561,11 +11657,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintRight_toLeftOf
+     * @attr name hab.bilx:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11581,11 +11677,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintRight_toRightOf
+     * @attr name hab.bilx:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11601,11 +11697,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintStart_toEndOf
+     * @attr name hab.bilx:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11621,20 +11717,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintStart_toStartOf
+     * @attr name hab.bilx:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintTop_creator
+     * @attr name hab.bilx:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11650,11 +11746,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintTop_toBottomOf
+     * @attr name hab.bilx:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11670,20 +11766,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintTop_toTopOf
+     * @attr name hab.bilx:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintVertical_bias
+     * @attr name hab.bilx:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11697,20 +11793,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintVertical_chainStyle
+     * @attr name hab.bilx:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintVertical_weight
+     * @attr name hab.bilx:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11724,11 +11820,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintWidth_default
+     * @attr name hab.bilx:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11745,11 +11841,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintWidth_max
+     * @attr name hab.bilx:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11766,20 +11862,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_constraintWidth_min
+     * @attr name hab.bilx:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:layout_constraintWidth_percent
+     * @attr name hab.bilx:layout_constraintWidth_percent
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=63;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11788,11 +11884,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_editor_absoluteX
+     * @attr name hab.bilx:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=64;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11801,11 +11897,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_editor_absoluteY
+     * @attr name hab.bilx:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=65;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11814,11 +11910,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginBottom
+     * @attr name hab.bilx:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=66;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11827,11 +11923,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginEnd
+     * @attr name hab.bilx:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=67;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11840,11 +11936,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginLeft
+     * @attr name hab.bilx:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=68;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11853,11 +11949,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginRight
+     * @attr name hab.bilx:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=69;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11866,11 +11962,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginStart
+     * @attr name hab.bilx:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=70;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11879,7 +11975,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:layout_goneMarginTop
+     * @attr name hab.bilx:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=71;
     /**
@@ -11889,17 +11985,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.example.www.bilx:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.example.www.bilx:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines hab.bilx:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground hab.bilx:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-        0x7f0400f2, 0x7f0401aa
+        0x7f0400f7, 0x7f0401b3
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11907,11 +12003,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:keylines
+     * @attr name hab.bilx:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11919,7 +12015,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:statusBarBackground
+     * @attr name hab.bilx:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -11930,12 +12026,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.example.www.bilx:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.example.www.bilx:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.example.www.bilx:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.example.www.bilx:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.example.www.bilx:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.example.www.bilx:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor hab.bilx:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity hab.bilx:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior hab.bilx:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges hab.bilx:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge hab.bilx:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline hab.bilx:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -11946,8 +12042,8 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-        0x010100b3, 0x7f0400f5, 0x7f0400f6, 0x7f0400f7, 
-        0x7f040123, 0x7f04012c, 0x7f04012d
+        0x010100b3, 0x7f0400fa, 0x7f0400fb, 0x7f0400fc, 
+        0x7f040128, 0x7f040131, 0x7f040132
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -11979,7 +12075,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11987,11 +12083,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:layout_anchor
+     * @attr name hab.bilx:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12016,21 +12112,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_anchorGravity
+     * @attr name hab.bilx:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:layout_behavior
+     * @attr name hab.bilx:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12049,11 +12145,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_dodgeInsetEdges
+     * @attr name hab.bilx:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12071,16 +12167,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:layout_insetEdge
+     * @attr name hab.bilx:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:layout_keyline
+     * @attr name hab.bilx:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -12090,19 +12186,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.example.www.bilx:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.example.www.bilx:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_textColorError com.example.www.bilx:textColorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme hab.bilx:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle hab.bilx:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_textColorError hab.bilx:textColorError}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
      * @see #DesignTheme_textColorError
      */
     public static final int[] DesignTheme={
-        0x7f040045, 0x7f040046, 0x7f0401d8
+        0x7f040049, 0x7f04004a, 0x7f0401e1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12110,11 +12206,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:bottomSheetDialogTheme
+     * @attr name hab.bilx:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12122,11 +12218,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:bottomSheetStyle
+     * @attr name hab.bilx:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textColorError}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textColorError}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12137,7 +12233,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:textColorError
+     * @attr name hab.bilx:textColorError
      */
     public static final int DesignTheme_textColorError=2;
     /**
@@ -12153,12 +12249,12 @@ public final class R {
      * <tr><td><code>{@link #DialogPreference_android_positiveButtonText android:positiveButtonText}</code></td><td></td></tr>
      * <tr><td><code>{@link #DialogPreference_android_negativeButtonText android:negativeButtonText}</code></td><td></td></tr>
      * <tr><td><code>{@link #DialogPreference_android_dialogLayout android:dialogLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DialogPreference_dialogIcon com.example.www.bilx:dialogIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DialogPreference_dialogLayout com.example.www.bilx:dialogLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DialogPreference_dialogMessage com.example.www.bilx:dialogMessage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DialogPreference_dialogTitle com.example.www.bilx:dialogTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DialogPreference_negativeButtonText com.example.www.bilx:negativeButtonText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DialogPreference_positiveButtonText com.example.www.bilx:positiveButtonText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DialogPreference_dialogIcon hab.bilx:dialogIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DialogPreference_dialogLayout hab.bilx:dialogLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DialogPreference_dialogMessage hab.bilx:dialogMessage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DialogPreference_dialogTitle hab.bilx:dialogTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DialogPreference_negativeButtonText hab.bilx:negativeButtonText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DialogPreference_positiveButtonText hab.bilx:positiveButtonText}</code></td><td></td></tr>
      * </table>
      * @see #DialogPreference_android_dialogTitle
      * @see #DialogPreference_android_dialogMessage
@@ -12175,8 +12271,8 @@ public final class R {
      */
     public static final int[] DialogPreference={
         0x010101f2, 0x010101f3, 0x010101f4, 0x010101f5, 
-        0x010101f6, 0x010101f7, 0x7f04008e, 0x7f04008f, 
-        0x7f040090, 0x7f040094, 0x7f04014d, 0x7f04016e
+        0x010101f6, 0x010101f7, 0x7f040091, 0x7f040092, 
+        0x7f040093, 0x7f040097, 0x7f040153, 0x7f040174
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#dialogTitle}
@@ -12243,7 +12339,7 @@ public final class R {
      */
     public static final int DialogPreference_android_dialogLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dialogIcon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dialogIcon}
      * attribute's value can be found in the {@link #DialogPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12251,11 +12347,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:dialogIcon
+     * @attr name hab.bilx:dialogIcon
      */
     public static final int DialogPreference_dialogIcon=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dialogLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dialogLayout}
      * attribute's value can be found in the {@link #DialogPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12263,47 +12359,47 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:dialogLayout
+     * @attr name hab.bilx:dialogLayout
      */
     public static final int DialogPreference_dialogLayout=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dialogMessage}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dialogMessage}
      * attribute's value can be found in the {@link #DialogPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:dialogMessage
+     * @attr name hab.bilx:dialogMessage
      */
     public static final int DialogPreference_dialogMessage=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dialogTitle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dialogTitle}
      * attribute's value can be found in the {@link #DialogPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:dialogTitle
+     * @attr name hab.bilx:dialogTitle
      */
     public static final int DialogPreference_dialogTitle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#negativeButtonText}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#negativeButtonText}
      * attribute's value can be found in the {@link #DialogPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:negativeButtonText
+     * @attr name hab.bilx:negativeButtonText
      */
     public static final int DialogPreference_negativeButtonText=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#positiveButtonText}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#positiveButtonText}
      * attribute's value can be found in the {@link #DialogPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:positiveButtonText
+     * @attr name hab.bilx:positiveButtonText
      */
     public static final int DialogPreference_positiveButtonText=11;
     /**
@@ -12313,14 +12409,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.www.bilx:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.www.bilx:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.www.bilx:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.example.www.bilx:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.www.bilx:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.www.bilx:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.www.bilx:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.www.bilx:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength hab.bilx:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength hab.bilx:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength hab.bilx:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color hab.bilx:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize hab.bilx:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars hab.bilx:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars hab.bilx:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness hab.bilx:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -12332,11 +12428,11 @@ public final class R {
      * @see #DrawerArrowToggle_thickness
      */
     public static final int[] DrawerArrowToggle={
-        0x7f04002a, 0x7f04002b, 0x7f040038, 0x7f040065, 
-        0x7f04009b, 0x7f0400ce, 0x7f0401a1, 0x7f0401dc
+        0x7f04002e, 0x7f04002f, 0x7f04003c, 0x7f040068, 
+        0x7f04009e, 0x7f0400d2, 0x7f0401aa, 0x7f0401e5
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12345,11 +12441,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:arrowHeadLength
+     * @attr name hab.bilx:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12358,11 +12454,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:arrowShaftLength
+     * @attr name hab.bilx:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12371,22 +12467,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:barLength
+     * @attr name hab.bilx:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#color}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:color
+     * @attr name hab.bilx:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12395,11 +12491,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:drawableSize
+     * @attr name hab.bilx:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12408,21 +12504,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:gapBetweenBars
+     * @attr name hab.bilx:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:spinBars
+     * @attr name hab.bilx:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12431,7 +12527,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:thickness
+     * @attr name hab.bilx:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -12441,14 +12537,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.example.www.bilx:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.example.www.bilx:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.example.www.bilx:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.example.www.bilx:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.example.www.bilx:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.example.www.bilx:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.example.www.bilx:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.example.www.bilx:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint hab.bilx:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode hab.bilx:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth hab.bilx:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation hab.bilx:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize hab.bilx:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ hab.bilx:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor hab.bilx:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding hab.bilx:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -12460,22 +12556,22 @@ public final class R {
      * @see #FloatingActionButton_useCompatPadding
      */
     public static final int[] FloatingActionButton={
-        0x7f040036, 0x7f040037, 0x7f040040, 0x7f0400a4, 
-        0x7f0400b9, 0x7f04017e, 0x7f040189, 0x7f0401fc
+        0x7f04003a, 0x7f04003b, 0x7f040044, 0x7f0400a8, 
+        0x7f0400bd, 0x7f040184, 0x7f04018f, 0x7f040205
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:backgroundTint
+     * @attr name hab.bilx:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12491,11 +12587,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:backgroundTintMode
+     * @attr name hab.bilx:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12504,11 +12600,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:borderWidth
+     * @attr name hab.bilx:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12517,11 +12613,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:elevation
+     * @attr name hab.bilx:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12535,11 +12631,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:fabSize
+     * @attr name hab.bilx:fabSize
      */
     public static final int FloatingActionButton_fabSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12548,28 +12644,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:pressedTranslationZ
+     * @attr name hab.bilx:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:rippleColor
+     * @attr name hab.bilx:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:useCompatPadding
+     * @attr name hab.bilx:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=7;
     /**
@@ -12579,21 +12675,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.example.www.bilx:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide hab.bilx:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
     public static final int[] FloatingActionButton_Behavior_Layout={
-        0x7f04003b
+        0x7f04003f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:behavior_autoHide
+     * @attr name hab.bilx:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -12603,12 +12699,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.example.www.bilx:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.example.www.bilx:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.example.www.bilx:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.example.www.bilx:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.example.www.bilx:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.example.www.bilx:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority hab.bilx:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts hab.bilx:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy hab.bilx:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout hab.bilx:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage hab.bilx:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery hab.bilx:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -12618,21 +12714,21 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-        0x7f0400c2, 0x7f0400c3, 0x7f0400c4, 0x7f0400c5, 
-        0x7f0400c6, 0x7f0400c7
+        0x7f0400c6, 0x7f0400c7, 0x7f0400c8, 0x7f0400c9, 
+        0x7f0400ca, 0x7f0400cb
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:fontProviderAuthority
+     * @attr name hab.bilx:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12640,11 +12736,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:fontProviderCerts
+     * @attr name hab.bilx:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12657,11 +12753,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:fontProviderFetchStrategy
+     * @attr name hab.bilx:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -12674,27 +12770,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:fontProviderFetchTimeout
+     * @attr name hab.bilx:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:fontProviderPackage
+     * @attr name hab.bilx:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:fontProviderQuery
+     * @attr name hab.bilx:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -12704,19 +12800,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.example.www.bilx:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.example.www.bilx:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.example.www.bilx:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font hab.bilx:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle hab.bilx:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight hab.bilx:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_font
      * @see #FontFamilyFont_fontStyle
      * @see #FontFamilyFont_fontWeight
      */
     public static final int[] FontFamilyFont={
-        0x7f0400c0, 0x7f0400c8, 0x7f0400c9
+        0x7f0400c4, 0x7f0400cc, 0x7f0400cd
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#font}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12724,11 +12820,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:font
+     * @attr name hab.bilx:font
      */
     public static final int FontFamilyFont_font=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12741,16 +12837,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:fontStyle
+     * @attr name hab.bilx:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:fontWeight
+     * @attr name hab.bilx:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=2;
     /**
@@ -12762,14 +12858,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.example.www.bilx:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding hab.bilx:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
      * @see #ForegroundLinearLayout_foregroundInsidePadding
      */
     public static final int[] ForegroundLinearLayout={
-        0x01010109, 0x01010200, 0x7f0400ca
+        0x01010109, 0x01010200, 0x7f0400ce
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -12814,13 +12910,13 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:foregroundInsidePadding
+     * @attr name hab.bilx:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -12866,10 +12962,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.example.www.bilx:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.www.bilx:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.www.bilx:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.www.bilx:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider hab.bilx:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding hab.bilx:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild hab.bilx:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers hab.bilx:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -12883,8 +12979,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-        0x01010128, 0x7f040097, 0x7f040099, 0x7f040144, 
-        0x7f04019a
+        0x01010128, 0x7f04009a, 0x7f04009c, 0x7f040149, 
+        0x7f0401a1
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -12961,7 +13057,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#divider}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12969,11 +13065,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:divider
+     * @attr name hab.bilx:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12982,21 +13078,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:dividerPadding
+     * @attr name hab.bilx:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:measureWithLargestChild
+     * @attr name hab.bilx:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13011,7 +13107,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:showDividers
+     * @attr name hab.bilx:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -13169,8 +13265,8 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ListPreference_android_entries android:entries}</code></td><td></td></tr>
      * <tr><td><code>{@link #ListPreference_android_entryValues android:entryValues}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ListPreference_entries com.example.www.bilx:entries}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ListPreference_entryValues com.example.www.bilx:entryValues}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ListPreference_entries hab.bilx:entries}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ListPreference_entryValues hab.bilx:entryValues}</code></td><td></td></tr>
      * </table>
      * @see #ListPreference_android_entries
      * @see #ListPreference_android_entryValues
@@ -13178,7 +13274,7 @@ public final class R {
      * @see #ListPreference_entryValues
      */
     public static final int[] ListPreference={
-        0x010100b2, 0x010101f8, 0x7f0400a7, 0x7f0400a8
+        0x010100b2, 0x010101f8, 0x7f0400ab, 0x7f0400ac
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -13205,7 +13301,7 @@ public final class R {
      */
     public static final int ListPreference_android_entryValues=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#entries}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#entries}
      * attribute's value can be found in the {@link #ListPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13213,11 +13309,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:entries
+     * @attr name hab.bilx:entries
      */
     public static final int ListPreference_entries=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#entryValues}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#entryValues}
      * attribute's value can be found in the {@link #ListPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13225,7 +13321,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:entryValues
+     * @attr name hab.bilx:entryValues
      */
     public static final int ListPreference_entryValues=3;
     /**
@@ -13235,38 +13331,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LoadingImageView_circleCrop com.example.www.bilx:circleCrop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.example.www.bilx:imageAspectRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.example.www.bilx:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop hab.bilx:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio hab.bilx:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust hab.bilx:imageAspectRatioAdjust}</code></td><td></td></tr>
      * </table>
      * @see #LoadingImageView_circleCrop
      * @see #LoadingImageView_imageAspectRatio
      * @see #LoadingImageView_imageAspectRatioAdjust
      */
     public static final int[] LoadingImageView={
-        0x7f04005e, 0x7f0400e5, 0x7f0400e6
+        0x7f040061, 0x7f0400ea, 0x7f0400eb
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:circleCrop
+     * @attr name hab.bilx:circleCrop
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:imageAspectRatio
+     * @attr name hab.bilx:imageAspectRatio
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13280,7 +13376,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:imageAspectRatioAdjust
+     * @attr name hab.bilx:imageAspectRatioAdjust
      */
     public static final int LoadingImageView_imageAspectRatioAdjust=2;
     /**
@@ -13406,16 +13502,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.example.www.bilx:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.example.www.bilx:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.example.www.bilx:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.example.www.bilx:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.example.www.bilx:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.example.www.bilx:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.example.www.bilx:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.example.www.bilx:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.example.www.bilx:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.example.www.bilx:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout hab.bilx:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass hab.bilx:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass hab.bilx:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers hab.bilx:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription hab.bilx:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint hab.bilx:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode hab.bilx:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers hab.bilx:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction hab.bilx:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText hab.bilx:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -13446,8 +13542,8 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f04000d, 0x7f04001f, 0x7f040020, 
-        0x7f040029, 0x7f040076, 0x7f0400e2, 0x7f0400e3, 
-        0x7f040157, 0x7f040197, 0x7f0401f8
+        0x7f04002d, 0x7f040079, 0x7f0400e7, 0x7f0400e8, 
+        0x7f04015d, 0x7f04019e, 0x7f040201
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -13592,7 +13688,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13600,31 +13696,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:actionLayout
+     * @attr name hab.bilx:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:actionProviderClass
+     * @attr name hab.bilx:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:actionViewClass
+     * @attr name hab.bilx:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13641,32 +13737,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:alphabeticModifiers
+     * @attr name hab.bilx:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:contentDescription
+     * @attr name hab.bilx:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:iconTint
+     * @attr name hab.bilx:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13683,11 +13779,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:iconTintMode
+     * @attr name hab.bilx:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13704,11 +13800,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:numericModifiers
+     * @attr name hab.bilx:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13724,17 +13820,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:showAsAction
+     * @attr name hab.bilx:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:tooltipText
+     * @attr name hab.bilx:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -13751,8 +13847,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.www.bilx:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.example.www.bilx:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing hab.bilx:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow hab.bilx:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -13766,8 +13862,8 @@ public final class R {
      */
     public static final int[] MenuView={
         0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-        0x0101012f, 0x01010130, 0x01010131, 0x7f04017d, 
-        0x7f0401ac
+        0x0101012f, 0x01010130, 0x01010131, 0x7f040183, 
+        0x7f0401b5
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -13857,17 +13953,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:preserveIconSpacing
+     * @attr name hab.bilx:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13875,7 +13971,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:subMenuArrow
+     * @attr name hab.bilx:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -13887,8 +13983,8 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #MultiSelectListPreference_android_entries android:entries}</code></td><td></td></tr>
      * <tr><td><code>{@link #MultiSelectListPreference_android_entryValues android:entryValues}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MultiSelectListPreference_entries com.example.www.bilx:entries}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MultiSelectListPreference_entryValues com.example.www.bilx:entryValues}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MultiSelectListPreference_entries hab.bilx:entries}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MultiSelectListPreference_entryValues hab.bilx:entryValues}</code></td><td></td></tr>
      * </table>
      * @see #MultiSelectListPreference_android_entries
      * @see #MultiSelectListPreference_android_entryValues
@@ -13896,7 +13992,7 @@ public final class R {
      * @see #MultiSelectListPreference_entryValues
      */
     public static final int[] MultiSelectListPreference={
-        0x010100b2, 0x010101f8, 0x7f0400a7, 0x7f0400a8
+        0x010100b2, 0x010101f8, 0x7f0400ab, 0x7f0400ac
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -13923,7 +14019,7 @@ public final class R {
      */
     public static final int MultiSelectListPreference_android_entryValues=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#entries}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#entries}
      * attribute's value can be found in the {@link #MultiSelectListPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13931,11 +14027,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:entries
+     * @attr name hab.bilx:entries
      */
     public static final int MultiSelectListPreference_entries=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#entryValues}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#entryValues}
      * attribute's value can be found in the {@link #MultiSelectListPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13943,7 +14039,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:entryValues
+     * @attr name hab.bilx:entryValues
      */
     public static final int MultiSelectListPreference_entryValues=3;
     /**
@@ -13956,13 +14052,13 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.example.www.bilx:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.example.www.bilx:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.example.www.bilx:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.example.www.bilx:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.example.www.bilx:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.example.www.bilx:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.example.www.bilx:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation hab.bilx:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout hab.bilx:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground hab.bilx:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint hab.bilx:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance hab.bilx:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor hab.bilx:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu hab.bilx:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -13976,9 +14072,9 @@ public final class R {
      * @see #NavigationView_menu
      */
     public static final int[] NavigationView={
-        0x010100d4, 0x010100dd, 0x0101011f, 0x7f0400a4, 
-        0x7f0400d3, 0x7f0400ec, 0x7f0400ed, 0x7f0400ef, 
-        0x7f0400f0, 0x7f040145
+        0x010100d4, 0x010100dd, 0x0101011f, 0x7f0400a8, 
+        0x7f0400d7, 0x7f0400f1, 0x7f0400f2, 0x7f0400f4, 
+        0x7f0400f5, 0x7f04014a
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -14019,7 +14115,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14028,11 +14124,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:elevation
+     * @attr name hab.bilx:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14040,11 +14136,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:headerLayout
+     * @attr name hab.bilx:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14052,22 +14148,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:itemBackground
+     * @attr name hab.bilx:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:itemIconTint
+     * @attr name hab.bilx:itemIconTint
      */
     public static final int NavigationView_itemIconTint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14075,22 +14171,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:itemTextAppearance
+     * @attr name hab.bilx:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:itemTextColor
+     * @attr name hab.bilx:itemTextColor
      */
     public static final int NavigationView_itemTextColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#menu}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14098,7 +14194,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:menu
+     * @attr name hab.bilx:menu
      */
     public static final int NavigationView_menu=9;
     /**
@@ -14110,14 +14206,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.www.bilx:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor hab.bilx:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-        0x01010176, 0x010102c9, 0x7f04015a
+        0x01010176, 0x010102c9, 0x7f040160
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -14147,13 +14243,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:overlapAnchor
+     * @attr name hab.bilx:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -14163,21 +14259,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.www.bilx:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor hab.bilx:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f0401a7
+        0x7f0401b0
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:state_above_anchor
+     * @attr name hab.bilx:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -14201,20 +14297,26 @@ public final class R {
      * <tr><td><code>{@link #Preference_android_defaultValue android:defaultValue}</code></td><td></td></tr>
      * <tr><td><code>{@link #Preference_android_shouldDisableView android:shouldDisableView}</code></td><td></td></tr>
      * <tr><td><code>{@link #Preference_android_fragment android:fragment}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_defaultValue com.example.www.bilx:defaultValue}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_dependency com.example.www.bilx:dependency}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_enabled com.example.www.bilx:enabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_fragment com.example.www.bilx:fragment}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_icon com.example.www.bilx:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_key com.example.www.bilx:key}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_layout com.example.www.bilx:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_order com.example.www.bilx:order}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_persistent com.example.www.bilx:persistent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_selectable com.example.www.bilx:selectable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_shouldDisableView com.example.www.bilx:shouldDisableView}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_summary com.example.www.bilx:summary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_title com.example.www.bilx:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Preference_widgetLayout com.example.www.bilx:widgetLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_android_singleLineTitle android:singleLineTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_android_iconSpaceReserved android:iconSpaceReserved}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_allowDividerAbove hab.bilx:allowDividerAbove}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_allowDividerBelow hab.bilx:allowDividerBelow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_defaultValue hab.bilx:defaultValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_dependency hab.bilx:dependency}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_enabled hab.bilx:enabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_fragment hab.bilx:fragment}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_icon hab.bilx:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_iconSpaceReserved hab.bilx:iconSpaceReserved}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_key hab.bilx:key}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_layout hab.bilx:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_order hab.bilx:order}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_persistent hab.bilx:persistent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_selectable hab.bilx:selectable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_shouldDisableView hab.bilx:shouldDisableView}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_singleLineTitle hab.bilx:singleLineTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_summary hab.bilx:summary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_title hab.bilx:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Preference_widgetLayout hab.bilx:widgetLayout}</code></td><td></td></tr>
      * </table>
      * @see #Preference_android_icon
      * @see #Preference_android_persistent
@@ -14230,17 +14332,23 @@ public final class R {
      * @see #Preference_android_defaultValue
      * @see #Preference_android_shouldDisableView
      * @see #Preference_android_fragment
+     * @see #Preference_android_singleLineTitle
+     * @see #Preference_android_iconSpaceReserved
+     * @see #Preference_allowDividerAbove
+     * @see #Preference_allowDividerBelow
      * @see #Preference_defaultValue
      * @see #Preference_dependency
      * @see #Preference_enabled
      * @see #Preference_fragment
      * @see #Preference_icon
+     * @see #Preference_iconSpaceReserved
      * @see #Preference_key
      * @see #Preference_layout
      * @see #Preference_order
      * @see #Preference_persistent
      * @see #Preference_selectable
      * @see #Preference_shouldDisableView
+     * @see #Preference_singleLineTitle
      * @see #Preference_summary
      * @see #Preference_title
      * @see #Preference_widgetLayout
@@ -14249,10 +14357,12 @@ public final class R {
         0x01010002, 0x0101000d, 0x0101000e, 0x010100f2, 
         0x010101e1, 0x010101e6, 0x010101e8, 0x010101e9, 
         0x010101ea, 0x010101eb, 0x010101ec, 0x010101ed, 
-        0x010101ee, 0x010102e3, 0x7f04008c, 0x7f04008d, 
-        0x7f0400a6, 0x7f0400cb, 0x7f0400e1, 0x7f0400f1, 
-        0x7f0400f3, 0x7f040158, 0x7f04016a, 0x7f040193, 
-        0x7f040196, 0x7f0401b3, 0x7f0401e6, 0x7f0401ff
+        0x010101ee, 0x010102e3, 0x0101055c, 0x01010561, 
+        0x7f040028, 0x7f04002a, 0x7f04008f, 0x7f040090, 
+        0x7f0400aa, 0x7f0400cf, 0x7f0400e5, 0x7f0400e6, 
+        0x7f0400f6, 0x7f0400f8, 0x7f04015e, 0x7f040170, 
+        0x7f04019a, 0x7f04019d, 0x7f0401a8, 0x7f0401bc, 
+        0x7f0401ef, 0x7f040208
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -14408,7 +14518,47 @@ public final class R {
      */
     public static final int Preference_android_fragment=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#defaultValue}
+     * <p>This symbol is the offset where the {@link android.R.attr#singleLineTitle}
+     * attribute's value can be found in the {@link #Preference} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:singleLineTitle
+     */
+    public static final int Preference_android_singleLineTitle=14;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#iconSpaceReserved}
+     * attribute's value can be found in the {@link #Preference} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name android:iconSpaceReserved
+     */
+    public static final int Preference_android_iconSpaceReserved=15;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#allowDividerAbove}
+     * attribute's value can be found in the {@link #Preference} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name hab.bilx:allowDividerAbove
+     */
+    public static final int Preference_allowDividerAbove=16;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#allowDividerBelow}
+     * attribute's value can be found in the {@link #Preference} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name hab.bilx:allowDividerBelow
+     */
+    public static final int Preference_allowDividerBelow=17;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#defaultValue}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14422,41 +14572,41 @@ public final class R {
      * "<code>false</code>".
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:defaultValue
+     * @attr name hab.bilx:defaultValue
      */
-    public static final int Preference_defaultValue=14;
+    public static final int Preference_defaultValue=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dependency}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dependency}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:dependency
+     * @attr name hab.bilx:dependency
      */
-    public static final int Preference_dependency=15;
+    public static final int Preference_dependency=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#enabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#enabled}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:enabled
+     * @attr name hab.bilx:enabled
      */
-    public static final int Preference_enabled=16;
+    public static final int Preference_enabled=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fragment}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fragment}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:fragment
+     * @attr name hab.bilx:fragment
      */
-    public static final int Preference_fragment=17;
+    public static final int Preference_fragment=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#icon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#icon}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14464,21 +14614,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:icon
+     * @attr name hab.bilx:icon
      */
-    public static final int Preference_icon=18;
+    public static final int Preference_icon=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#key}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#iconSpaceReserved}
+     * attribute's value can be found in the {@link #Preference} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name hab.bilx:iconSpaceReserved
+     */
+    public static final int Preference_iconSpaceReserved=23;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#key}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:key
+     * @attr name hab.bilx:key
      */
-    public static final int Preference_key=19;
+    public static final int Preference_key=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14486,70 +14646,80 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:layout
+     * @attr name hab.bilx:layout
      */
-    public static final int Preference_layout=20;
+    public static final int Preference_layout=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#order}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#order}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:order
+     * @attr name hab.bilx:order
      */
-    public static final int Preference_order=21;
+    public static final int Preference_order=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#persistent}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#persistent}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:persistent
+     * @attr name hab.bilx:persistent
      */
-    public static final int Preference_persistent=22;
+    public static final int Preference_persistent=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#selectable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#selectable}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:selectable
+     * @attr name hab.bilx:selectable
      */
-    public static final int Preference_selectable=23;
+    public static final int Preference_selectable=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#shouldDisableView}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#shouldDisableView}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:shouldDisableView
+     * @attr name hab.bilx:shouldDisableView
      */
-    public static final int Preference_shouldDisableView=24;
+    public static final int Preference_shouldDisableView=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#summary}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#singleLineTitle}
+     * attribute's value can be found in the {@link #Preference} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name hab.bilx:singleLineTitle
+     */
+    public static final int Preference_singleLineTitle=30;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#summary}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:summary
+     * @attr name hab.bilx:summary
      */
-    public static final int Preference_summary=25;
+    public static final int Preference_summary=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#title}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#title}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:title
+     * @attr name hab.bilx:title
      */
-    public static final int Preference_title=26;
+    public static final int Preference_title=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#widgetLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#widgetLayout}
      * attribute's value can be found in the {@link #Preference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14557,9 +14727,9 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:widgetLayout
+     * @attr name hab.bilx:widgetLayout
      */
-    public static final int Preference_widgetLayout=27;
+    public static final int Preference_widgetLayout=33;
     /**
      * Attributes that can be used with a PreferenceFragment.
      * <p>Includes the following attributes:</p>
@@ -14570,13 +14740,15 @@ public final class R {
      * <tr><td><code>{@link #PreferenceFragment_android_layout android:layout}</code></td><td></td></tr>
      * <tr><td><code>{@link #PreferenceFragment_android_divider android:divider}</code></td><td></td></tr>
      * <tr><td><code>{@link #PreferenceFragment_android_dividerHeight android:dividerHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceFragment_allowDividerAfterLastItem hab.bilx:allowDividerAfterLastItem}</code></td><td></td></tr>
      * </table>
      * @see #PreferenceFragment_android_layout
      * @see #PreferenceFragment_android_divider
      * @see #PreferenceFragment_android_dividerHeight
+     * @see #PreferenceFragment_allowDividerAfterLastItem
      */
     public static final int[] PreferenceFragment={
-        0x010100f2, 0x01010129, 0x0101012a
+        0x010100f2, 0x01010129, 0x0101012a, 0x7f040029
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -14619,6 +14791,16 @@ public final class R {
      */
     public static final int PreferenceFragment_android_dividerHeight=2;
     /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#allowDividerAfterLastItem}
+     * attribute's value can be found in the {@link #PreferenceFragment} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name hab.bilx:allowDividerAfterLastItem
+     */
+    public static final int PreferenceFragment_allowDividerAfterLastItem=3;
+    /**
      * Attributes that can be used with a PreferenceFragmentCompat.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -14628,13 +14810,15 @@ public final class R {
      * <tr><td><code>{@link #PreferenceFragmentCompat_android_layout android:layout}</code></td><td></td></tr>
      * <tr><td><code>{@link #PreferenceFragmentCompat_android_divider android:divider}</code></td><td></td></tr>
      * <tr><td><code>{@link #PreferenceFragmentCompat_android_dividerHeight android:dividerHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceFragmentCompat_allowDividerAfterLastItem hab.bilx:allowDividerAfterLastItem}</code></td><td></td></tr>
      * </table>
      * @see #PreferenceFragmentCompat_android_layout
      * @see #PreferenceFragmentCompat_android_divider
      * @see #PreferenceFragmentCompat_android_dividerHeight
+     * @see #PreferenceFragmentCompat_allowDividerAfterLastItem
      */
     public static final int[] PreferenceFragmentCompat={
-        0x010100f2, 0x01010129, 0x0101012a
+        0x010100f2, 0x01010129, 0x0101012a, 0x7f040029
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -14677,6 +14861,16 @@ public final class R {
      */
     public static final int PreferenceFragmentCompat_android_dividerHeight=2;
     /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#allowDividerAfterLastItem}
+     * attribute's value can be found in the {@link #PreferenceFragmentCompat} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name hab.bilx:allowDividerAfterLastItem
+     */
+    public static final int PreferenceFragmentCompat_allowDividerAfterLastItem=3;
+    /**
      * Attributes that can be used with a PreferenceGroup.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -14684,13 +14878,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PreferenceGroup_android_orderingFromXml android:orderingFromXml}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceGroup_orderingFromXml com.example.www.bilx:orderingFromXml}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceGroup_orderingFromXml hab.bilx:orderingFromXml}</code></td><td></td></tr>
      * </table>
      * @see #PreferenceGroup_android_orderingFromXml
      * @see #PreferenceGroup_orderingFromXml
      */
     public static final int[] PreferenceGroup={
-        0x010101e7, 0x7f040159
+        0x010101e7, 0x7f04015f
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orderingFromXml}
@@ -14703,13 +14897,13 @@ public final class R {
      */
     public static final int PreferenceGroup_android_orderingFromXml=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#orderingFromXml}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#orderingFromXml}
      * attribute's value can be found in the {@link #PreferenceGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:orderingFromXml
+     * @attr name hab.bilx:orderingFromXml
      */
     public static final int PreferenceGroup_orderingFromXml=1;
     /**
@@ -14721,8 +14915,8 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PreferenceImageView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #PreferenceImageView_android_maxHeight android:maxHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceImageView_maxHeight com.example.www.bilx:maxHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceImageView_maxWidth com.example.www.bilx:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceImageView_maxHeight hab.bilx:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceImageView_maxWidth hab.bilx:maxWidth}</code></td><td></td></tr>
      * </table>
      * @see #PreferenceImageView_android_maxWidth
      * @see #PreferenceImageView_android_maxHeight
@@ -14730,7 +14924,7 @@ public final class R {
      * @see #PreferenceImageView_maxWidth
      */
     public static final int[] PreferenceImageView={
-        0x0101011f, 0x01010120, 0x7f040140, 0x7f040143
+        0x0101011f, 0x01010120, 0x7f040145, 0x7f040148
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -14759,7 +14953,7 @@ public final class R {
      */
     public static final int PreferenceImageView_android_maxHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#maxHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#maxHeight}
      * attribute's value can be found in the {@link #PreferenceImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14768,11 +14962,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:maxHeight
+     * @attr name hab.bilx:maxHeight
      */
     public static final int PreferenceImageView_maxHeight=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#maxWidth}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#maxWidth}
      * attribute's value can be found in the {@link #PreferenceImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14781,7 +14975,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:maxWidth
+     * @attr name hab.bilx:maxWidth
      */
     public static final int PreferenceImageView_maxWidth=3;
     /**
@@ -14791,31 +14985,33 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PreferenceTheme_checkBoxPreferenceStyle com.example.www.bilx:checkBoxPreferenceStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_dialogPreferenceStyle com.example.www.bilx:dialogPreferenceStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_editTextPreferenceStyle com.example.www.bilx:editTextPreferenceStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceActivityStyle com.example.www.bilx:preferenceActivityStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceCategoryStyle com.example.www.bilx:preferenceCategoryStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceFragmentCompatStyle com.example.www.bilx:preferenceFragmentCompatStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceFragmentListStyle com.example.www.bilx:preferenceFragmentListStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceFragmentPaddingSide com.example.www.bilx:preferenceFragmentPaddingSide}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceFragmentStyle com.example.www.bilx:preferenceFragmentStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceHeaderPanelStyle com.example.www.bilx:preferenceHeaderPanelStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceInformationStyle com.example.www.bilx:preferenceInformationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceLayoutChild com.example.www.bilx:preferenceLayoutChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceListStyle com.example.www.bilx:preferenceListStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferencePanelStyle com.example.www.bilx:preferencePanelStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceScreenStyle com.example.www.bilx:preferenceScreenStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceStyle com.example.www.bilx:preferenceStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_preferenceTheme com.example.www.bilx:preferenceTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_ringtonePreferenceStyle com.example.www.bilx:ringtonePreferenceStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_seekBarPreferenceStyle com.example.www.bilx:seekBarPreferenceStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_switchPreferenceCompatStyle com.example.www.bilx:switchPreferenceCompatStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_switchPreferenceStyle com.example.www.bilx:switchPreferenceStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PreferenceTheme_yesNoPreferenceStyle com.example.www.bilx:yesNoPreferenceStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_checkBoxPreferenceStyle hab.bilx:checkBoxPreferenceStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_dialogPreferenceStyle hab.bilx:dialogPreferenceStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_dropdownPreferenceStyle hab.bilx:dropdownPreferenceStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_editTextPreferenceStyle hab.bilx:editTextPreferenceStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceActivityStyle hab.bilx:preferenceActivityStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceCategoryStyle hab.bilx:preferenceCategoryStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceFragmentCompatStyle hab.bilx:preferenceFragmentCompatStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceFragmentListStyle hab.bilx:preferenceFragmentListStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceFragmentPaddingSide hab.bilx:preferenceFragmentPaddingSide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceFragmentStyle hab.bilx:preferenceFragmentStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceHeaderPanelStyle hab.bilx:preferenceHeaderPanelStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceInformationStyle hab.bilx:preferenceInformationStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceLayoutChild hab.bilx:preferenceLayoutChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceListStyle hab.bilx:preferenceListStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferencePanelStyle hab.bilx:preferencePanelStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceScreenStyle hab.bilx:preferenceScreenStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceStyle hab.bilx:preferenceStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_preferenceTheme hab.bilx:preferenceTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_ringtonePreferenceStyle hab.bilx:ringtonePreferenceStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_seekBarPreferenceStyle hab.bilx:seekBarPreferenceStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_switchPreferenceCompatStyle hab.bilx:switchPreferenceCompatStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_switchPreferenceStyle hab.bilx:switchPreferenceStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PreferenceTheme_yesNoPreferenceStyle hab.bilx:yesNoPreferenceStyle}</code></td><td></td></tr>
      * </table>
      * @see #PreferenceTheme_checkBoxPreferenceStyle
      * @see #PreferenceTheme_dialogPreferenceStyle
+     * @see #PreferenceTheme_dropdownPreferenceStyle
      * @see #PreferenceTheme_editTextPreferenceStyle
      * @see #PreferenceTheme_preferenceActivityStyle
      * @see #PreferenceTheme_preferenceCategoryStyle
@@ -14838,15 +15034,15 @@ public final class R {
      * @see #PreferenceTheme_yesNoPreferenceStyle
      */
     public static final int[] PreferenceTheme={
-        0x7f04005b, 0x7f040091, 0x7f0400a2, 0x7f04016f, 
-        0x7f040170, 0x7f040171, 0x7f040172, 0x7f040173, 
-        0x7f040174, 0x7f040175, 0x7f040176, 0x7f040177, 
-        0x7f040178, 0x7f040179, 0x7f04017a, 0x7f04017b, 
-        0x7f04017c, 0x7f040188, 0x7f040191, 0x7f0401b8, 
-        0x7f0401b9, 0x7f04020b
+        0x7f04005e, 0x7f040094, 0x7f0400a3, 0x7f0400a6, 
+        0x7f040175, 0x7f040176, 0x7f040177, 0x7f040178, 
+        0x7f040179, 0x7f04017a, 0x7f04017b, 0x7f04017c, 
+        0x7f04017d, 0x7f04017e, 0x7f04017f, 0x7f040180, 
+        0x7f040181, 0x7f040182, 0x7f04018e, 0x7f040198, 
+        0x7f0401c1, 0x7f0401c2, 0x7f040214
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#checkBoxPreferenceStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#checkBoxPreferenceStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14854,11 +15050,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:checkBoxPreferenceStyle
+     * @attr name hab.bilx:checkBoxPreferenceStyle
      */
     public static final int PreferenceTheme_checkBoxPreferenceStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dialogPreferenceStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dialogPreferenceStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14866,11 +15062,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:dialogPreferenceStyle
+     * @attr name hab.bilx:dialogPreferenceStyle
      */
     public static final int PreferenceTheme_dialogPreferenceStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#editTextPreferenceStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dropdownPreferenceStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14878,11 +15074,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:editTextPreferenceStyle
+     * @attr name hab.bilx:dropdownPreferenceStyle
      */
-    public static final int PreferenceTheme_editTextPreferenceStyle=2;
+    public static final int PreferenceTheme_dropdownPreferenceStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceActivityStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#editTextPreferenceStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14890,11 +15086,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceActivityStyle
+     * @attr name hab.bilx:editTextPreferenceStyle
      */
-    public static final int PreferenceTheme_preferenceActivityStyle=3;
+    public static final int PreferenceTheme_editTextPreferenceStyle=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceCategoryStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceActivityStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14902,11 +15098,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceCategoryStyle
+     * @attr name hab.bilx:preferenceActivityStyle
      */
-    public static final int PreferenceTheme_preferenceCategoryStyle=4;
+    public static final int PreferenceTheme_preferenceActivityStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceFragmentCompatStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceCategoryStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14914,11 +15110,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceFragmentCompatStyle
+     * @attr name hab.bilx:preferenceCategoryStyle
      */
-    public static final int PreferenceTheme_preferenceFragmentCompatStyle=5;
+    public static final int PreferenceTheme_preferenceCategoryStyle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceFragmentListStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceFragmentCompatStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14926,11 +15122,23 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceFragmentListStyle
+     * @attr name hab.bilx:preferenceFragmentCompatStyle
      */
-    public static final int PreferenceTheme_preferenceFragmentListStyle=6;
+    public static final int PreferenceTheme_preferenceFragmentCompatStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceFragmentPaddingSide}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceFragmentListStyle}
+     * attribute's value can be found in the {@link #PreferenceTheme} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name hab.bilx:preferenceFragmentListStyle
+     */
+    public static final int PreferenceTheme_preferenceFragmentListStyle=7;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceFragmentPaddingSide}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14939,11 +15147,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:preferenceFragmentPaddingSide
+     * @attr name hab.bilx:preferenceFragmentPaddingSide
      */
-    public static final int PreferenceTheme_preferenceFragmentPaddingSide=7;
+    public static final int PreferenceTheme_preferenceFragmentPaddingSide=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceFragmentStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceFragmentStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14951,11 +15159,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceFragmentStyle
+     * @attr name hab.bilx:preferenceFragmentStyle
      */
-    public static final int PreferenceTheme_preferenceFragmentStyle=8;
+    public static final int PreferenceTheme_preferenceFragmentStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceHeaderPanelStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceHeaderPanelStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14963,11 +15171,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceHeaderPanelStyle
+     * @attr name hab.bilx:preferenceHeaderPanelStyle
      */
-    public static final int PreferenceTheme_preferenceHeaderPanelStyle=9;
+    public static final int PreferenceTheme_preferenceHeaderPanelStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceInformationStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceInformationStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14975,11 +15183,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceInformationStyle
+     * @attr name hab.bilx:preferenceInformationStyle
      */
-    public static final int PreferenceTheme_preferenceInformationStyle=10;
+    public static final int PreferenceTheme_preferenceInformationStyle=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceLayoutChild}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceLayoutChild}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14987,11 +15195,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceLayoutChild
+     * @attr name hab.bilx:preferenceLayoutChild
      */
-    public static final int PreferenceTheme_preferenceLayoutChild=11;
+    public static final int PreferenceTheme_preferenceLayoutChild=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceListStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceListStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14999,11 +15207,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceListStyle
+     * @attr name hab.bilx:preferenceListStyle
      */
-    public static final int PreferenceTheme_preferenceListStyle=12;
+    public static final int PreferenceTheme_preferenceListStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferencePanelStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferencePanelStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15011,11 +15219,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferencePanelStyle
+     * @attr name hab.bilx:preferencePanelStyle
      */
-    public static final int PreferenceTheme_preferencePanelStyle=13;
+    public static final int PreferenceTheme_preferencePanelStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceScreenStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceScreenStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15023,11 +15231,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceScreenStyle
+     * @attr name hab.bilx:preferenceScreenStyle
      */
-    public static final int PreferenceTheme_preferenceScreenStyle=14;
+    public static final int PreferenceTheme_preferenceScreenStyle=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15035,11 +15243,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceStyle
+     * @attr name hab.bilx:preferenceStyle
      */
-    public static final int PreferenceTheme_preferenceStyle=15;
+    public static final int PreferenceTheme_preferenceStyle=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#preferenceTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#preferenceTheme}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15047,11 +15255,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:preferenceTheme
+     * @attr name hab.bilx:preferenceTheme
      */
-    public static final int PreferenceTheme_preferenceTheme=16;
+    public static final int PreferenceTheme_preferenceTheme=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#ringtonePreferenceStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#ringtonePreferenceStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15059,11 +15267,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:ringtonePreferenceStyle
+     * @attr name hab.bilx:ringtonePreferenceStyle
      */
-    public static final int PreferenceTheme_ringtonePreferenceStyle=17;
+    public static final int PreferenceTheme_ringtonePreferenceStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#seekBarPreferenceStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#seekBarPreferenceStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15071,11 +15279,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:seekBarPreferenceStyle
+     * @attr name hab.bilx:seekBarPreferenceStyle
      */
-    public static final int PreferenceTheme_seekBarPreferenceStyle=18;
+    public static final int PreferenceTheme_seekBarPreferenceStyle=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#switchPreferenceCompatStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#switchPreferenceCompatStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15083,11 +15291,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:switchPreferenceCompatStyle
+     * @attr name hab.bilx:switchPreferenceCompatStyle
      */
-    public static final int PreferenceTheme_switchPreferenceCompatStyle=19;
+    public static final int PreferenceTheme_switchPreferenceCompatStyle=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#switchPreferenceStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#switchPreferenceStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15095,11 +15303,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:switchPreferenceStyle
+     * @attr name hab.bilx:switchPreferenceStyle
      */
-    public static final int PreferenceTheme_switchPreferenceStyle=20;
+    public static final int PreferenceTheme_switchPreferenceStyle=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#yesNoPreferenceStyle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#yesNoPreferenceStyle}
      * attribute's value can be found in the {@link #PreferenceTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15107,9 +15315,9 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:yesNoPreferenceStyle
+     * @attr name hab.bilx:yesNoPreferenceStyle
      */
-    public static final int PreferenceTheme_yesNoPreferenceStyle=21;
+    public static final int PreferenceTheme_yesNoPreferenceStyle=22;
     /**
      * Attributes that can be used with a RecycleListView.
      * <p>Includes the following attributes:</p>
@@ -15117,17 +15325,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.example.www.bilx:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.example.www.bilx:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons hab.bilx:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle hab.bilx:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-        0x7f04015c, 0x7f04015f
+        0x7f040162, 0x7f040165
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15136,11 +15344,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:paddingBottomNoButtons
+     * @attr name hab.bilx:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15149,7 +15357,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:paddingTopNoTitle
+     * @attr name hab.bilx:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -15161,15 +15369,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.example.www.bilx:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.example.www.bilx:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.example.www.bilx:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.example.www.bilx:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.example.www.bilx:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.example.www.bilx:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.example.www.bilx:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.example.www.bilx:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.www.bilx:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled hab.bilx:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable hab.bilx:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable hab.bilx:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable hab.bilx:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable hab.bilx:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager hab.bilx:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout hab.bilx:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount hab.bilx:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd hab.bilx:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -15184,9 +15392,9 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-        0x010100c4, 0x010100f1, 0x7f0400ba, 0x7f0400bb, 
-        0x7f0400bc, 0x7f0400bd, 0x7f0400be, 0x7f0400f4, 
-        0x7f040187, 0x7f0401a0, 0x7f0401a6
+        0x010100c4, 0x010100f1, 0x7f0400be, 0x7f0400bf, 
+        0x7f0400c0, 0x7f0400c1, 0x7f0400c2, 0x7f0400f9, 
+        0x7f04018d, 0x7f0401a9, 0x7f0401af
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -15224,17 +15432,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:fastScrollEnabled
+     * @attr name hab.bilx:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15242,11 +15450,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:fastScrollHorizontalThumbDrawable
+     * @attr name hab.bilx:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15254,11 +15462,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:fastScrollHorizontalTrackDrawable
+     * @attr name hab.bilx:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15266,11 +15474,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:fastScrollVerticalThumbDrawable
+     * @attr name hab.bilx:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15278,46 +15486,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:fastScrollVerticalTrackDrawable
+     * @attr name hab.bilx:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:layoutManager
+     * @attr name hab.bilx:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:reverseLayout
+     * @attr name hab.bilx:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:spanCount
+     * @attr name hab.bilx:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:stackFromEnd
+     * @attr name hab.bilx:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -15327,15 +15535,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.example.www.bilx:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground hab.bilx:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
     public static final int[] ScrimInsetsFrameLayout={
-        0x7f0400ea
+        0x7f0400ef
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15346,7 +15554,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:insetForeground
+     * @attr name hab.bilx:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -15356,15 +15564,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.example.www.bilx:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop hab.bilx:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
     public static final int[] ScrollingViewBehavior_Layout={
-        0x7f04003d
+        0x7f040041
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15373,7 +15581,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:behavior_overlapTop
+     * @attr name hab.bilx:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -15387,19 +15595,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.example.www.bilx:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.example.www.bilx:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.example.www.bilx:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.example.www.bilx:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.www.bilx:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.example.www.bilx:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.example.www.bilx:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.example.www.bilx:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.example.www.bilx:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.example.www.bilx:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.example.www.bilx:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.www.bilx:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.example.www.bilx:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon hab.bilx:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon hab.bilx:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint hab.bilx:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon hab.bilx:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault hab.bilx:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout hab.bilx:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground hab.bilx:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint hab.bilx:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon hab.bilx:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon hab.bilx:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground hab.bilx:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout hab.bilx:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon hab.bilx:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -15421,10 +15629,10 @@ public final class R {
      */
     public static final int[] SearchView={
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-        0x7f04005f, 0x7f040072, 0x7f04008b, 0x7f0400cf, 
-        0x7f0400e4, 0x7f0400f3, 0x7f040181, 0x7f040182, 
-        0x7f04018e, 0x7f04018f, 0x7f0401ad, 0x7f0401b2, 
-        0x7f0401fe
+        0x7f040062, 0x7f040075, 0x7f04008e, 0x7f0400d3, 
+        0x7f0400e9, 0x7f0400f8, 0x7f040187, 0x7f040188, 
+        0x7f040194, 0x7f040195, 0x7f0401b6, 0x7f0401bb, 
+        0x7f040207
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -15537,7 +15745,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15545,11 +15753,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:closeIcon
+     * @attr name hab.bilx:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15557,21 +15765,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:commitIcon
+     * @attr name hab.bilx:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:defaultQueryHint
+     * @attr name hab.bilx:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15579,21 +15787,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:goIcon
+     * @attr name hab.bilx:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:iconifiedByDefault
+     * @attr name hab.bilx:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#layout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15601,11 +15809,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:layout
+     * @attr name hab.bilx:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15613,21 +15821,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:queryBackground
+     * @attr name hab.bilx:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:queryHint
+     * @attr name hab.bilx:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15635,11 +15843,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:searchHintIcon
+     * @attr name hab.bilx:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15647,11 +15855,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:searchIcon
+     * @attr name hab.bilx:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15659,11 +15867,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:submitBackground
+     * @attr name hab.bilx:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15671,11 +15879,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:suggestionRowLayout
+     * @attr name hab.bilx:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15683,9 +15891,93 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:voiceIcon
+     * @attr name hab.bilx:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
+    /**
+     * Attributes that can be used with a SeekBarPreference.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #SeekBarPreference_android_layout android:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SeekBarPreference_android_max android:max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SeekBarPreference_adjustable hab.bilx:adjustable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SeekBarPreference_min hab.bilx:min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SeekBarPreference_seekBarIncrement hab.bilx:seekBarIncrement}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SeekBarPreference_showSeekBarValue hab.bilx:showSeekBarValue}</code></td><td></td></tr>
+     * </table>
+     * @see #SeekBarPreference_android_layout
+     * @see #SeekBarPreference_android_max
+     * @see #SeekBarPreference_adjustable
+     * @see #SeekBarPreference_min
+     * @see #SeekBarPreference_seekBarIncrement
+     * @see #SeekBarPreference_showSeekBarValue
+     */
+    public static final int[] SeekBarPreference={
+        0x010100f2, 0x01010136, 0x7f040022, 0x7f04014b, 
+        0x7f040197, 0x7f0401a4
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#layout}
+     * attribute's value can be found in the {@link #SeekBarPreference} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name android:layout
+     */
+    public static final int SeekBarPreference_android_layout=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#max}
+     * attribute's value can be found in the {@link #SeekBarPreference} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name android:max
+     */
+    public static final int SeekBarPreference_android_max=1;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#adjustable}
+     * attribute's value can be found in the {@link #SeekBarPreference} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name hab.bilx:adjustable
+     */
+    public static final int SeekBarPreference_adjustable=2;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#min}
+     * attribute's value can be found in the {@link #SeekBarPreference} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name hab.bilx:min
+     */
+    public static final int SeekBarPreference_min=3;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#seekBarIncrement}
+     * attribute's value can be found in the {@link #SeekBarPreference} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name hab.bilx:seekBarIncrement
+     */
+    public static final int SeekBarPreference_seekBarIncrement=4;
+    /**
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#showSeekBarValue}
+     * attribute's value can be found in the {@link #SeekBarPreference} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name hab.bilx:showSeekBarValue
+     */
+    public static final int SeekBarPreference_showSeekBarValue=5;
     /**
      * Attributes that can be used with a SignInButton.
      * <p>Includes the following attributes:</p>
@@ -15693,19 +15985,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignInButton_buttonSize com.example.www.bilx:buttonSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_colorScheme com.example.www.bilx:colorScheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_scopeUris com.example.www.bilx:scopeUris}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize hab.bilx:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme hab.bilx:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris hab.bilx:scopeUris}</code></td><td></td></tr>
      * </table>
      * @see #SignInButton_buttonSize
      * @see #SignInButton_colorScheme
      * @see #SignInButton_scopeUris
      */
     public static final int[] SignInButton={
-        0x7f04004e, 0x7f04006f, 0x7f04018a
+        0x7f040052, 0x7f040072, 0x7f040190
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15723,11 +16015,11 @@ public final class R {
      * <tr><td>wide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:buttonSize
+     * @attr name hab.bilx:buttonSize
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15745,11 +16037,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:colorScheme
+     * @attr name hab.bilx:colorScheme
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15759,7 +16051,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:scopeUris
+     * @attr name hab.bilx:scopeUris
      */
     public static final int SignInButton_scopeUris=2;
     /**
@@ -15770,15 +16062,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.example.www.bilx:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.example.www.bilx:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation hab.bilx:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth hab.bilx:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
      * @see #SnackbarLayout_maxActionInlineWidth
      */
     public static final int[] SnackbarLayout={
-        0x0101011f, 0x7f0400a4, 0x7f04013e
+        0x0101011f, 0x7f0400a8, 0x7f040143
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -15794,7 +16086,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15803,11 +16095,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:elevation
+     * @attr name hab.bilx:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15816,7 +16108,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:maxActionInlineWidth
+     * @attr name hab.bilx:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -15830,7 +16122,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.example.www.bilx:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme hab.bilx:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -15840,7 +16132,7 @@ public final class R {
      */
     public static final int[] Spinner={
         0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-        0x7f04016c
+        0x7f040172
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -15905,7 +16197,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15913,7 +16205,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:popupTheme
+     * @attr name hab.bilx:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -15926,17 +16218,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.example.www.bilx:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.example.www.bilx:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.www.bilx:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.example.www.bilx:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.www.bilx:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.www.bilx:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.example.www.bilx:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.example.www.bilx:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.example.www.bilx:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.example.www.bilx:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.example.www.bilx:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText hab.bilx:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack hab.bilx:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth hab.bilx:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding hab.bilx:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance hab.bilx:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding hab.bilx:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint hab.bilx:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode hab.bilx:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track hab.bilx:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint hab.bilx:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode hab.bilx:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -15954,10 +16246,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f04019d, 
-        0x7f0401a4, 0x7f0401b6, 0x7f0401b7, 0x7f0401bb, 
-        0x7f0401dd, 0x7f0401de, 0x7f0401df, 0x7f0401f9, 
-        0x7f0401fa, 0x7f0401fb
+        0x01010124, 0x01010125, 0x01010142, 0x7f0401a5, 
+        0x7f0401ad, 0x7f0401bf, 0x7f0401c0, 0x7f0401c4, 
+        0x7f0401e6, 0x7f0401e7, 0x7f0401e8, 0x7f040202, 
+        0x7f040203, 0x7f040204
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -15992,27 +16284,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#showText}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:showText
+     * @attr name hab.bilx:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:splitTrack
+     * @attr name hab.bilx:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16021,11 +16313,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:switchMinWidth
+     * @attr name hab.bilx:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16034,11 +16326,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:switchPadding
+     * @attr name hab.bilx:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16046,11 +16338,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:switchTextAppearance
+     * @attr name hab.bilx:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16059,22 +16351,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:thumbTextPadding
+     * @attr name hab.bilx:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:thumbTint
+     * @attr name hab.bilx:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16091,11 +16383,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:thumbTintMode
+     * @attr name hab.bilx:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#track}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16103,22 +16395,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:track
+     * @attr name hab.bilx:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:trackTint
+     * @attr name hab.bilx:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16135,7 +16427,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:trackTintMode
+     * @attr name hab.bilx:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -16150,11 +16442,11 @@ public final class R {
      * <tr><td><code>{@link #SwitchPreference_android_disableDependentsState android:disableDependentsState}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchPreference_android_switchTextOn android:switchTextOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchPreference_android_switchTextOff android:switchTextOff}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchPreference_disableDependentsState com.example.www.bilx:disableDependentsState}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchPreference_summaryOff com.example.www.bilx:summaryOff}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchPreference_summaryOn com.example.www.bilx:summaryOn}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchPreference_switchTextOff com.example.www.bilx:switchTextOff}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchPreference_switchTextOn com.example.www.bilx:switchTextOn}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchPreference_disableDependentsState hab.bilx:disableDependentsState}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchPreference_summaryOff hab.bilx:summaryOff}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchPreference_summaryOn hab.bilx:summaryOn}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchPreference_switchTextOff hab.bilx:switchTextOff}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchPreference_switchTextOn hab.bilx:switchTextOn}</code></td><td></td></tr>
      * </table>
      * @see #SwitchPreference_android_summaryOn
      * @see #SwitchPreference_android_summaryOff
@@ -16169,8 +16461,8 @@ public final class R {
      */
     public static final int[] SwitchPreference={
         0x010101ef, 0x010101f0, 0x010101f1, 0x0101036b, 
-        0x0101036c, 0x7f040095, 0x7f0401b4, 0x7f0401b5, 
-        0x7f0401bc, 0x7f0401bd
+        0x0101036c, 0x7f040098, 0x7f0401bd, 0x7f0401be, 
+        0x7f0401c5, 0x7f0401c6
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#summaryOn}
@@ -16223,53 +16515,53 @@ public final class R {
      */
     public static final int SwitchPreference_android_switchTextOff=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#disableDependentsState}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#disableDependentsState}
      * attribute's value can be found in the {@link #SwitchPreference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:disableDependentsState
+     * @attr name hab.bilx:disableDependentsState
      */
     public static final int SwitchPreference_disableDependentsState=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#summaryOff}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#summaryOff}
      * attribute's value can be found in the {@link #SwitchPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:summaryOff
+     * @attr name hab.bilx:summaryOff
      */
     public static final int SwitchPreference_summaryOff=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#summaryOn}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#summaryOn}
      * attribute's value can be found in the {@link #SwitchPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:summaryOn
+     * @attr name hab.bilx:summaryOn
      */
     public static final int SwitchPreference_summaryOn=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#switchTextOff}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#switchTextOff}
      * attribute's value can be found in the {@link #SwitchPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:switchTextOff
+     * @attr name hab.bilx:switchTextOff
      */
     public static final int SwitchPreference_switchTextOff=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#switchTextOn}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#switchTextOn}
      * attribute's value can be found in the {@link #SwitchPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:switchTextOn
+     * @attr name hab.bilx:switchTextOn
      */
     public static final int SwitchPreference_switchTextOn=9;
     /**
@@ -16284,11 +16576,11 @@ public final class R {
      * <tr><td><code>{@link #SwitchPreferenceCompat_android_disableDependentsState android:disableDependentsState}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchPreferenceCompat_android_switchTextOn android:switchTextOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchPreferenceCompat_android_switchTextOff android:switchTextOff}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchPreferenceCompat_disableDependentsState com.example.www.bilx:disableDependentsState}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchPreferenceCompat_summaryOff com.example.www.bilx:summaryOff}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchPreferenceCompat_summaryOn com.example.www.bilx:summaryOn}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchPreferenceCompat_switchTextOff com.example.www.bilx:switchTextOff}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchPreferenceCompat_switchTextOn com.example.www.bilx:switchTextOn}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchPreferenceCompat_disableDependentsState hab.bilx:disableDependentsState}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchPreferenceCompat_summaryOff hab.bilx:summaryOff}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchPreferenceCompat_summaryOn hab.bilx:summaryOn}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchPreferenceCompat_switchTextOff hab.bilx:switchTextOff}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchPreferenceCompat_switchTextOn hab.bilx:switchTextOn}</code></td><td></td></tr>
      * </table>
      * @see #SwitchPreferenceCompat_android_summaryOn
      * @see #SwitchPreferenceCompat_android_summaryOff
@@ -16303,8 +16595,8 @@ public final class R {
      */
     public static final int[] SwitchPreferenceCompat={
         0x010101ef, 0x010101f0, 0x010101f1, 0x0101036b, 
-        0x0101036c, 0x7f040095, 0x7f0401b4, 0x7f0401b5, 
-        0x7f0401bc, 0x7f0401bd
+        0x0101036c, 0x7f040098, 0x7f0401bd, 0x7f0401be, 
+        0x7f0401c5, 0x7f0401c6
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#summaryOn}
@@ -16357,53 +16649,53 @@ public final class R {
      */
     public static final int SwitchPreferenceCompat_android_switchTextOff=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#disableDependentsState}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#disableDependentsState}
      * attribute's value can be found in the {@link #SwitchPreferenceCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:disableDependentsState
+     * @attr name hab.bilx:disableDependentsState
      */
     public static final int SwitchPreferenceCompat_disableDependentsState=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#summaryOff}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#summaryOff}
      * attribute's value can be found in the {@link #SwitchPreferenceCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:summaryOff
+     * @attr name hab.bilx:summaryOff
      */
     public static final int SwitchPreferenceCompat_summaryOff=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#summaryOn}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#summaryOn}
      * attribute's value can be found in the {@link #SwitchPreferenceCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:summaryOn
+     * @attr name hab.bilx:summaryOn
      */
     public static final int SwitchPreferenceCompat_summaryOn=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#switchTextOff}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#switchTextOff}
      * attribute's value can be found in the {@link #SwitchPreferenceCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:switchTextOff
+     * @attr name hab.bilx:switchTextOff
      */
     public static final int SwitchPreferenceCompat_switchTextOff=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#switchTextOn}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#switchTextOn}
      * attribute's value can be found in the {@link #SwitchPreferenceCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:switchTextOn
+     * @attr name hab.bilx:switchTextOn
      */
     public static final int SwitchPreferenceCompat_switchTextOn=9;
     /**
@@ -16465,22 +16757,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.example.www.bilx:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.example.www.bilx:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.example.www.bilx:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.example.www.bilx:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.example.www.bilx:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.example.www.bilx:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.example.www.bilx:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.example.www.bilx:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.example.www.bilx:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.example.www.bilx:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.example.www.bilx:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.example.www.bilx:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.example.www.bilx:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.example.www.bilx:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.example.www.bilx:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.example.www.bilx:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground hab.bilx:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart hab.bilx:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity hab.bilx:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor hab.bilx:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight hab.bilx:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth hab.bilx:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth hab.bilx:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode hab.bilx:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding hab.bilx:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom hab.bilx:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd hab.bilx:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart hab.bilx:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop hab.bilx:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor hab.bilx:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance hab.bilx:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor hab.bilx:tabTextColor}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -16500,13 +16792,13 @@ public final class R {
      * @see #TabLayout_tabTextColor
      */
     public static final int[] TabLayout={
-        0x7f0401be, 0x7f0401bf, 0x7f0401c0, 0x7f0401c1, 
-        0x7f0401c2, 0x7f0401c3, 0x7f0401c4, 0x7f0401c5, 
-        0x7f0401c6, 0x7f0401c7, 0x7f0401c8, 0x7f0401c9, 
-        0x7f0401ca, 0x7f0401cb, 0x7f0401cc, 0x7f0401cd
+        0x7f0401c7, 0x7f0401c8, 0x7f0401c9, 0x7f0401ca, 
+        0x7f0401cb, 0x7f0401cc, 0x7f0401cd, 0x7f0401ce, 
+        0x7f0401cf, 0x7f0401d0, 0x7f0401d1, 0x7f0401d2, 
+        0x7f0401d3, 0x7f0401d4, 0x7f0401d5, 0x7f0401d6
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16514,11 +16806,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:tabBackground
+     * @attr name hab.bilx:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16527,11 +16819,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:tabContentStart
+     * @attr name hab.bilx:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16544,22 +16836,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:tabGravity
+     * @attr name hab.bilx:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:tabIndicatorColor
+     * @attr name hab.bilx:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16568,11 +16860,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:tabIndicatorHeight
+     * @attr name hab.bilx:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16581,11 +16873,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:tabMaxWidth
+     * @attr name hab.bilx:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16594,11 +16886,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:tabMinWidth
+     * @attr name hab.bilx:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16611,11 +16903,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:tabMode
+     * @attr name hab.bilx:tabMode
      */
     public static final int TabLayout_tabMode=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16624,11 +16916,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:tabPadding
+     * @attr name hab.bilx:tabPadding
      */
     public static final int TabLayout_tabPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16637,11 +16929,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:tabPaddingBottom
+     * @attr name hab.bilx:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16650,11 +16942,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:tabPaddingEnd
+     * @attr name hab.bilx:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16663,11 +16955,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:tabPaddingStart
+     * @attr name hab.bilx:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16676,22 +16968,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:tabPaddingTop
+     * @attr name hab.bilx:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:tabSelectedTextColor
+     * @attr name hab.bilx:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16699,18 +16991,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:tabTextAppearance
+     * @attr name hab.bilx:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:tabTextColor
+     * @attr name hab.bilx:tabTextColor
      */
     public static final int TabLayout_tabTextColor=15;
     /**
@@ -16731,8 +17023,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.example.www.bilx:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.example.www.bilx:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily hab.bilx:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps hab.bilx:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -16751,8 +17043,8 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
-        0x01010163, 0x01010164, 0x010103ac, 0x7f0400c1, 
-        0x7f0401ce
+        0x01010163, 0x01010164, 0x010103ac, 0x7f0400c5, 
+        0x7f0401d7
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -16898,17 +17190,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:fontFamily
+     * @attr name hab.bilx:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16918,7 +17210,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:textAllCaps
+     * @attr name hab.bilx:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -16930,20 +17222,20 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.example.www.bilx:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.example.www.bilx:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.example.www.bilx:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.example.www.bilx:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.example.www.bilx:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.example.www.bilx:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.example.www.bilx:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.example.www.bilx:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.example.www.bilx:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.example.www.bilx:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.example.www.bilx:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.example.www.bilx:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.example.www.bilx:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.example.www.bilx:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled hab.bilx:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength hab.bilx:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance hab.bilx:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance hab.bilx:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled hab.bilx:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance hab.bilx:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled hab.bilx:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled hab.bilx:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance hab.bilx:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription hab.bilx:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable hab.bilx:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled hab.bilx:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint hab.bilx:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode hab.bilx:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -16963,10 +17255,10 @@ public final class R {
      * @see #TextInputLayout_passwordToggleTintMode
      */
     public static final int[] TextInputLayout={
-        0x0101009a, 0x01010150, 0x7f040084, 0x7f040085, 
-        0x7f040086, 0x7f040087, 0x7f0400a9, 0x7f0400aa, 
-        0x7f0400d8, 0x7f0400d9, 0x7f0400da, 0x7f040163, 
-        0x7f040164, 0x7f040165, 0x7f040166, 0x7f040167
+        0x0101009a, 0x01010150, 0x7f040087, 0x7f040088, 
+        0x7f040089, 0x7f04008a, 0x7f0400ad, 0x7f0400ae, 
+        0x7f0400dc, 0x7f0400dd, 0x7f0400de, 0x7f040169, 
+        0x7f04016a, 0x7f04016b, 0x7f04016c, 0x7f04016d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
@@ -16994,26 +17286,26 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:counterEnabled
+     * @attr name hab.bilx:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:counterMaxLength
+     * @attr name hab.bilx:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17021,11 +17313,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:counterOverflowTextAppearance
+     * @attr name hab.bilx:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17033,21 +17325,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:counterTextAppearance
+     * @attr name hab.bilx:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:errorEnabled
+     * @attr name hab.bilx:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17055,31 +17347,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:errorTextAppearance
+     * @attr name hab.bilx:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:hintAnimationEnabled
+     * @attr name hab.bilx:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:hintEnabled
+     * @attr name hab.bilx:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17087,21 +17379,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:hintTextAppearance
+     * @attr name hab.bilx:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:passwordToggleContentDescription
+     * @attr name hab.bilx:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17109,32 +17401,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:passwordToggleDrawable
+     * @attr name hab.bilx:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:passwordToggleEnabled
+     * @attr name hab.bilx:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:passwordToggleTint
+     * @attr name hab.bilx:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17150,7 +17442,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:passwordToggleTintMode
+     * @attr name hab.bilx:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=15;
     /**
@@ -17162,33 +17454,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.example.www.bilx:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.www.bilx:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.example.www.bilx:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.www.bilx:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.example.www.bilx:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.www.bilx:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.example.www.bilx:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.example.www.bilx:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.example.www.bilx:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.example.www.bilx:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.example.www.bilx:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.www.bilx:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.www.bilx:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.example.www.bilx:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.example.www.bilx:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.example.www.bilx:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.www.bilx:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.www.bilx:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.example.www.bilx:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.example.www.bilx:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.www.bilx:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.www.bilx:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.example.www.bilx:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.example.www.bilx:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.example.www.bilx:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.www.bilx:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.example.www.bilx:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity hab.bilx:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription hab.bilx:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon hab.bilx:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd hab.bilx:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions hab.bilx:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft hab.bilx:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight hab.bilx:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart hab.bilx:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation hab.bilx:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo hab.bilx:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription hab.bilx:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight hab.bilx:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription hab.bilx:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon hab.bilx:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme hab.bilx:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle hab.bilx:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance hab.bilx:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor hab.bilx:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title hab.bilx:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin hab.bilx:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom hab.bilx:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd hab.bilx:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart hab.bilx:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop hab.bilx:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins hab.bilx:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance hab.bilx:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor hab.bilx:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -17221,14 +17513,14 @@ public final class R {
      * @see #Toolbar_titleTextColor
      */
     public static final int[] Toolbar={
-        0x010100af, 0x01010140, 0x7f04004c, 0x7f040061, 
-        0x7f040062, 0x7f040077, 0x7f040078, 0x7f040079, 
-        0x7f04007a, 0x7f04007b, 0x7f04007c, 0x7f04013c, 
-        0x7f04013d, 0x7f04013f, 0x7f04014a, 0x7f04014b, 
-        0x7f04016c, 0x7f0401ae, 0x7f0401af, 0x7f0401b0, 
-        0x7f0401e6, 0x7f0401e8, 0x7f0401e9, 0x7f0401ea, 
-        0x7f0401eb, 0x7f0401ec, 0x7f0401ed, 0x7f0401ee, 
-        0x7f0401ef
+        0x010100af, 0x01010140, 0x7f040050, 0x7f040064, 
+        0x7f040065, 0x7f04007a, 0x7f04007b, 0x7f04007c, 
+        0x7f04007d, 0x7f04007e, 0x7f04007f, 0x7f040141, 
+        0x7f040142, 0x7f040144, 0x7f040150, 0x7f040151, 
+        0x7f040172, 0x7f0401b7, 0x7f0401b8, 0x7f0401b9, 
+        0x7f0401ef, 0x7f0401f1, 0x7f0401f2, 0x7f0401f3, 
+        0x7f0401f4, 0x7f0401f5, 0x7f0401f6, 0x7f0401f7, 
+        0x7f0401f8
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -17273,7 +17565,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -17286,21 +17578,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:buttonGravity
+     * @attr name hab.bilx:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:collapseContentDescription
+     * @attr name hab.bilx:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17308,11 +17600,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:collapseIcon
+     * @attr name hab.bilx:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17321,11 +17613,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetEnd
+     * @attr name hab.bilx:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17334,11 +17626,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetEndWithActions
+     * @attr name hab.bilx:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17347,11 +17639,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetLeft
+     * @attr name hab.bilx:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17360,11 +17652,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetRight
+     * @attr name hab.bilx:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17373,11 +17665,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetStart
+     * @attr name hab.bilx:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17386,11 +17678,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:contentInsetStartWithNavigation
+     * @attr name hab.bilx:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#logo}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17398,21 +17690,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:logo
+     * @attr name hab.bilx:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:logoDescription
+     * @attr name hab.bilx:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17421,21 +17713,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:maxButtonHeight
+     * @attr name hab.bilx:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:navigationContentDescription
+     * @attr name hab.bilx:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17443,11 +17735,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:navigationIcon
+     * @attr name hab.bilx:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17455,21 +17747,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:popupTheme
+     * @attr name hab.bilx:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:subtitle
+     * @attr name hab.bilx:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17477,32 +17769,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:subtitleTextAppearance
+     * @attr name hab.bilx:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:subtitleTextColor
+     * @attr name hab.bilx:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#title}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:title
+     * @attr name hab.bilx:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17511,11 +17803,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:titleMargin
+     * @attr name hab.bilx:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17524,11 +17816,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:titleMarginBottom
+     * @attr name hab.bilx:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17537,11 +17829,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:titleMarginEnd
+     * @attr name hab.bilx:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17550,11 +17842,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:titleMarginStart
+     * @attr name hab.bilx:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17563,11 +17855,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:titleMarginTop
+     * @attr name hab.bilx:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17576,11 +17868,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:titleMargins
+     * @attr name hab.bilx:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17588,18 +17880,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:titleTextAppearance
+     * @attr name hab.bilx:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:titleTextColor
+     * @attr name hab.bilx:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -17611,9 +17903,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.example.www.bilx:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.example.www.bilx:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.example.www.bilx:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd hab.bilx:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart hab.bilx:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme hab.bilx:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -17622,8 +17914,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-        0x01010000, 0x010100da, 0x7f04015d, 0x7f04015e, 
-        0x7f0401db
+        0x01010000, 0x010100da, 0x7f040163, 0x7f040164, 
+        0x7f0401e4
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}
@@ -17656,7 +17948,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17665,11 +17957,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:paddingEnd
+     * @attr name hab.bilx:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17678,11 +17970,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:paddingStart
+     * @attr name hab.bilx:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#theme}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17690,7 +17982,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.www.bilx:theme
+     * @attr name hab.bilx:theme
      */
     public static final int View_theme=4;
     /**
@@ -17701,15 +17993,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.www.bilx:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.www.bilx:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint hab.bilx:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode hab.bilx:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
      * @see #ViewBackgroundHelper_backgroundTintMode
      */
     public static final int[] ViewBackgroundHelper={
-        0x010100d4, 0x7f040036, 0x7f040037
+        0x010100d4, 0x7f04003a, 0x7f04003b
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -17727,18 +18019,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:backgroundTint
+     * @attr name hab.bilx:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17754,7 +18046,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:backgroundTintMode
+     * @attr name hab.bilx:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -17818,59 +18110,59 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #WeekView_allDayEventHeight com.example.www.bilx:allDayEventHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_autoLimitTime com.example.www.bilx:autoLimitTime}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_columnGap com.example.www.bilx:columnGap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_dayBackgroundColor com.example.www.bilx:dayBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_dayNameLength com.example.www.bilx:dayNameLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_dropListenerEnabled com.example.www.bilx:dropListenerEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_eventCornerRadius com.example.www.bilx:eventCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_eventMarginVertical com.example.www.bilx:eventMarginVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_eventPadding com.example.www.bilx:eventPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_eventTextColor com.example.www.bilx:eventTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_eventTextSize com.example.www.bilx:eventTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_firstDayOfWeek com.example.www.bilx:firstDayOfWeek}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_futureBackgroundColor com.example.www.bilx:futureBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_futureWeekendBackgroundColor com.example.www.bilx:futureWeekendBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_headerColumnBackground com.example.www.bilx:headerColumnBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_headerColumnPadding com.example.www.bilx:headerColumnPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_headerColumnTextColor com.example.www.bilx:headerColumnTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_headerRowBackgroundColor com.example.www.bilx:headerRowBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_headerRowPadding com.example.www.bilx:headerRowPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_horizontalFlingEnabled com.example.www.bilx:horizontalFlingEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_hourHeight com.example.www.bilx:hourHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_hourSeparatorColor com.example.www.bilx:hourSeparatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_hourSeparatorHeight com.example.www.bilx:hourSeparatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_maxHourHeight com.example.www.bilx:maxHourHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_maxTime com.example.www.bilx:maxTime}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_minHourHeight com.example.www.bilx:minHourHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_minOverlappingMinutes com.example.www.bilx:minOverlappingMinutes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_minTime com.example.www.bilx:minTime}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_newEventColor com.example.www.bilx:newEventColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_newEventIconResource com.example.www.bilx:newEventIconResource}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_newEventId com.example.www.bilx:newEventId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_newEventIdentifier com.example.www.bilx:newEventIdentifier}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_newEventLengthInMinutes com.example.www.bilx:newEventLengthInMinutes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_newEventTimeResolutionInMinutes com.example.www.bilx:newEventTimeResolutionInMinutes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_noOfVisibleDays com.example.www.bilx:noOfVisibleDays}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_nowLineColor com.example.www.bilx:nowLineColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_nowLineThickness com.example.www.bilx:nowLineThickness}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_overlappingEventGap com.example.www.bilx:overlappingEventGap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_pastBackgroundColor com.example.www.bilx:pastBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_pastWeekendBackgroundColor com.example.www.bilx:pastWeekendBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_scrollDuration com.example.www.bilx:scrollDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_showDistinctPastFutureColor com.example.www.bilx:showDistinctPastFutureColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_showDistinctWeekendColor com.example.www.bilx:showDistinctWeekendColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_showFirstDayOfWeekFirst com.example.www.bilx:showFirstDayOfWeekFirst}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_showNowLine com.example.www.bilx:showNowLine}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_textSize com.example.www.bilx:textSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_timeColumnResolution com.example.www.bilx:timeColumnResolution}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_todayBackgroundColor com.example.www.bilx:todayBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_todayHeaderTextColor com.example.www.bilx:todayHeaderTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_verticalFlingEnabled com.example.www.bilx:verticalFlingEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_xScrollingSpeed com.example.www.bilx:xScrollingSpeed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_zoomFocusPoint com.example.www.bilx:zoomFocusPoint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WeekView_zoomFocusPointEnabled com.example.www.bilx:zoomFocusPointEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_allDayEventHeight hab.bilx:allDayEventHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_autoLimitTime hab.bilx:autoLimitTime}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_columnGap hab.bilx:columnGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_dayBackgroundColor hab.bilx:dayBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_dayNameLength hab.bilx:dayNameLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_dropListenerEnabled hab.bilx:dropListenerEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_eventCornerRadius hab.bilx:eventCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_eventMarginVertical hab.bilx:eventMarginVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_eventPadding hab.bilx:eventPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_eventTextColor hab.bilx:eventTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_eventTextSize hab.bilx:eventTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_firstDayOfWeek hab.bilx:firstDayOfWeek}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_futureBackgroundColor hab.bilx:futureBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_futureWeekendBackgroundColor hab.bilx:futureWeekendBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_headerColumnBackground hab.bilx:headerColumnBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_headerColumnPadding hab.bilx:headerColumnPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_headerColumnTextColor hab.bilx:headerColumnTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_headerRowBackgroundColor hab.bilx:headerRowBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_headerRowPadding hab.bilx:headerRowPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_horizontalFlingEnabled hab.bilx:horizontalFlingEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_hourHeight hab.bilx:hourHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_hourSeparatorColor hab.bilx:hourSeparatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_hourSeparatorHeight hab.bilx:hourSeparatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_maxHourHeight hab.bilx:maxHourHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_maxTime hab.bilx:maxTime}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_minHourHeight hab.bilx:minHourHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_minOverlappingMinutes hab.bilx:minOverlappingMinutes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_minTime hab.bilx:minTime}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_newEventColor hab.bilx:newEventColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_newEventIconResource hab.bilx:newEventIconResource}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_newEventId hab.bilx:newEventId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_newEventIdentifier hab.bilx:newEventIdentifier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_newEventLengthInMinutes hab.bilx:newEventLengthInMinutes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_newEventTimeResolutionInMinutes hab.bilx:newEventTimeResolutionInMinutes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_noOfVisibleDays hab.bilx:noOfVisibleDays}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_nowLineColor hab.bilx:nowLineColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_nowLineThickness hab.bilx:nowLineThickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_overlappingEventGap hab.bilx:overlappingEventGap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_pastBackgroundColor hab.bilx:pastBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_pastWeekendBackgroundColor hab.bilx:pastWeekendBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_scrollDuration hab.bilx:scrollDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_showDistinctPastFutureColor hab.bilx:showDistinctPastFutureColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_showDistinctWeekendColor hab.bilx:showDistinctWeekendColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_showFirstDayOfWeekFirst hab.bilx:showFirstDayOfWeekFirst}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_showNowLine hab.bilx:showNowLine}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_textSize hab.bilx:textSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_timeColumnResolution hab.bilx:timeColumnResolution}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_todayBackgroundColor hab.bilx:todayBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_todayHeaderTextColor hab.bilx:todayHeaderTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_verticalFlingEnabled hab.bilx:verticalFlingEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_xScrollingSpeed hab.bilx:xScrollingSpeed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_zoomFocusPoint hab.bilx:zoomFocusPoint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WeekView_zoomFocusPointEnabled hab.bilx:zoomFocusPointEnabled}</code></td><td></td></tr>
      * </table>
      * @see #WeekView_allDayEventHeight
      * @see #WeekView_autoLimitTime
@@ -17927,23 +18219,23 @@ public final class R {
      * @see #WeekView_zoomFocusPointEnabled
      */
     public static final int[] WeekView={
-        0x7f040026, 0x7f04002d, 0x7f040071, 0x7f040089, 
-        0x7f04008a, 0x7f04009e, 0x7f0400ab, 0x7f0400ac, 
-        0x7f0400ad, 0x7f0400ae, 0x7f0400af, 0x7f0400bf, 
-        0x7f0400cc, 0x7f0400cd, 0x7f0400d0, 0x7f0400d1, 
-        0x7f0400d2, 0x7f0400d4, 0x7f0400d5, 0x7f0400dd, 
-        0x7f0400de, 0x7f0400df, 0x7f0400e0, 0x7f040141, 
-        0x7f040142, 0x7f040146, 0x7f040147, 0x7f040148, 
-        0x7f04014e, 0x7f04014f, 0x7f040150, 0x7f040151, 
-        0x7f040152, 0x7f040153, 0x7f040154, 0x7f040155, 
-        0x7f040156, 0x7f04015b, 0x7f040168, 0x7f040169, 
-        0x7f04018d, 0x7f040198, 0x7f040199, 0x7f04019b, 
-        0x7f04019c, 0x7f0401da, 0x7f0401e3, 0x7f0401f1, 
-        0x7f0401f2, 0x7f0401fd, 0x7f04020a, 0x7f04020c, 
-        0x7f04020d
+        0x7f040027, 0x7f040031, 0x7f040074, 0x7f04008c, 
+        0x7f04008d, 0x7f0400a1, 0x7f0400af, 0x7f0400b0, 
+        0x7f0400b1, 0x7f0400b2, 0x7f0400b3, 0x7f0400c3, 
+        0x7f0400d0, 0x7f0400d1, 0x7f0400d4, 0x7f0400d5, 
+        0x7f0400d6, 0x7f0400d8, 0x7f0400d9, 0x7f0400e1, 
+        0x7f0400e2, 0x7f0400e3, 0x7f0400e4, 0x7f040146, 
+        0x7f040147, 0x7f04014c, 0x7f04014d, 0x7f04014e, 
+        0x7f040154, 0x7f040155, 0x7f040156, 0x7f040157, 
+        0x7f040158, 0x7f040159, 0x7f04015a, 0x7f04015b, 
+        0x7f04015c, 0x7f040161, 0x7f04016e, 0x7f04016f, 
+        0x7f040193, 0x7f04019f, 0x7f0401a0, 0x7f0401a2, 
+        0x7f0401a3, 0x7f0401e3, 0x7f0401ec, 0x7f0401fa, 
+        0x7f0401fb, 0x7f040206, 0x7f040213, 0x7f040215, 
+        0x7f040216
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#allDayEventHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#allDayEventHeight}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17952,21 +18244,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:allDayEventHeight
+     * @attr name hab.bilx:allDayEventHeight
      */
     public static final int WeekView_allDayEventHeight=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#autoLimitTime}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#autoLimitTime}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:autoLimitTime
+     * @attr name hab.bilx:autoLimitTime
      */
     public static final int WeekView_autoLimitTime=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#columnGap}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#columnGap}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17975,22 +18267,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:columnGap
+     * @attr name hab.bilx:columnGap
      */
     public static final int WeekView_columnGap=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dayBackgroundColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dayBackgroundColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:dayBackgroundColor
+     * @attr name hab.bilx:dayBackgroundColor
      */
     public static final int WeekView_dayBackgroundColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dayNameLength}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dayNameLength}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18003,21 +18295,21 @@ public final class R {
      * <tr><td>length_short</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:dayNameLength
+     * @attr name hab.bilx:dayNameLength
      */
     public static final int WeekView_dayNameLength=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#dropListenerEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#dropListenerEnabled}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:dropListenerEnabled
+     * @attr name hab.bilx:dropListenerEnabled
      */
     public static final int WeekView_dropListenerEnabled=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#eventCornerRadius}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#eventCornerRadius}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18026,11 +18318,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:eventCornerRadius
+     * @attr name hab.bilx:eventCornerRadius
      */
     public static final int WeekView_eventCornerRadius=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#eventMarginVertical}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#eventMarginVertical}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18039,11 +18331,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:eventMarginVertical
+     * @attr name hab.bilx:eventMarginVertical
      */
     public static final int WeekView_eventMarginVertical=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#eventPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#eventPadding}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18052,22 +18344,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:eventPadding
+     * @attr name hab.bilx:eventPadding
      */
     public static final int WeekView_eventPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#eventTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#eventTextColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:eventTextColor
+     * @attr name hab.bilx:eventTextColor
      */
     public static final int WeekView_eventTextColor=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#eventTextSize}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#eventTextSize}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18076,11 +18368,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:eventTextSize
+     * @attr name hab.bilx:eventTextSize
      */
     public static final int WeekView_eventTextSize=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#firstDayOfWeek}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#firstDayOfWeek}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18098,44 +18390,44 @@ public final class R {
      * <tr><td>wednesday</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.www.bilx:firstDayOfWeek
+     * @attr name hab.bilx:firstDayOfWeek
      */
     public static final int WeekView_firstDayOfWeek=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#futureBackgroundColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#futureBackgroundColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:futureBackgroundColor
+     * @attr name hab.bilx:futureBackgroundColor
      */
     public static final int WeekView_futureBackgroundColor=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#futureWeekendBackgroundColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#futureWeekendBackgroundColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:futureWeekendBackgroundColor
+     * @attr name hab.bilx:futureWeekendBackgroundColor
      */
     public static final int WeekView_futureWeekendBackgroundColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#headerColumnBackground}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#headerColumnBackground}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:headerColumnBackground
+     * @attr name hab.bilx:headerColumnBackground
      */
     public static final int WeekView_headerColumnBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#headerColumnPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#headerColumnPadding}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18144,33 +18436,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:headerColumnPadding
+     * @attr name hab.bilx:headerColumnPadding
      */
     public static final int WeekView_headerColumnPadding=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#headerColumnTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#headerColumnTextColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:headerColumnTextColor
+     * @attr name hab.bilx:headerColumnTextColor
      */
     public static final int WeekView_headerColumnTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#headerRowBackgroundColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#headerRowBackgroundColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:headerRowBackgroundColor
+     * @attr name hab.bilx:headerRowBackgroundColor
      */
     public static final int WeekView_headerRowBackgroundColor=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#headerRowPadding}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#headerRowPadding}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18179,21 +18471,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:headerRowPadding
+     * @attr name hab.bilx:headerRowPadding
      */
     public static final int WeekView_headerRowPadding=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#horizontalFlingEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#horizontalFlingEnabled}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:horizontalFlingEnabled
+     * @attr name hab.bilx:horizontalFlingEnabled
      */
     public static final int WeekView_horizontalFlingEnabled=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#hourHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#hourHeight}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18202,22 +18494,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:hourHeight
+     * @attr name hab.bilx:hourHeight
      */
     public static final int WeekView_hourHeight=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#hourSeparatorColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#hourSeparatorColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:hourSeparatorColor
+     * @attr name hab.bilx:hourSeparatorColor
      */
     public static final int WeekView_hourSeparatorColor=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#hourSeparatorHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#hourSeparatorHeight}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18226,11 +18518,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:hourSeparatorHeight
+     * @attr name hab.bilx:hourSeparatorHeight
      */
     public static final int WeekView_hourSeparatorHeight=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#maxHourHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#maxHourHeight}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18239,20 +18531,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:maxHourHeight
+     * @attr name hab.bilx:maxHourHeight
      */
     public static final int WeekView_maxHourHeight=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#maxTime}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#maxTime}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:maxTime
+     * @attr name hab.bilx:maxTime
      */
     public static final int WeekView_maxTime=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#minHourHeight}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#minHourHeight}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18261,106 +18553,106 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:minHourHeight
+     * @attr name hab.bilx:minHourHeight
      */
     public static final int WeekView_minHourHeight=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#minOverlappingMinutes}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#minOverlappingMinutes}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:minOverlappingMinutes
+     * @attr name hab.bilx:minOverlappingMinutes
      */
     public static final int WeekView_minOverlappingMinutes=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#minTime}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#minTime}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:minTime
+     * @attr name hab.bilx:minTime
      */
     public static final int WeekView_minTime=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#newEventColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#newEventColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:newEventColor
+     * @attr name hab.bilx:newEventColor
      */
     public static final int WeekView_newEventColor=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#newEventIconResource}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#newEventIconResource}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:newEventIconResource
+     * @attr name hab.bilx:newEventIconResource
      */
     public static final int WeekView_newEventIconResource=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#newEventId}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#newEventId}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:newEventId
+     * @attr name hab.bilx:newEventId
      */
     public static final int WeekView_newEventId=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#newEventIdentifier}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#newEventIdentifier}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.www.bilx:newEventIdentifier
+     * @attr name hab.bilx:newEventIdentifier
      */
     public static final int WeekView_newEventIdentifier=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#newEventLengthInMinutes}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#newEventLengthInMinutes}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:newEventLengthInMinutes
+     * @attr name hab.bilx:newEventLengthInMinutes
      */
     public static final int WeekView_newEventLengthInMinutes=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#newEventTimeResolutionInMinutes}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#newEventTimeResolutionInMinutes}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:newEventTimeResolutionInMinutes
+     * @attr name hab.bilx:newEventTimeResolutionInMinutes
      */
     public static final int WeekView_newEventTimeResolutionInMinutes=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#noOfVisibleDays}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#noOfVisibleDays}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:noOfVisibleDays
+     * @attr name hab.bilx:noOfVisibleDays
      */
     public static final int WeekView_noOfVisibleDays=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#nowLineColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#nowLineColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:nowLineColor
+     * @attr name hab.bilx:nowLineColor
      */
     public static final int WeekView_nowLineColor=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#nowLineThickness}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#nowLineThickness}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18369,11 +18661,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:nowLineThickness
+     * @attr name hab.bilx:nowLineThickness
      */
     public static final int WeekView_nowLineThickness=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#overlappingEventGap}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#overlappingEventGap}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18382,82 +18674,82 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:overlappingEventGap
+     * @attr name hab.bilx:overlappingEventGap
      */
     public static final int WeekView_overlappingEventGap=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#pastBackgroundColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#pastBackgroundColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:pastBackgroundColor
+     * @attr name hab.bilx:pastBackgroundColor
      */
     public static final int WeekView_pastBackgroundColor=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#pastWeekendBackgroundColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#pastWeekendBackgroundColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:pastWeekendBackgroundColor
+     * @attr name hab.bilx:pastWeekendBackgroundColor
      */
     public static final int WeekView_pastWeekendBackgroundColor=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#scrollDuration}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#scrollDuration}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:scrollDuration
+     * @attr name hab.bilx:scrollDuration
      */
     public static final int WeekView_scrollDuration=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#showDistinctPastFutureColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#showDistinctPastFutureColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:showDistinctPastFutureColor
+     * @attr name hab.bilx:showDistinctPastFutureColor
      */
     public static final int WeekView_showDistinctPastFutureColor=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#showDistinctWeekendColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#showDistinctWeekendColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:showDistinctWeekendColor
+     * @attr name hab.bilx:showDistinctWeekendColor
      */
     public static final int WeekView_showDistinctWeekendColor=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#showFirstDayOfWeekFirst}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#showFirstDayOfWeekFirst}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:showFirstDayOfWeekFirst
+     * @attr name hab.bilx:showFirstDayOfWeekFirst
      */
     public static final int WeekView_showFirstDayOfWeekFirst=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#showNowLine}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#showNowLine}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:showNowLine
+     * @attr name hab.bilx:showNowLine
      */
     public static final int WeekView_showNowLine=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#textSize}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#textSize}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18466,61 +18758,61 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.www.bilx:textSize
+     * @attr name hab.bilx:textSize
      */
     public static final int WeekView_textSize=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#timeColumnResolution}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#timeColumnResolution}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.www.bilx:timeColumnResolution
+     * @attr name hab.bilx:timeColumnResolution
      */
     public static final int WeekView_timeColumnResolution=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#todayBackgroundColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#todayBackgroundColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:todayBackgroundColor
+     * @attr name hab.bilx:todayBackgroundColor
      */
     public static final int WeekView_todayBackgroundColor=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#todayHeaderTextColor}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#todayHeaderTextColor}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.www.bilx:todayHeaderTextColor
+     * @attr name hab.bilx:todayHeaderTextColor
      */
     public static final int WeekView_todayHeaderTextColor=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#verticalFlingEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#verticalFlingEnabled}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:verticalFlingEnabled
+     * @attr name hab.bilx:verticalFlingEnabled
      */
     public static final int WeekView_verticalFlingEnabled=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#xScrollingSpeed}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#xScrollingSpeed}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.www.bilx:xScrollingSpeed
+     * @attr name hab.bilx:xScrollingSpeed
      */
     public static final int WeekView_xScrollingSpeed=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#zoomFocusPoint}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#zoomFocusPoint}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -18528,17 +18820,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.www.bilx:zoomFocusPoint
+     * @attr name hab.bilx:zoomFocusPoint
      */
     public static final int WeekView_zoomFocusPoint=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.www.bilx.R.attr#zoomFocusPointEnabled}
+     * <p>This symbol is the offset where the {@link hab.bilx.R.attr#zoomFocusPointEnabled}
      * attribute's value can be found in the {@link #WeekView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.www.bilx:zoomFocusPointEnabled
+     * @attr name hab.bilx:zoomFocusPointEnabled
      */
     public static final int WeekView_zoomFocusPointEnabled=52;
   }

@@ -15,12 +15,7 @@ import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
-
-import hab.bilx.Accounts.Club_Account;
-import hab.bilx.Fragments.Admin.ApproveActivitiesObject;
-import hab.bilx.Fragments.User.Notifications_User;
 import hab.bilx.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -53,10 +48,12 @@ public class ClubActivities extends android.support.v4.app.Fragment implements S
         final RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
         clubActivityList = new ArrayList<>();
 
+        // create activity button initialize
         fab = (FloatingActionButton) view.findViewById(R.id.club_activities_fab);
 
        ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.clubActivities);
 
+       // Swipe the fragment to refresh
         swipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refreshClubAct);
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -68,7 +65,7 @@ public class ClubActivities extends android.support.v4.app.Fragment implements S
         });
 
 
-       // Add Items ========================================================
+       // Add Items to the fragment from firebase database ========================================================
         final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Club Activities")
                 .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -168,6 +165,9 @@ public class ClubActivities extends android.support.v4.app.Fragment implements S
         });
 
         //====================================================================
+
+
+        // Go to create activity page when fab is clicked
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -186,6 +186,7 @@ public class ClubActivities extends android.support.v4.app.Fragment implements S
         adapter.notifyDataSetChanged();
     }
 
+    // Swipe left to delete the item. If status pending then also delete from the admin account
     private ItemTouchHelper.Callback createHelperCallback(){
         ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP|ItemTouchHelper.DOWN
         ,ItemTouchHelper.LEFT) {
@@ -198,27 +199,32 @@ public class ClubActivities extends android.support.v4.app.Fragment implements S
             public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
 
                 try {
-                    ClubActivitiesObject clubActivitiesObject = clubActivityList.get(viewHolder.getAdapterPosition());
-                    String s = clubActivitiesObject.getActivityName().substring(clubActivitiesObject.getActivityName().indexOf(':') + 1,
+                    ClubActivitiesObject clubActivitiesObject;
+                    String actName;
+                    String status;
+
+                    clubActivitiesObject = clubActivityList.get(viewHolder.getAdapterPosition());
+                    actName = clubActivitiesObject.getActivityName().substring(clubActivitiesObject.getActivityName().indexOf(':') + 1,
                             clubActivitiesObject.getActivityName().length()).trim();
+                    status = clubActivitiesObject.getStatus();
 
-                    String status = clubActivitiesObject.getStatus();
-
+                    // remove from admin if status is pending
                     if (status.contains("PENDING")) {
                         DatabaseReference reference1 = FirebaseDatabase.getInstance().getReference().child("Approve Activities")
-                                .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName()).child(s);
+                                .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName()).child(actName);
                         reference1.removeValue();
                     }
 
+                    // remove from club database
                     DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Club Activities")
-                            .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName()).child(s);
+                            .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName()).child(actName);
                     reference.removeValue();
                     getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
                             new ClubActivities()).commit();
                     Snackbar.make(getActivity().findViewById(R.id.club_activitiesLayout), "Activity Deleted", Snackbar.LENGTH_LONG).show();
 
                 }catch (Exception e){
-
+                    System.out.println("Exception generated");
                 }
 
             }

@@ -44,6 +44,9 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
     private RecyclerView recyclerView;
     private SavedActivitiesAdapter savedAdapter;
     private SwipeRefreshLayout swipeRefreshLayout;
+    /*
+     **  @author Hanzallah Burney
+     */
 
     @Nullable
     @Override
@@ -54,6 +57,11 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
         savedActivityList = new ArrayList<>();
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.myActivities_user);
 
+        /*
+         **  @author Hanzallah Burney
+         */
+
+        // swipe to refresh the fragment functionality
         swipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refreshUserSavedAct);
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -64,92 +72,87 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
             }
         });
 
-        // Add Items ========================================================
+        /*
+         **  @author Hanzallah Burney
+         */
+
+        // Add activities saved by the user
         final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Saved Activities")
                 .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                // refresh the data list every time data is pulled from the database
                 savedActivityList = new ArrayList<>();
-                DatabaseReference databaseReference1 = FirebaseDatabase.getInstance().getReference().child("Saved Activities")
-                        .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
-                databaseReference1.addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        for (final DataSnapshot ds1: dataSnapshot.getChildren()){
-                            String str = ds1.toString();
-                            final String val2 = str.substring(str.indexOf('=')+1,str.indexOf(',')).trim();
-                            DatabaseReference databaseReference2 = FirebaseDatabase.getInstance().getReference().child("Saved Activities")
-                                    .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName()).child(val2);
-                            Query query = databaseReference2.orderByPriority();
-                            query.addListenerForSingleValueEvent(new ValueEventListener() {
-                                @Override
-                                public void onDataChange(DataSnapshot dataSnapshot) {
-                                    String ge, clubName, time, lang, loc, desc, date, status;
-                                    ge = "";
-                                    clubName = "";
-                                    time = "";
-                                    lang ="";
-                                    loc ="";
-                                    desc= "";
-                                    date = "";
-                                    status = "";
-                                    for (DataSnapshot ds2: ds1.getChildren()){
-                                        String str1 = ds2.toString();
-                                        String name = str1.substring(str1.lastIndexOf('{')+1,str1.lastIndexOf('='));
-                                        String val3 = str1.substring(str1.lastIndexOf('=')+1,str1.indexOf('}'));
-                                        if (name.equals("Time")){
-                                            time = val3;
-                                        }
-                                        else if (name.equals("Club Name")){
-                                            clubName = val3;
-                                        }
-                                        else if (name.equals("Location")){
-                                            loc = val3;
-                                        }
-                                        else if (name.equals("GE")){
-                                            ge = val3;
-                                        }
-                                        else if (name.equals("Language")){
-                                            lang = val3;
-                                        }
-                                        else if (name.equals("Date")){
-                                            date = val3;
-                                        }
-                                        else if (name.equals("Description")){
-                                            desc = val3;
-                                        }
-                                    }
-                                    recyclerView = (RecyclerView) view.findViewById(R.id.saved_activities_recycler_view);
-                                    savedAdapter = new SavedActivitiesAdapter(savedActivityList);
+                for (final DataSnapshot ds1: dataSnapshot.getChildren()){
+                    // get activity name
+                    String str = ds1.toString();
+                    final String val2 = str.substring(str.indexOf('=')+1,str.indexOf(',')).trim();
 
-                                    recyclerView.setLayoutManager(mLayoutManager);
-                                    recyclerView.setItemAnimator(new DefaultItemAnimator());
-                                    recyclerView.setAdapter(savedAdapter);
-
-                                    addItem(new SavedActivitiesObject("Activity Name: " + val2,"Club: "+ clubName,
-                                            "GE points: " + ge, "Time: " + time, "Date: " + date, "Location: " + loc, "Language: " + lang,
-                                            "Activity Description: " + desc, "STATUS: " + status));
-
-                                    ItemTouchHelper itemTouchHelper = new ItemTouchHelper(createHelperCallback());
-                                    itemTouchHelper.attachToRecyclerView(recyclerView);
+                    // get the rest of the saved activity data
+                    DatabaseReference databaseReference2 = FirebaseDatabase.getInstance().getReference().child("Saved Activities")
+                            .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName()).child(val2);
+                    Query query = databaseReference2.orderByPriority();
+                    query.addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            String ge, clubName, time, lang, loc, desc, date, status;
+                            ge = "";
+                            clubName = "";
+                            time = "";
+                            lang ="";
+                            loc ="";
+                            desc= "";
+                            date = "";
+                            status = "";
+                            for (DataSnapshot ds2: ds1.getChildren()){
+                                String str1 = ds2.toString();
+                                String name = str1.substring(str1.lastIndexOf('{')+1,str1.lastIndexOf('='));
+                                String val3 = str1.substring(str1.lastIndexOf('=')+1,str1.indexOf('}'));
+                                if (name.equals("Time")){
+                                    time = val3;
                                 }
-                                @Override
-                                public void onCancelled(DatabaseError databaseError) {
-
+                                else if (name.equals("Club Name")){
+                                    clubName = val3;
                                 }
-                            });
+                                else if (name.equals("Location")){
+                                    loc = val3;
+                                }
+                                else if (name.equals("GE")){
+                                    ge = val3;
+                                }
+                                else if (name.equals("Language")){
+                                    lang = val3;
+                                }
+                                else if (name.equals("Date")){
+                                    date = val3;
+                                }
+                                else if (name.equals("Description")){
+                                    desc = val3;
+                                }
+                            }
 
+                            // set data to the view
+                            recyclerView = (RecyclerView) view.findViewById(R.id.saved_activities_recycler_view);
+                            savedAdapter = new SavedActivitiesAdapter(savedActivityList);
+                            recyclerView.setLayoutManager(mLayoutManager);
+                            recyclerView.setItemAnimator(new DefaultItemAnimator());
+                            recyclerView.setAdapter(savedAdapter);
+
+                            addItem(new SavedActivitiesObject("Activity Name: " + val2,"Club: "+ clubName,
+                                    "GE points: " + ge, "Time: " + time, "Date: " + date, "Location: " + loc, "Language: " + lang,
+                                    "Activity Description: " + desc, "STATUS: " + status));
+
+                            // enable swipe functionality
+                            ItemTouchHelper itemTouchHelper = new ItemTouchHelper(createHelperCallback());
+                            itemTouchHelper.attachToRecyclerView(recyclerView);
                         }
-                    }
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-
-                    }
-                });
-
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+                            }
+                    });
+                }
             }
-
             @Override
             public void onCancelled(DatabaseError databaseError) {
 
@@ -160,11 +163,20 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
         return view;
     }
 
+    /*
+     **  @author Hanzallah Burney
+     */
+
     public void addItem(SavedActivitiesObject newItem) {
         savedActivityList.add(0,newItem);
         savedAdapter.notifyDataSetChanged();
     }
 
+    // if left swipe action occurs on a data view then add activity to phone calendar
+    // id right swipe then add activity alarm on the phone
+    /*
+     **  @author Hanzallah Burney
+     */
 
     private ItemTouchHelper.Callback createHelperCallback(){
         ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP|ItemTouchHelper.DOWN
@@ -185,6 +197,7 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
                         String hour = time.substring(0,time.indexOf(':'));
                         String min = time.substring(time.indexOf(':')+1,time.length());
 
+                        // open alarm
                         Intent i = new Intent(AlarmClock.ACTION_SET_ALARM);
                         i.putExtra(AlarmClock.EXTRA_HOUR, Integer.parseInt(hour));
                         i.putExtra(AlarmClock.EXTRA_MINUTES, Integer.parseInt(min));
@@ -230,6 +243,7 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
                         cal.set(Integer.parseInt(year), Integer.parseInt(month)-1, Integer.parseInt(day), Integer.parseInt(hour), Integer.parseInt(min));
                         long  startMillis = cal.getTimeInMillis();
 
+                        // open calendar
                         Intent intent = new Intent(Intent.ACTION_EDIT);
                         intent.setType("vnd.android.cursor.item/event");
                         intent.putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, startMillis);
@@ -254,6 +268,10 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
         return simpleCallback;
     }
 
+    /*
+     **  @author Hanzallah Burney
+     */
+
     @Override
     public void onRefresh(){
         // Empty
@@ -264,6 +282,10 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
         super.onCreateOptionsMenu(menu, inflater);
     }
 
+    /*
+     **  @author Hanzallah Burney
+     */
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -272,6 +294,7 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+        // sort by ge points
         if (id == R.id.action_gepoints) {
             Collections.sort(savedActivityList, new Comparator<SavedActivitiesObject>() {
                 @Override
@@ -289,6 +312,7 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
 
             return true;
         }
+        // sort by date
         else if (id == R.id.action_date){
             Collections.sort(savedActivityList, new Comparator<SavedActivitiesObject>() {
                 @Override
@@ -322,6 +346,7 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
                     this).commit();
             return true;
         }
+        // sort by language
         else if (id == R.id.action_language){
             Collections.sort(savedActivityList, new Comparator<SavedActivitiesObject>() {
                 @Override
@@ -354,3 +379,6 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
         return super.onOptionsItemSelected(item);
     }
 }
+/*
+ **  @author Hanzallah Burney
+ */

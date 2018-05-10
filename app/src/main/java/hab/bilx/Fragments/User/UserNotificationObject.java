@@ -1,13 +1,24 @@
 package hab.bilx.Fragments.User;
 
+/**
+ * The user notification object
+ * @author Hanzallah Burney
+ */
+
 public class UserNotificationObject {
     private String sentBy, subject, content;
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public UserNotificationObject(String sentBy, String subject, String content) {
         this.sentBy = sentBy;
         this.subject = subject;
         this.content = content;
     }
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public String getSentBy() {
         return sentBy;
@@ -33,3 +44,6 @@ public class UserNotificationObject {
         this.content = content;
     }
 }
+/*
+ **  @author Hanzallah Burney
+ */

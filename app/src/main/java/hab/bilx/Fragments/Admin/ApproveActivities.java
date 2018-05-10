@@ -1,39 +1,24 @@
 package hab.bilx.Fragments.Admin;
 
 import android.app.AlertDialog;
-import android.app.Notification;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.annotation.Nullable;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.app.NotificationCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
-import android.text.InputType;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.Toast;
 
-
-import hab.bilx.Fragments.Club.ClubActivitiesAdapter;
-import hab.bilx.Fragments.Club.ClubActivitiesObject;
-import hab.bilx.Fragments.Club.CreateNewActivity;
-import hab.bilx.Fragments.User.Notifications_User;
 import hab.bilx.R;
-import hab.bilx.SignUp;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -48,7 +33,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *  The settings fragment for the admin class.
+ *  The approve activities fragment for the admin class.
  *  @author Hanzallah Burney
  */
 
@@ -58,17 +43,22 @@ public class ApproveActivities extends android.support.v4.app.Fragment implement
     private ApproveActivitiesAdapter adapter;
     private SwipeRefreshLayout swipeRefreshLayout;
 
-
+    /*
+     *  @author Hanzallah Burney
+     */
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
         final View view =  inflater.inflate(R.layout.approve_activities, container, false);
         final RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
-
         approveActivityList = new ArrayList<>();
 
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.ApproveActivities);
 
+        // Get the activities to approve from the database
+        /*
+         *  @author Hanzallah Burney
+         */
         final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Approve Activities");
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -122,16 +112,21 @@ public class ApproveActivities extends android.support.v4.app.Fragment implement
                                                 desc = val3;
                                             }
                                         }
+                                        // Set t he data into the recycler view
                                         adapter = new ApproveActivitiesAdapter(approveActivityList);
                                         recyclerView = (RecyclerView) view.findViewById(R.id.approveAct_recycler_view);
 
                                         recyclerView.setLayoutManager(mLayoutManager);
                                         recyclerView.setItemAnimator(new DefaultItemAnimator());
                                         recyclerView.setAdapter(adapter);
+
+                                        // Add the data
                                         addItem(new ApproveActivitiesObject("Activity Name: "+ val2,
                                                 "Club Name: "+ val,"GE Points: "+ ge,
                                                 "Time: "+ time,"Date: "+ date,"Location: "+ loc,
                                                 "Language: "+ lang,"Activity Description: "+ desc));
+
+                                        // Enable swipe functionality
                                         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(createHelperCallback());
                                         itemTouchHelper.attachToRecyclerView(recyclerView);
                                     }
@@ -160,7 +155,10 @@ public class ApproveActivities extends android.support.v4.app.Fragment implement
 
             }
         });
-
+        /*
+         *  @author Hanzallah Burney
+         */
+        // Swipe the fragment to refresh
         swipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refreshApprove);
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -173,12 +171,17 @@ public class ApproveActivities extends android.support.v4.app.Fragment implement
 
         return view;
     }
-
+    /*
+     *  @author Hanzallah Burney
+     */
     public void addItem(ApproveActivitiesObject newItem) {
         approveActivityList.add(0,newItem);
         adapter.notifyDataSetChanged();
     }
-
+    /*
+     *  @author Hanzallah Burney
+     */
+    // If swipe left then prompt a dialog box to allow admin to approve or reject an activity
     private ItemTouchHelper.Callback createHelperCallback() {
         ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP | ItemTouchHelper.DOWN
                 , ItemTouchHelper.LEFT) {
@@ -199,6 +202,7 @@ public class ApproveActivities extends android.support.v4.app.Fragment implement
                             .setMessage("Do you want to approve the activity or reject it?");
                     builder.setNegativeButton("Approve", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
+                            // Get the data from the specific position
                             ApproveActivitiesObject approveActivitiesObject = approveActivityList.get(viewHolder.getAdapterPosition());
                             final String clubName = approveActivitiesObject.getClubName().substring(
                                     approveActivitiesObject.getClubName().indexOf(':')+1,approveActivitiesObject.getClubName().length()).trim();
@@ -223,15 +227,13 @@ public class ApproveActivities extends android.support.v4.app.Fragment implement
                             final String description = approveActivitiesObject.getDescription().substring(
                                     approveActivitiesObject.getDescription().indexOf(':')+1,approveActivitiesObject.getDescription().length()).trim();
 
+                            // Approval for club
                             DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Club Activities")
                                     .child(clubName).child(activityName).child("Status");
                             Map status = new HashMap();
                             status.put("Status","True");
                             ref.setValue(status);
 
-//                            approveActivityList.remove(viewHolder.getAdapterPosition());
-//                            adapter.removeAdapter(viewHolder.getAdapterPosition());
-//                            adapter.notifyItemRemoved(viewHolder.getAdapterPosition());
                             DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Approve Activities").child(clubName).child(activityName);
                             reference.removeValue();
                             Snackbar.make(getActivity().findViewById(R.id.approveAct), "Approval sent to club", Snackbar.LENGTH_LONG).show();
@@ -306,7 +308,9 @@ public class ApproveActivities extends android.support.v4.app.Fragment implement
 
                                 }
                             });
-
+                            /*
+                             *  @author Hanzallah Burney
+                             */
                             //======================================================================================================================================================
                             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
                                     new ApproveActivities()).commit();
@@ -321,27 +325,23 @@ public class ApproveActivities extends android.support.v4.app.Fragment implement
                                 String activityName = approveActivitiesObject.getActivityName().substring(
                                         approveActivitiesObject.getActivityName().indexOf(':')+1,approveActivitiesObject.getActivityName().length()).trim();
 
+                                // Rejection to club
                                 DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Club Activities")
                                         .child(clubName).child(activityName).child("Status");
                                 Map status = new HashMap();
                                 status.put("Status","False");
                                 ref.setValue(status);
 
-//                                approveActivityList.remove(viewHolder.getAdapterPosition());
-//                                adapter.removeAdapter(viewHolder.getAdapterPosition());
-//                                adapter.notifyItemRemoved(viewHolder.getAdapterPosition());
                                 DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Approve Activities").child(clubName).child(activityName);
                                 reference.removeValue();
                                 Snackbar.make(getActivity().findViewById(R.id.approveAct), "Rejection sent to club", Snackbar.LENGTH_LONG).show();
                                 getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
                                         new ApproveActivities()).commit();
                             } catch (Exception e){
-
+                                System.out.println("Exception generated");
                             }
                         }
                     }).show();
-
-
             }
 
         };
@@ -351,4 +351,6 @@ public class ApproveActivities extends android.support.v4.app.Fragment implement
     public void onRefresh(){
         // Empty
     }
-}
+}/*
+ *  @author Hanzallah Burney
+ */

@@ -38,21 +38,28 @@ public class Notifications_User extends android.support.v4.app.Fragment implemen
     private RecyclerView recyclerView;
     public  NotificationsAdapter mAdapter;
     private SwipeRefreshLayout swipeRefreshLayout;
+    private Timer timer;
 
-
+    /*
+     *  @author Hanzallah Burney
+     */
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
        final View view = inflater.inflate(R.layout.notifications_user, container, false);
        final RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
-
         notifyList = new ArrayList<>();
-        Timer timer = new Timer();
 
+        /*
+         *  @author Hanzallah Burney
+         */
+        // Initialize and set timer
+        timer = new Timer();
         TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
                 try {
+                    // Get club notifications from the database
                      DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference()
                             .child("Notification List").child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
                     Query q = databaseReference.orderByChild("Date");
@@ -61,12 +68,14 @@ public class Notifications_User extends android.support.v4.app.Fragment implemen
                     q.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange( DataSnapshot shot) {
+                            // refresh the data list every time data is pulled from the database
                             notifyList = new ArrayList<>();
                             for( DataSnapshot ds: shot.getChildren()){
                                 String s = ds.getValue().toString();
                                 s = s.replace("_",".");
                                 String val = s.substring(s.indexOf(',')+1,s.lastIndexOf('=')).trim();
 
+                                // Set the data to the view
                                 mAdapter = new NotificationsAdapter(notifyList);
                                 recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
 
@@ -81,6 +90,8 @@ public class Notifications_User extends android.support.v4.app.Fragment implemen
                                     val = s.substring(s.indexOf('{')+1,s.indexOf('=')).trim();
                                     addItem(new UserNotificationObject("Administrator Notification",val,""));
                                 }
+
+                                // enable swipe functionality
                                 ItemTouchHelper itemTouchHelper = new ItemTouchHelper(createHelperCallback());
                                 itemTouchHelper.attachToRecyclerView(recyclerView);
                             }
@@ -96,7 +107,10 @@ public class Notifications_User extends android.support.v4.app.Fragment implemen
             }
         };
         timer.scheduleAtFixedRate(timerTask, 0, 2*1000);
-
+        /*
+         *  @author Hanzallah Burney
+         */
+        // swipe to refresh the fragment functionality
         swipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refreshUser);
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -108,13 +122,18 @@ public class Notifications_User extends android.support.v4.app.Fragment implemen
         });
         return view;
     }
-
+    /*
+     *  @author Hanzallah Burney
+     */
     public void addItem(UserNotificationObject newItem) {
         notifyList.add(0,newItem);
         mAdapter.notifyDataSetChanged();
 
     }
-
+    /*
+     *  @author Hanzallah Burney
+     */
+    // if left swipe action occurs on a data view then delete that data
     private ItemTouchHelper.Callback createHelperCallback(){
         ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP|ItemTouchHelper.DOWN
                 ,ItemTouchHelper.LEFT) {
@@ -126,20 +145,22 @@ public class Notifications_User extends android.support.v4.app.Fragment implemen
             @Override
             public void onSwiped(final RecyclerView.ViewHolder viewHolder, int direction) {
                 try {
+                    // get data
                     UserNotificationObject clubNotificationObject = notifyList.get(viewHolder.getAdapterPosition());
                     String subject = clubNotificationObject.getSubject();
                     subject = subject.replace(".","_");
-//                notifyList.remove(viewHolder.getAdapterPosition());
-//                mAdapter.removeAdapter(viewHolder.getAdapterPosition());
-//                mAdapter.notifyItemRemoved(viewHolder.getAdapterPosition());
+
+                    // remove data from firebase
                     DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Notification List")
                             .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName()).child(subject);
                     reference.removeValue();
+
+                    // refresh fragment
                     getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
                             new Notifications_User()).commit();
                     Snackbar.make(getActivity().findViewById(R.id.user_notificationsLayout), "Notification Deleted", Snackbar.LENGTH_LONG).show();
                 }catch (Exception e){
-
+                    System.out.println("Exception generated");
                 }
             }
         };
@@ -151,3 +172,6 @@ public class Notifications_User extends android.support.v4.app.Fragment implemen
         // Empty
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

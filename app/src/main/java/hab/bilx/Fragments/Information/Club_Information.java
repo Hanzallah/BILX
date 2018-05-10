@@ -22,6 +22,9 @@ import hab.bilx.R;
  */
 
 public class Club_Information extends android.support.v4.app.Fragment {
+    /*
+     *  @author Hanzallah Burney
+     */
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -34,6 +37,9 @@ public class Club_Information extends android.support.v4.app.Fragment {
         ArrayAdapter<String> listViewAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, infoItems);
         listView.setAdapter(listViewAdapter);
 
+        /*
+         *  @author Hanzallah Burney
+         */
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int index, long id) {
@@ -60,3 +66,6 @@ public class Club_Information extends android.support.v4.app.Fragment {
         return view;
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

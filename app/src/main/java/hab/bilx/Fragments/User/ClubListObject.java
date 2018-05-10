@@ -1,7 +1,10 @@
 package hab.bilx.Fragments.User;
 
-import android.media.Image;
-import android.widget.ImageView;
+/**
+ * The club list object
+ * @author Hanzallah Burney
+ */
+
 
 public class ClubListObject {
     private String sentBy, subject;
@@ -12,7 +15,9 @@ public class ClubListObject {
         this.subject = subject;
         this.uri = uri;
     }
-
+    /*
+     *  @author Hanzallah Burney
+     */
     public String getSentBy() {
         return sentBy;
     }
@@ -37,3 +42,6 @@ public class ClubListObject {
         this.uri = uri;
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

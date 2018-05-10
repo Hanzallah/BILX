@@ -9,7 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import hab.bilx.R;
-
+/*
+ *  @author Hanzallah Burney
+ */
 public class Notifications_FAQ extends Fragment {
     @Nullable
     @Override
@@ -18,3 +20,6 @@ public class Notifications_FAQ extends Fragment {
         return inflater.inflate(R.layout.notifications_faq, container, false);
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

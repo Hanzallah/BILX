@@ -9,7 +9,7 @@ package hab.bilx;
 
 public final class Manifest {
   public static final class permission {
-    public static final String C2D_MESSAGE="com.example.www.bilx.permission.C2D_MESSAGE";
+    public static final String C2D_MESSAGE="hab.bilx.permission.C2D_MESSAGE";
   }
 
 }

@@ -1,8 +1,18 @@
 package hab.bilx.Fragments.User;
 
+
+/**
+ * The saved activities object
+ * @author Hanzallah Burney
+ */
+
 public class SavedActivitiesObject {
 
     private String activityName,clubName, ge, time, date, location, language, description;
+
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public SavedActivitiesObject(String activityName,String clubName, String ge, String time, String date, String location, String language, String description, String status) {
         this.activityName = activityName;
@@ -14,6 +24,10 @@ public class SavedActivitiesObject {
         this.language = language;
         this.description = description;
     }
+
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public String getActivityName() {
         return activityName;
@@ -79,3 +93,6 @@ public class SavedActivitiesObject {
         this.description = description;
     }
 }
+/*
+ **  @author Hanzallah Burney
+ */

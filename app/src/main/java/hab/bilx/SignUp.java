@@ -78,7 +78,9 @@ public class SignUp extends AppCompatActivity {
         // Creates a progress dialog box
         final ProgressDialog progressDialog = ProgressDialog.show(SignUp.this,
                 "Please Wait", "Processing",true);
-
+        /*
+         *  @author Hanzallah Burney
+         */
         // Get the username and set database reference
         user_name = username.getText().toString().trim();
         usernameQuery = FirebaseDatabase.getInstance().getReference().child("Users").child(user_name);
@@ -86,14 +88,17 @@ public class SignUp extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 progressDialog.dismiss();
+                // Check if username entered or not
                 if (user_name.equals("")){
                     Toast.makeText(SignUp.this,"Some Field Is Empty", Toast.LENGTH_LONG)
                             .show();
                 }
+                // Check that username does not contain the @ symbol
                 else if (user_name.contains("@")){
                     Toast.makeText(SignUp.this,"Username cannot contain @", Toast.LENGTH_LONG)
                             .show();
                 }
+                // If the username is already present then tell the user to enter a different username
                 else if (dataSnapshot.getChildrenCount() > 0){
                     Toast.makeText(SignUp.this,"Choose a different username", Toast.LENGTH_LONG)
                             .show();
@@ -139,7 +144,9 @@ public class SignUp extends AppCompatActivity {
                                             // Create hashmap and put user email as child node of username
                                             newUser = new HashMap();
                                             check = new HashMap();
+                                            // If club checkbox is ticked
                                             if (club.isChecked()){
+                                                // Create alert dialog box for club to enter passcode
                                                 final AlertDialog.Builder builder;
                                                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                                                     builder = new AlertDialog.Builder(SignUp.this, android.R.style.Theme_Material_Dialog_Alert);
@@ -152,12 +159,14 @@ public class SignUp extends AppCompatActivity {
                                                         input.setInputType(InputType.TYPE_CLASS_NUMBER);
                                                         input.setTextColor(Color.WHITE);
                                                         builder.setView(input);
+                                                        // Do not create club or any other account if cancel clicked in the dialog box
                                                         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                                                                     public void onClick(DialogInterface dialog, int which) {
                                                                         builder.setCancelable(true);
                                                                         FirebaseAuth.getInstance().getCurrentUser().delete();
                                                                     }
                                                                 });
+                                                        // If passcode entered and ok pressed then verify passcode and create club account else prompt club again
                                                         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                                                             public void onClick(DialogInterface dialog, int which) {
                                                                 final String s = input.getText().toString();
@@ -169,14 +178,16 @@ public class SignUp extends AppCompatActivity {
                                                                         int index = 0;
                                                                         for (DataSnapshot ds: dataSnapshot.getChildren()){
                                                                             index++;
+                                                                            // If passcode is valid then create club account
                                                                             if (ds.getValue().toString().contains(s)){
+                                                                                // Set the club account under club node
                                                                                 DatabaseReference current_user = FirebaseDatabase.getInstance().getReference()
                                                                                         .child("Users").child(user_name).child("club");
                                                                                 newUser.put("email",email_login.getText().toString().trim() );
-                                                                                // Set these values
+
                                                                                 current_user.setValue(newUser);
 
-
+                                                                                // Set notifications to true for club in his database for both personal and all notifications
                                                                                 DatabaseReference check_notify = FirebaseDatabase.getInstance().getReference()
                                                                                         .child("Check Notify").child(user_name).child("Clubs");
                                                                                 check.put("bool", "true");
@@ -187,13 +198,14 @@ public class SignUp extends AppCompatActivity {
                                                                                 check.put("bool", "true");
                                                                                 check_notify.setValue(check);
 
-
+                                                                                // Create dark mode node for user in database and set it to false initially
                                                                                 DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Dark Mode").
                                                                                         child(user_name);
                                                                                 Map mode = new HashMap();
                                                                                 mode.put("Bool","false");
                                                                                 databaseReference.setValue(mode);
 
+                                                                                // Confirmation that account ahs been created and take user to login activity
                                                                                 Toast.makeText(SignUp.this, "Account Created", Toast.LENGTH_LONG).show();
                                                                                 Intent login = new Intent(SignUp.this, Login_Activity.class);
                                                                                 startActivity(login);
@@ -202,6 +214,7 @@ public class SignUp extends AppCompatActivity {
                                                                                 reference.removeValue();
                                                                                 break;
                                                                             }
+                                                                            // If passcode is invalid give user error message
                                                                             else if (index == dataSnapshot.getChildrenCount() && !ds.getValue().toString().contains(s) ) {
                                                                                 FirebaseAuth.getInstance().getCurrentUser().delete();
                                                                                 Toast.makeText(getApplicationContext(),"Invalid Passcode", Toast.LENGTH_LONG).show();
@@ -218,10 +231,13 @@ public class SignUp extends AppCompatActivity {
                                                         })
                                                         .show();
                                             }
+                                            // If club checkbox is not ticked, create a user account
                                             else{
+                                                // Put email into user's database
                                                 newUser.put("email",email_login.getText().toString().trim() );
                                                 current_user.setValue(newUser);
 
+                                                // Set notifications to true for user in his database for both personal and all notifications
                                                 DatabaseReference check_notify = FirebaseDatabase.getInstance().getReference()
                                                         .child("Check Notify").child(user_name).child("Users");
                                                 check.put("bool", "true");
@@ -233,22 +249,25 @@ public class SignUp extends AppCompatActivity {
                                                 check_notify.setValue(check);
 
 
+                                                // Create dark mode node for user in database and set it to false initially
                                                 DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Dark Mode").
                                                         child(user_name);
                                                 Map mode = new HashMap();
                                                 mode.put("Bool","false");
                                                 databaseReference.setValue(mode);
 
+                                                // Confirmation that account ahs been created and take user to login activity
                                                 Toast.makeText(SignUp.this, "Account Created", Toast.LENGTH_LONG).show();
                                                 Intent login = new Intent(SignUp.this, Login_Activity.class);
                                                 startActivity(login);
                                             }
 
-                                            // ------------------------------------------------------------------------
+                                            // Set username as display name in firebase
                                             FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                                             UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder().setDisplayName(user_name).build();
                                             user.updateProfile(profileUpdates);
                                         }
+                                        // If account not created then send error message
                                         else {
                                             Log.e("Error",task.getException().toString());
                                             Toast.makeText(SignUp.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
@@ -258,7 +277,6 @@ public class SignUp extends AppCompatActivity {
                     }
                 }
             }
-
             @Override
             public void onCancelled(DatabaseError databaseError) {
 
@@ -266,3 +284,6 @@ public class SignUp extends AppCompatActivity {
         });
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

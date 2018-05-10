@@ -30,8 +30,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *  The settings fragment for the admin class.
+ *  The club profile fragment for the club class.
  *  @author Hanzallah Burney
+ *  Contributors: Abdul Hamid
  */
 
 public class ClubProfile extends android.support.v4.app.Fragment {
@@ -40,6 +41,10 @@ public class ClubProfile extends android.support.v4.app.Fragment {
     private ImageView imageView;
     private FloatingActionButton fab;
     private FirebaseAuth firebaseAuth;
+
+    /*
+     **  @author Hanzallah Burney
+     */
 
     @Nullable
     @Override
@@ -52,7 +57,7 @@ public class ClubProfile extends android.support.v4.app.Fragment {
 
         imageView = (ImageView) view.findViewById(R.id.club_imageView);
 
-        //added by AHD. Retrieve club image from firebase and sets it to the ImageView in ClubProfile
+        // Retrieve profile image from firebase storage
         FirebaseStorage firebaseStorage = FirebaseStorage.getInstance();
         StorageReference storageRef = firebaseStorage.getReference();
         storageRef.child(firebaseAuth.getCurrentUser().getDisplayName() + ".jpg").getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -67,6 +72,11 @@ public class ClubProfile extends android.support.v4.app.Fragment {
             }
         });
 
+        /*
+         **  @author Hanzallah Burney
+         */
+
+        // Set the entered club profile description to the dataabse under the club's name when the send button is pressed
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,3 +95,6 @@ public class ClubProfile extends android.support.v4.app.Fragment {
         return view;
     }
 }
+/*
+ **  @author Hanzallah Burney
+ */

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -46,7 +47,6 @@ public class Login_Activity extends AppCompatActivity{
     private EditText email_Login;
     private EditText password;
     private FirebaseAuth firebaseauth;
-
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
 
@@ -55,7 +55,7 @@ public class Login_Activity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-
+        // Initialize shared preference variables
         sharedPreferences = getSharedPreferences(PREFERENCES, Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
 
@@ -73,10 +73,11 @@ public class Login_Activity extends AppCompatActivity{
         else {
             remember.setChecked(false);
         }
-
-
-        saveLogin = sharedPreferences.getBoolean("saveLogin", false);
+        /*
+         *  @author Hanzallah Burney
+         */
         // If shared preferences exist, set the fields to the preferences and if they don't then set them empty and set checkbox to true
+        saveLogin = sharedPreferences.getBoolean("saveLogin", false);
         if (saveLogin) {
             email_Login.setText(sharedPreferences.getString("Email", ""));
             password.setText(sharedPreferences.getString("password", ""));
@@ -84,7 +85,9 @@ public class Login_Activity extends AppCompatActivity{
         }
     }
 
-
+    /*
+     *  @author Hanzallah Burney
+     */
     /**
      * Implements functionality of login button
      * @param view - the button view
@@ -109,22 +112,26 @@ public class Login_Activity extends AppCompatActivity{
             reference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
+                    // If username does not exist then print error message
                     if (!dataSnapshot.hasChild(user_name)){
-                        progressDialog.dismiss();
+                        progressDialog.dismiss(); // removes the progress dialog
                         Toast.makeText(Login_Activity.this,"The username is incorrect or does not exist",Toast.LENGTH_LONG).show();
                     }
+                    // Log the user into the app
                     else{
                         progressDialog.dismiss();
+                        // Extract email and login with the email and password
                         reference = FirebaseDatabase.getInstance().getReference().child("Users").child(user_name);
                         reference.addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
                             public void onDataChange(DataSnapshot dataSnapshot) {
                                 // Extract email corresponding to username
                                 email = dataSnapshot.getValue().toString().substring(7, dataSnapshot.getValue().toString().length() - 1);
-                                // Login
+                                // Login the admin
                                 if (user_name.equals("admin")){
                                     Adminlogin(email,password);
                                 }
+                                // Login the club and get its email
                                 else if (dataSnapshot.hasChild("club")){
                                     reference = FirebaseDatabase.getInstance().getReference().child("Users").child(user_name).child("club");
                                     reference.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -138,6 +145,7 @@ public class Login_Activity extends AppCompatActivity{
                                             }
                                     });
                                 }
+                                // Login the suer
                                 else {
                                     Userlogin(email, password);
                                 }
@@ -163,11 +171,14 @@ public class Login_Activity extends AppCompatActivity{
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     long count = 0;
 
+                    // Login admin
                     if (email.trim().equals("azim.burney@ug.bilkent.edu.tr")){
                         Adminlogin(email, password);
                     }
+                    // If email is not of admin
                     else if (dataSnapshot.exists()){
                         progressDialog.dismiss();
+                        // Check email under every username ad club child to see if it exists else print error
                         for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                             String s = snapshot.child("email").toString().substring(snapshot.child("email").toString().lastIndexOf("=")+1,snapshot.child("email").toString().lastIndexOf("}"));
                             if (s.trim().equals(email)){
@@ -210,7 +221,9 @@ public class Login_Activity extends AppCompatActivity{
         }
     }
 
-
+    /*
+     *  @author Hanzallah Burney
+     */
     /**
      * Add fields if remember me is checked to shared preferences else clears shared preferences
      */
@@ -226,7 +239,9 @@ public class Login_Activity extends AppCompatActivity{
         }
     }
 
-
+    /*
+     *  @author Hanzallah Burney
+     */
     /**
      * Implements the functionality of the signup text
      * @param view - the button view
@@ -240,6 +255,9 @@ public class Login_Activity extends AppCompatActivity{
         overridePendingTransition(R.anim.slidein_right,R.anim.slideout_left);
     }
 
+    /*
+     *  @author Hanzallah Burney
+     */
     /**
      * Implements the functionality of the forgot password text
      * @param view - the button view
@@ -262,9 +280,11 @@ public class Login_Activity extends AppCompatActivity{
             reference.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
+                    // If username does not exist then send error message to user
                     if (!dataSnapshot.hasChild(user_name)) {
                         Toast.makeText(Login_Activity.this, "The username is incorrect or does not exist", Toast.LENGTH_LONG).show();
                     }
+                    // get the email and send the password reset link to that email
                     else {
                         reference = FirebaseDatabase.getInstance().getReference().child("Users").child(user_name);
                         reference.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -304,12 +324,24 @@ public class Login_Activity extends AppCompatActivity{
             setPassword(user_name);
         }
     }
+
+    /*
+     *  @author Hanzallah Burney
+     */
     @Override
     public void onBackPressed() {
         moveTaskToBack(true);
         super.onBackPressed();
     }
 
+    /*
+     *  @author Hanzallah Burney
+     */
+    /**
+     * Login method for the user
+     * @param email - the user email
+     * @param password - the user password
+     */
     public void Userlogin(String email,EditText password){
         // Creates Progress dialog box
         final ProgressDialog progressDialog = ProgressDialog.show(Login_Activity.this,
@@ -333,7 +365,14 @@ public class Login_Activity extends AppCompatActivity{
                 });
     }
 
-
+    /*
+     *  @author Hanzallah Burney
+     */
+    /**
+     * Login method for the admin
+     * @param email - the admin email
+     * @param password - the admin password
+     */
     public void Adminlogin(String email,EditText password){
         // Creates Progress dialog box
         final ProgressDialog progressDialog = ProgressDialog.show(Login_Activity.this,
@@ -357,7 +396,14 @@ public class Login_Activity extends AppCompatActivity{
                 });
     }
 
-
+    /*
+     *  @author Hanzallah Burney
+     */
+    /**
+     * Login method for the club
+     * @param email - the club email
+     * @param password - the club password
+     */
     public void Clublogin(String email,EditText password){
         // Creates Progress dialog box
         final ProgressDialog progressDialog = ProgressDialog.show(Login_Activity.this,
@@ -381,19 +427,28 @@ public class Login_Activity extends AppCompatActivity{
                 });
     }
 
-
+    /*
+     *  @author Hanzallah Burney
+     */
+    /**
+     * Allows user to reset password
+     * @param email - the email where password reset link is to be sent
+     */
     public void setPassword(String email){
         firebaseauth.sendPasswordResetEmail(email)
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText( Login_Activity.this, "Email sent!", Toast.LENGTH_SHORT).show();
+                            Snackbar.make(getCurrentFocus(), "Email sent", Snackbar.LENGTH_LONG).show();
                         }
                         else{
-                            Toast.makeText( Login_Activity.this, "Enter valid Email!", Toast.LENGTH_SHORT).show();
+                            Snackbar.make(getCurrentFocus(), "Enter valid email", Snackbar.LENGTH_LONG).show();
                         }
                     }
                 });
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

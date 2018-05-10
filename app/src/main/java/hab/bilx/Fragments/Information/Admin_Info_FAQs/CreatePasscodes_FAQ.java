@@ -9,7 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import hab.bilx.R;
-
+/**
+ * Create passcode class faqs
+ *  @author Hanzallah Burney
+ */
 public class CreatePasscodes_FAQ extends Fragment {
     @Nullable
     @Override
@@ -18,3 +21,6 @@ public class CreatePasscodes_FAQ extends Fragment {
         return inflater.inflate(R.layout.create_passcodes_faq, container, false);
     }
 }
+/*
+ *  @author Hanzallah Burney
+ */

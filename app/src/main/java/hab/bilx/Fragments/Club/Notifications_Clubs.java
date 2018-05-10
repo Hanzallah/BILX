@@ -1,7 +1,6 @@
 package hab.bilx.Fragments.Club;
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -12,12 +11,7 @@ import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
-import hab.bilx.Fragments.Admin.ApproveActivitiesObject;
-import hab.bilx.Fragments.User.NotificationsAdapter;
-import hab.bilx.Fragments.User.Notifications_User;
-import hab.bilx.Fragments.User.UserNotificationObject;
 import hab.bilx.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -33,8 +27,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- *  The settings fragment for the admin class.
- *  @author Hanzallah Burney
+ * The club notification fragment for club class
+ * @author Hanzallah Burney
  */
 
 public class Notifications_Clubs extends android.support.v4.app.Fragment implements SwipeRefreshLayout.OnRefreshListener {
@@ -43,20 +37,26 @@ public class Notifications_Clubs extends android.support.v4.app.Fragment impleme
     private RecyclerView recyclerView;
     private ClubNotificationsAdapter adapter;
     private SwipeRefreshLayout swipeRefreshLayout;
+    private Timer timer;
+
+    /*
+     **  @author Hanzallah Burney
+     */
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         final View view = inflater.inflate(R.layout.club_notifications, container, false);
         final RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
-
         clubNotifyList = new ArrayList<>();
-        Timer timer = new Timer();
 
+        // Initialize and set timer
+        timer = new Timer();
         TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
                 try {
+                    // Get club notifications from the database
                     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference()
                             .child("Notification List").child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
                     Query q = databaseReference.orderByChild("Date");
@@ -64,13 +64,14 @@ public class Notifications_Clubs extends android.support.v4.app.Fragment impleme
                     q.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot shot) {
-//                            ClubNotificationsAdapter.clubArray = new ArrayList<>();
+                            // refresh the data list every time data is pulled from the database
                             clubNotifyList = new ArrayList<>();
                             for (DataSnapshot ds : shot.getChildren()) {
                                 String s = ds.getValue().toString();
                                 s = s.replace("_",".");
                                 String val = s.substring(s.indexOf(',') + 1, s.lastIndexOf('=')).trim();
 
+                                // Set the data to the view
                                 adapter = new ClubNotificationsAdapter(clubNotifyList);
                                 recyclerView = (RecyclerView) view.findViewById(R.id.club_recycler_view);
                                 recyclerView.setLayoutManager(mLayoutManager);
@@ -85,24 +86,28 @@ public class Notifications_Clubs extends android.support.v4.app.Fragment impleme
                                     addItem(new ClubNotificationObject("Administrator Notification", val, ""));
                                 }
 
+                                // enable swipe functionality
                                 ItemTouchHelper itemTouchHelper = new ItemTouchHelper(createHelperCallback());
                                 itemTouchHelper.attachToRecyclerView(recyclerView);
                             }
-
                         }
-
                         @Override
                         public void onCancelled(DatabaseError databaseError) {
                         }
                     });
                 } catch (NullPointerException e) {
-                    // do something
+                    System.out.println("Null Pointer Exception");
                 }
 
             }
         };
         timer.scheduleAtFixedRate(timerTask, 0, 2 * 1000);
 
+        /*
+         **  @author Hanzallah Burney
+         */
+
+        // swipe to refresh the fragment functionality
         swipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refresh);
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -116,10 +121,20 @@ public class Notifications_Clubs extends android.support.v4.app.Fragment impleme
         return view;
     }
 
+    /*
+     **  @author Hanzallah Burney
+     */
+
     public void addItem(ClubNotificationObject newItem) {
         clubNotifyList.add(0, newItem);
         adapter.notifyDataSetChanged();
     }
+
+    /*
+     **  @author Hanzallah Burney
+     */
+
+    // if left swipe action occurs on a data view then delete that data
     private ItemTouchHelper.Callback createHelperCallback(){
         ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP|ItemTouchHelper.DOWN
                 ,ItemTouchHelper.LEFT) {
@@ -131,20 +146,22 @@ public class Notifications_Clubs extends android.support.v4.app.Fragment impleme
             @Override
             public void onSwiped(final RecyclerView.ViewHolder viewHolder, int direction) {
                 try {
+                    // get data
                     ClubNotificationObject clubNotificationObject = clubNotifyList.get(viewHolder.getAdapterPosition());
                     String subject = clubNotificationObject.getSubject();
                     subject = subject.replace(".","_");
-//                clubNotifyList.remove(viewHolder.getAdapterPosition());
-//                adapter.removeAdapter(viewHolder.getAdapterPosition());
-//                adapter.notifyItemRemoved(viewHolder.getAdapterPosition());
+
+                    // remove data from firebase
                     DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Notification List")
                             .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName()).child(subject);
                     reference.removeValue();
+
+                    // refresh fragment
                     getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
                             new Notifications_Clubs()).commit();
                     Snackbar.make(getActivity().findViewById(R.id.club_notificationsLayout), "Notification Deleted", Snackbar.LENGTH_LONG).show();
                 }catch (Exception e){
-
+                    System.out.println("Exception generated");
                 }
             }
         };
@@ -157,3 +174,6 @@ public class Notifications_Clubs extends android.support.v4.app.Fragment impleme
     }
 
 }
+/*
+ **  @author Hanzallah Burney
+ */

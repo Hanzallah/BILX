@@ -33,7 +33,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *  The settings fragment for the admin class.
+ *  The user activities fragment.
  *  @author Hanzallah Burney
  */
 
@@ -43,6 +43,9 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
     private UserActivitiesAdapter userAdapter;
     private SwipeRefreshLayout swipeRefreshLayout;
 
+    /*
+     **  @author Hanzallah Burney
+     */
 
     @Nullable
     @Override
@@ -52,6 +55,11 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
 
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(R.string.allActivities_user);
 
+        /*
+         **  @author Hanzallah Burney
+         */
+
+        // swipe to refresh the fragment functionality
         swipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refreshUserAct);
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -62,85 +70,80 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
             }
         });
 
-        // Add Items ========================================================
+        /*
+         **  @author Hanzallah Burney
+         */
+
+        // Add activities to all activities fragment for user
         final DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("User Activities")
                 .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                // refresh the data list every time data is pulled from the database
                 userActivityList = new ArrayList<>();
-                DatabaseReference databaseReference1 = FirebaseDatabase.getInstance().getReference().child("User Activities")
-                        .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
-                databaseReference1.addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        for (final DataSnapshot ds1: dataSnapshot.getChildren()){
-                            String str = ds1.toString();
-                            final String val2 = str.substring(str.indexOf('=')+1,str.indexOf(',')).trim();
-                            DatabaseReference databaseReference2 = FirebaseDatabase.getInstance().getReference().child("User Activities")
-                                    .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName()).child(val2);
-                            Query query = databaseReference2.orderByPriority();
-                            query.addListenerForSingleValueEvent(new ValueEventListener() {
-                                @Override
-                                public void onDataChange(DataSnapshot dataSnapshot) {
-                                    String ge,clubName, time, lang, loc, desc, date;
-                                    ge = "";
-                                    clubName = "";
-                                    time = "";
-                                    lang ="";
-                                    loc ="";
-                                    desc= "";
-                                    date = "";
-                                    for (DataSnapshot ds2: ds1.getChildren()){
-                                        String str1 = ds2.toString();
-                                        String name = str1.substring(str1.lastIndexOf('{')+1,str1.lastIndexOf('='));
-                                        String val3 = str1.substring(str1.lastIndexOf('=')+1,str1.indexOf('}'));
-                                        if (name.equals("Time")){
-                                            time = val3;
-                                        }
-                                        else if (name.equals("Club Name")){
-                                            clubName = val3;
-                                        }
-                                        else if (name.equals("Location")){
-                                            loc = val3;
-                                        }
-                                        else if (name.equals("GE")){
-                                            ge = val3;
-                                        }
-                                        else if (name.equals("Language")){
-                                            lang = val3;
-                                        }
-                                        else if (name.equals("Date")){
-                                            date = val3;
-                                        }
-                                        else if (name.equals("Description")){
-                                            desc = val3;
-                                        }
-                                    }
-                                    recyclerView = (RecyclerView) view.findViewById(R.id.user_activities_recycler_view);
-                                    userAdapter = new UserActivitiesAdapter(userActivityList);
+                for (final DataSnapshot ds1: dataSnapshot.getChildren()){
+                    // get activity name
+                    String str = ds1.toString();
+                    final String val2 = str.substring(str.indexOf('=')+1,str.indexOf(',')).trim();
 
-                                    recyclerView.setLayoutManager(mLayoutManager);
-                                    recyclerView.setItemAnimator(new DefaultItemAnimator());
-                                    recyclerView.setAdapter(userAdapter);
-
-                                    addItem(new UserActivitiesObject("Activity Name: " + val2,"Club: "+ clubName,
-                                            "GE points: " + ge, "Time: " + time, "Date: " + date, "Location: " + loc, "Language: " + lang,
-                                            "Activity Description: " + desc));
-
-                                    ItemTouchHelper itemTouchHelper = new ItemTouchHelper(createHelperCallback());
-                                    itemTouchHelper.attachToRecyclerView(recyclerView);
+                    // get the rest of the activity data
+                    DatabaseReference databaseReference2 = FirebaseDatabase.getInstance().getReference().child("User Activities")
+                            .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName()).child(val2);
+                    Query query = databaseReference2.orderByPriority();
+                    query.addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            String ge, clubName, time, lang, loc, desc, date;
+                            ge = "";
+                            clubName = "";
+                            time = "";
+                            lang = "";
+                            loc = "";
+                            desc = "";
+                            date = "";
+                            for (DataSnapshot ds2 : ds1.getChildren()) {
+                                String str1 = ds2.toString();
+                                String name = str1.substring(str1.lastIndexOf('{') + 1, str1.lastIndexOf('='));
+                                String val3 = str1.substring(str1.lastIndexOf('=') + 1, str1.indexOf('}'));
+                                if (name.equals("Time")) {
+                                    time = val3;
+                                } else if (name.equals("Club Name")) {
+                                    clubName = val3;
+                                } else if (name.equals("Location")) {
+                                    loc = val3;
+                                } else if (name.equals("GE")) {
+                                    ge = val3;
+                                } else if (name.equals("Language")) {
+                                    lang = val3;
+                                } else if (name.equals("Date")) {
+                                    date = val3;
+                                } else if (name.equals("Description")) {
+                                    desc = val3;
                                 }
-                                @Override
-                                public void onCancelled(DatabaseError databaseError) {
-                                }
-                            });
+                            }
+
+                            // set data to the view
+                            recyclerView = (RecyclerView) view.findViewById(R.id.user_activities_recycler_view);
+                            userAdapter = new UserActivitiesAdapter(userActivityList);
+                            recyclerView.setLayoutManager(mLayoutManager);
+                            recyclerView.setItemAnimator(new DefaultItemAnimator());
+                            recyclerView.setAdapter(userAdapter);
+
+                            // add data into the view
+                            addItem(new UserActivitiesObject("Activity Name: " + val2, "Club: " + clubName,
+                                    "GE points: " + ge, "Time: " + time, "Date: " + date, "Location: " + loc, "Language: " + lang,
+                                    "Activity Description: " + desc));
+
+                            // enable swipe functionality
+                            ItemTouchHelper itemTouchHelper = new ItemTouchHelper(createHelperCallback());
+                            itemTouchHelper.attachToRecyclerView(recyclerView);
                         }
-                    }
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-                    }
-                });
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+                            }
+                    });
+                }
             }
             @Override
             public void onCancelled(DatabaseError databaseError) {
@@ -151,11 +154,17 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
 
         return view;
     }
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         getActivity().getMenuInflater().inflate(R.menu.user__account,menu );
         super.onCreateOptionsMenu(menu, inflater);
     }
+    /*
+     **  @author Hanzallah Burney
+     */
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -165,6 +174,7 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+        // sort by ge points
         if (id == R.id.action_gepoints) {
             Collections.sort(userActivityList, new Comparator<UserActivitiesObject>() {
                 @Override
@@ -182,6 +192,7 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
 
             return true;
         }
+        // sort by date
         else if (id == R.id.action_date){
             Collections.sort(userActivityList, new Comparator<UserActivitiesObject>() {
                 @Override
@@ -215,6 +226,7 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
                     this).commit();
             return true;
         }
+        // sort by language
         else if (id == R.id.action_language){
             Collections.sort(userActivityList, new Comparator<UserActivitiesObject>() {
                 @Override
@@ -246,13 +258,20 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
 
         return super.onOptionsItemSelected(item);
     }
+    /*
+     **  @author Hanzallah Burney
+     */
 
     public void addItem(UserActivitiesObject newItem) {
         userActivityList.add(0,newItem);
         userAdapter.notifyDataSetChanged();
     }
 
+    /*
+     **  @author Hanzallah Burney
+     */
 
+    // if swipe is left then add data to saved activities for the user and add it to the calendar
     private ItemTouchHelper.Callback createHelperCallback(){
         ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP|ItemTouchHelper.DOWN
                 ,ItemTouchHelper.LEFT) {
@@ -264,7 +283,7 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
             @Override
             public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
                 try {
-                    // Put Code Here
+                    // get all the data present at the swiped position
                     UserActivitiesObject userActivitiesObject = userActivityList.get(viewHolder.getAdapterPosition());
 
                     String actName = userActivitiesObject.getActivityName().substring(userActivitiesObject.getActivityName().indexOf(':') + 1,
@@ -284,6 +303,7 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
                     String description = userActivitiesObject.getDescription().substring(userActivitiesObject.getDescription().indexOf(':') + 1,
                             userActivitiesObject.getDescription().length()).trim();
 
+                    // put all that data into the database under saved activities
                     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Saved Activities")
                             .child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
                     Map savedAct = new HashMap();
@@ -372,7 +392,7 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
                     getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
                             new UserActivities()).commit();
                 }catch (Exception e){
-
+                    System.out.println("Exception generated");
                 }
 
             }
@@ -385,3 +405,6 @@ public class UserActivities extends android.support.v4.app.Fragment implements S
         // Empty
     }
 }
+/*
+ **  @author Hanzallah Burney
+ */

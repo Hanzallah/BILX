@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
@@ -38,9 +39,10 @@ public class SettingsFragment_User extends PreferenceFragmentCompat  {
     private SwitchPreferenceCompat darkMode;
     private Preference resetPassword;
     private Preference reportBugs;
-    private ListPreference language;
 
-
+    /*
+     **  @author Hanzallah Burney
+     */
 
     @Override
     public void onCreatePreferences(Bundle bundle, String s) {
@@ -48,9 +50,11 @@ public class SettingsFragment_User extends PreferenceFragmentCompat  {
         addPreferencesFromResource(R.xml.user_preferences);
         resetPassword = (Preference) findPreference("password_reset");
         reportBugs = (Preference) findPreference("user_report_bug");
-        language = (ListPreference) findPreference("user_languages");
+        darkMode = (SwitchPreferenceCompat) findPreference("user_theme_mode");
 
-
+        /*
+         **  @author Hanzallah Burney
+         */
 
         // Reset Password
         resetPassword.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
@@ -62,31 +66,20 @@ public class SettingsFragment_User extends PreferenceFragmentCompat  {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
-                                    Toast.makeText( getActivity(), "Email sent!", Toast.LENGTH_SHORT).show();
+                                    Snackbar.make(getView(), "Email sent", Snackbar.LENGTH_LONG).show();
                                 }
                                 else{
-                                    Toast.makeText( getActivity(), "Enter valid Email!", Toast.LENGTH_SHORT).show();
+                                    Snackbar.make(getView(), "Email valid email", Snackbar.LENGTH_LONG).show();
                                 }
                             }
                         });
                 return true;
             }
         });
+        /*
+         **  @author Hanzallah Burney
+         */
 
-        // Implementation of change language
-        language.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-            // TODO CHANGE LANGUAGE IMPLEMENTATION
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                if (language.getSummary().equals("English")){
-                    Toast.makeText(getActivity(), "English", Toast.LENGTH_SHORT).show();
-                }
-                else{
-                    Toast.makeText(getActivity(), "Turkish", Toast.LENGTH_SHORT).show();
-                }
-                return true;
-            }
-        });
 
         // Report Bugs
         reportBugs.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
@@ -103,10 +96,11 @@ public class SettingsFragment_User extends PreferenceFragmentCompat  {
             }
         });
 
+        /*
+         **  @author Hanzallah Burney
+         */
 
-
-        darkMode = (SwitchPreferenceCompat) findPreference("user_theme_mode");
-
+        // dark mode implementation
         if (FirebaseAuth.getInstance().getCurrentUser().getDisplayName() != null) {
             DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference().child("Dark Mode").
                     child(FirebaseAuth.getInstance().getCurrentUser().getDisplayName());
@@ -127,7 +121,11 @@ public class SettingsFragment_User extends PreferenceFragmentCompat  {
             });
         }
 
+        /*
+         **  @author Hanzallah Burney
+         */
 
+        // Action for when dark mode is clicked by updating database and recreating activity in the new mode
             darkMode.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
                 @Override
                 public boolean onPreferenceChange(Preference pref, Object object) {
@@ -153,3 +151,7 @@ public class SettingsFragment_User extends PreferenceFragmentCompat  {
             });
     }
 }
+
+/*
+ **  @author Hanzallah Burney
+ */

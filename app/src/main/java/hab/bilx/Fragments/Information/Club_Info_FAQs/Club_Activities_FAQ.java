@@ -9,7 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import hab.bilx.R;
-
+/*
+ *  @author Hanzallah Burney
+ */
 public class Club_Activities_FAQ extends Fragment {
     @Nullable
     @Override
