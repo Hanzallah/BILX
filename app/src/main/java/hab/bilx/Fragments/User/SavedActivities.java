@@ -296,83 +296,89 @@ public class SavedActivities extends android.support.v4.app.Fragment implements 
         //noinspection SimplifiableIfStatement
         // sort by ge points
         if (id == R.id.action_gepoints) {
-            Collections.sort(savedActivityList, new Comparator<SavedActivitiesObject>() {
-                @Override
-                public int compare(SavedActivitiesObject activity1, SavedActivitiesObject activity2) {
-                    String ge1 = activity1.getGe().substring(activity1.getGe().indexOf(':') + 1,
-                            activity1.getGe().length()).trim();
-                    String ge2 = activity2.getGe().substring(activity2.getGe().indexOf(':') + 1,
-                            activity2.getGe().length()).trim();
-                    return   Integer.parseInt(ge2) - Integer.parseInt(ge1);
-                }
-            });
-            savedAdapter.notifyDataSetChanged();
-            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    this).commit();
+            if (savedActivityList.size() != 0){
+                Collections.sort(savedActivityList, new Comparator<SavedActivitiesObject>() {
+                    @Override
+                    public int compare(SavedActivitiesObject activity1, SavedActivitiesObject activity2) {
+                        String ge1 = activity1.getGe().substring(activity1.getGe().indexOf(':') + 1,
+                                activity1.getGe().length()).trim();
+                        String ge2 = activity2.getGe().substring(activity2.getGe().indexOf(':') + 1,
+                                activity2.getGe().length()).trim();
+                        return   Integer.parseInt(ge2) - Integer.parseInt(ge1);
+                    }
+                });
+                savedAdapter.notifyDataSetChanged();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
+                        this).commit();
 
+            }
             return true;
         }
         // sort by date
         else if (id == R.id.action_date){
-            Collections.sort(savedActivityList, new Comparator<SavedActivitiesObject>() {
-                @Override
-                public int compare(SavedActivitiesObject activity1, SavedActivitiesObject activity2) {
-                    String date1 = activity1.getDate().substring(activity1.getDate().indexOf(':') + 1,
-                            activity1.getDate().length()).trim();
-                    String date2 = activity2.getDate().substring(activity2.getDate().indexOf(':') + 1,
-                            activity2.getDate().length()).trim();
+            if (savedActivityList.size() != 0){
+                Collections.sort(savedActivityList, new Comparator<SavedActivitiesObject>() {
+                    @Override
+                    public int compare(SavedActivitiesObject activity1, SavedActivitiesObject activity2) {
+                        String date1 = activity1.getDate().substring(activity1.getDate().indexOf(':') + 1,
+                                activity1.getDate().length()).trim();
+                        String date2 = activity2.getDate().substring(activity2.getDate().indexOf(':') + 1,
+                                activity2.getDate().length()).trim();
 
-                    String year1 = date1.substring(date1.lastIndexOf("-") + 1, date1.length()).trim();
-                    String day1 = date1.substring(0, date1.indexOf('-')).trim();
-                    String month1 = date1.substring(date1.indexOf('-') + 1, date1.lastIndexOf('-')).trim();
+                        String year1 = date1.substring(date1.lastIndexOf("-") + 1, date1.length()).trim();
+                        String day1 = date1.substring(0, date1.indexOf('-')).trim();
+                        String month1 = date1.substring(date1.indexOf('-') + 1, date1.lastIndexOf('-')).trim();
 
-                    String year2 = date2.substring(date2.lastIndexOf("-") + 1, date2.length()).trim();
-                    String day2 = date2.substring(0, date2.indexOf('-')).trim();
-                    String month2 = date2.substring(date2.indexOf('-') + 1, date2.lastIndexOf('-')).trim();
+                        String year2 = date2.substring(date2.lastIndexOf("-") + 1, date2.length()).trim();
+                        String day2 = date2.substring(0, date2.indexOf('-')).trim();
+                        String month2 = date2.substring(date2.indexOf('-') + 1, date2.lastIndexOf('-')).trim();
 
-                    if (Integer.parseInt(year1) == Integer.parseInt(year2) && Integer.parseInt(month1) == Integer.parseInt(month2)) {
-                        return Integer.parseInt(day1) - Integer.parseInt(day2);
-                    } else if (Integer.parseInt(year1) == Integer.parseInt(year2) && Integer.parseInt(month1) != Integer.parseInt(month2)) {
-                        return Integer.parseInt(month1) - Integer.parseInt(month2);
-                    } else {
-                        return Integer.parseInt(year2) - Integer.parseInt(year1);
+                        if (Integer.parseInt(year1) == Integer.parseInt(year2) && Integer.parseInt(month1) == Integer.parseInt(month2)) {
+                            return Integer.parseInt(day1) - Integer.parseInt(day2);
+                        } else if (Integer.parseInt(year1) == Integer.parseInt(year2) && Integer.parseInt(month1) != Integer.parseInt(month2)) {
+                            return Integer.parseInt(month1) - Integer.parseInt(month2);
+                        } else {
+                            return Integer.parseInt(year2) - Integer.parseInt(year1);
+                        }
+
+
                     }
-
-
-                }
-            });
-            savedAdapter.notifyDataSetChanged();
-            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    this).commit();
+                });
+                savedAdapter.notifyDataSetChanged();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
+                        this).commit();
+            }
             return true;
         }
         // sort by language
         else if (id == R.id.action_language){
-            Collections.sort(savedActivityList, new Comparator<SavedActivitiesObject>() {
-                @Override
-                public int compare(SavedActivitiesObject activity1, SavedActivitiesObject activity2) {
-                    String lang1 = activity1.getLanguage().substring(activity1.getLanguage().indexOf(':') + 1,
-                            activity1.getLanguage().length()).trim();
-                    String lang2 = activity2.getLanguage().substring(activity2.getLanguage().indexOf(':') + 1,
-                            activity2.getLanguage().length()).trim();
+            if (savedActivityList.size() != 0){
+                Collections.sort(savedActivityList, new Comparator<SavedActivitiesObject>() {
+                    @Override
+                    public int compare(SavedActivitiesObject activity1, SavedActivitiesObject activity2) {
+                        String lang1 = activity1.getLanguage().substring(activity1.getLanguage().indexOf(':') + 1,
+                                activity1.getLanguage().length()).trim();
+                        String lang2 = activity2.getLanguage().substring(activity2.getLanguage().indexOf(':') + 1,
+                                activity2.getLanguage().length()).trim();
 
-                    int l1;
-                    int l2;
+                        int l1;
+                        int l2;
 
-                    if (lang1.equals("English")){
-                        l1 = 1;
-                        l2 = 0;
+                        if (lang1.equals("English")){
+                            l1 = 1;
+                            l2 = 0;
+                        }
+                        else {
+                            l1 = 0;
+                            l2 = 1;
+                        }
+                        return l2-l1;
                     }
-                    else {
-                        l1 = 0;
-                        l2 = 1;
-                    }
-                    return l2-l1;
-                }
-            });
-            savedAdapter.notifyDataSetChanged();
-            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    this).commit();
+                });
+                savedAdapter.notifyDataSetChanged();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
+                        this).commit();
+            }
             return true;
         }
 
